@@ -40,11 +40,12 @@ def ask(request: AskRequest):
         document_id=request.document_id,
     )
 
-    except RAGServiceError:
+    except RAGServiceError as exc:
+        logger.exception("RAG Service Error")
         raise HTTPException(
             status_code=503,
             detail="RAG service is temporarily unavailable."
-        )
+        )  from exc 
 
 
     sources = [
@@ -52,7 +53,15 @@ def ask(request: AskRequest):
             "doc_id": chunk["doc_id"],
             "chunk_id": chunk["chunk_id"],
             "source": chunk["source"],
-            "text": chunk["text"]
+            "filename": chunk.get("filename"),
+            "page": chunk.get("page"),
+            "section": chunk.get("section"),
+            "citation": (
+                f'{chunk["filename"]} - Page {chunk["page"]}'
+                if chunk.get("filename") and chunk.get("page") is not None
+                else chunk.get("filename") or chunk["source"]
+            ),
+            "text": chunk["text"],        
         }
         for chunk in result["chunks"]
     ]
@@ -86,7 +95,10 @@ async def upload_document(file: UploadFile = File(...)):
             temp_file.write(await file.read())
             temp_path = Path(temp_file.name)
 
-        document = load_pdf(temp_path)
+        document = load_pdf(
+            temp_path , 
+            original_filename = file.filename, 
+        )
 
         if not document.sections:
             raise HTTPException(

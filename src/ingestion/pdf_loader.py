@@ -11,7 +11,10 @@ import pytesseract
 
 pytesseract.pytesseract.tesseract_cmd = (r"C:\Program Files\Tesseract-OCR\tesseract.exe")
 
-def load_pdf(file_path: str | Path) -> Document:
+def load_pdf(file_path: str | Path,
+             original_filename: str | None = None) -> Document:
+
+             
     """
     Load a PDF while preserving page boundaries.
 
@@ -57,14 +60,14 @@ def load_pdf(file_path: str | Path) -> Document:
                     text=text,
                     page=page_number,
                 )
+        
             )
-
+        filename = original_filename or file_path.name   
     return Document(
         document_id=str(uuid4()),
-        title=file_path.stem,
-        filename=file_path.name,
-        source=str(file_path),
+        title=Path(filename).stem,
+        filename=filename,
+        source=filename,
         file_type="pdf",
         sections=sections,
     )
-  

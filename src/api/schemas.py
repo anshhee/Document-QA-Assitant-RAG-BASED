@@ -14,6 +14,10 @@ class Source(BaseModel):
     chunk_id: str
     text:str
     source : str
+    filename:  str | None =  None  
+    page: int | None = None 
+    section: str | None  = None 
+    citation: str | None  = None 
 
 
 
