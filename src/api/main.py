@@ -1,12 +1,18 @@
-from fastapi import FastAPI, HTTPException, UploadFile, File 
-from fastapi.middleware.cors import CORSMiddleware
-from src.api.schemas import AskRequest, AskResponse
-from src.rag.service import generate_answer
-from src.api.exceptions import RAGServiceError 
-from pathlib import Path 
+from pathlib import Path
 from tempfile import NamedTemporaryFile
-from src.ingestion.pdf_loader import load_pdf 
-from src.embeddings.indexer import index_document 
+import logging
+
+from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi.middleware.cors import CORSMiddleware
+
+from src.api.exceptions import RAGServiceError
+from src.api.schemas import AskRequest, AskResponse
+from src.embeddings.indexer import index_document
+from src.ingestion.pdf_loader import load_pdf
+from src.rag.service import generate_answer
+
+logger = logging.getLogger(__name__)
+
 
 
 
@@ -102,10 +108,10 @@ async def upload_document(file: UploadFile = File(...)):
         raise
     
     except Exception as exc:
-        print(f"PDF indexing failed: {exc}")
+        logger.exception("PDF upload failed")
         raise HTTPException(
             status_code=500,
-            detail="Failed to process and index the PDF.",
+            detail=f"Failed to process and index the PDF."
         ) from exc
     
     finally:
