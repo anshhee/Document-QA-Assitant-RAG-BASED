@@ -30,14 +30,19 @@ def store_chunks(
         documents=[chunk.text for chunk in chunks],
         metadatas=[
             {
-                "document_id": chunk.document_id,
-                "chunk_id": chunk.chunk_id,
-                "source": chunk.source,
-                "filename": chunk.filename,
-                "page": chunk.page,
-                "section": chunk.section,
-                "chunk_index": chunk.chunk_index,
+                key: value 
+                for key , value in {
+                    
+                    "document_id": chunk.document_id,
+                    "chunk_id": chunk.chunk_id,
+                    "source": chunk.source,
+                    "filename": chunk.filename,
+                    "page": chunk.page,
+                    "section": chunk.section,
+                    "chunk_index": chunk.chunk_index,
+            }.items()
+            if value is not None
             }
-            for chunk in chunks
+            for chunk in chunks 
         ],
-    )
+    )     

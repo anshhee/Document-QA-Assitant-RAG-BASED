@@ -7,7 +7,6 @@ from PIL import Image
 
 from src.ingestion.models import Document, DocumentSection
 
-import pytesseract 
 
 pytesseract.pytesseract.tesseract_cmd = (r"C:\Program Files\Tesseract-OCR\tesseract.exe")
 
@@ -31,6 +30,7 @@ def load_pdf(file_path: str | Path,
         raise ValueError(f"Expected a PDF file, got: {file_path.suffix}")
 
     sections: list[DocumentSection] = []
+    filename = original_filename or file_path.name 
 
     with fitz.open(file_path) as pdf:
         for page_number, page in enumerate(pdf, start=1):
@@ -62,7 +62,7 @@ def load_pdf(file_path: str | Path,
                 )
         
             )
-        filename = original_filename or file_path.name   
+   
     return Document(
         document_id=str(uuid4()),
         title=Path(filename).stem,

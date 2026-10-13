@@ -225,6 +225,7 @@ def generate_with_fallback(
 def build_prompt(
     query: str,
     retrieved_chunks: list[dict[str, Any]],
+    conversation_history: list[dict[str,str]] | None = None,
 ) -> str:
     """Build a concise prompt grounded in retrieved evidence."""
     evidence_sections = [
@@ -233,6 +234,13 @@ def build_prompt(
     ]
     context = "\n\n".join(evidence_sections)
 
+    history_text = "\n".join(
+        f"{message['role'].capitalize()}: {message['content']}"
+        for message in (conversation_history or [])
+        if message.get("role") in {"user" , "assistant"}
+        and message.get ("content")
+    )
+    
     return f"""
 You are a biomedical research assistant.
 
@@ -283,6 +291,7 @@ def generate_answer(
     k: int = 5,
     model: str = DEFAULT_GEMINI_MODEL,
     document_id: str | None = None,
+    conversation_history: list[dict[str,str]] | None = None
 ) -> dict[str, Any]:
     """
     Retrieve evidence and generate an answer.
@@ -311,7 +320,8 @@ def generate_answer(
                 "model_used": "none",
             }
 
-        prompt = build_prompt(query.strip(), retrieved_chunks)
+        prompt = build_prompt(query.strip(), retrieved_chunks , conversation_history =  conversation_history,
+        )
 
         if document_id is not None:
             try:
