@@ -1,0 +1,17 @@
+[
+    {
+        "question": "What are the two major components of a RAG system, and what does each component do?"
+    },
+    {
+        "question": "What is the difference between sparse retrieval and dense retrieval?"
+    },
+    {
+        "question": "How is TF-IDF calculated, and what role does inverse document frequency play?"
+    },
+    {
+        "question": "How do precision and recall differ when evaluating an information-retrieval system?"
+    },
+    {
+        "question": "Describe the three steps of the basic RAG algorithm and explain how retrieved passages are used to generate an answer."
+    }
+]
