@@ -3,7 +3,7 @@ from tempfile import NamedTemporaryFile
 import logging
 from uuid import uuid4 
 
-from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi import FastAPI, HTTPException, UploadFile, File , BackgroundTasks 
 from fastapi.middleware.cors import CORSMiddleware
 
 from src.api.exceptions import RAGServiceError
@@ -12,6 +12,7 @@ from src.embeddings.indexer import index_document
 from src.ingestion.pdf_loader import load_pdf
 from src.ingestion.docx_loader import load_docx 
 from src.rag.service import generate_answer
+from evaluation.evaluate_uploaded_docs import evaluate_uploaded_document 
 
 logger = logging.getLogger(__name__)
 
@@ -101,7 +102,9 @@ def ask(request: AskRequest):
 
 
 @app.post("/documents/upload")
-async def upload_document(file: UploadFile = File(...)):
+async def upload_document(
+    background_tasks: BackgroundTasks, 
+    file: UploadFile = File(...)):
     filename = file.filename or ""
     suffix = Path(filename).suffix.lower()
 
@@ -138,6 +141,11 @@ async def upload_document(file: UploadFile = File(...)):
             )
 
         chunk_count = index_document(document)
+
+        background_tasks.add_task(
+            evaluate_uploaded_document , 
+            document.document_id,
+        )
 
         return {
             "status": "uploaded_and_indexed",

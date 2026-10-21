@@ -1,0 +1,51 @@
+{
+  "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+  "num_questions": 5,
+  "results": [
+    {
+      "question": "What year did IBM's Watson system win the TV game-show Jeopardy!?",
+      "answer": "IBM's Watson system won the TV game-show Jeopardy! in 2011.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9852535500670254,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    },
+    {
+      "question": "What model of information retrieval is discussed in the Vector Space Model section?",
+      "answer": "The model of information retrieval discussed in the Vector Space Model section is the Vector Space Model itself. This model represents documents and queries as vectors, where the vectors are based on the frequency of words in the documents. Therefore, the model of information retrieval discussed in this section is the Vector Space Model.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9952213458394605,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    },
+    {
+      "question": "What is the formula used for interpolation precision as described in Equation 11.15?",
+      "answer": "The formula used for interpolation precision as described in Equation 11.15 is:\n\n\\[ \\text{IntPrecision}(r) = \\max_{i \\geq r} \\text{Precision}(i) \\]\n\nThis interpolation scheme calculates the interpolated precision for 11 fixed levels of recall (0 to 100, in steps of 10) by choosing the maximum precision value achieved at or above the level of recall \\( r \\) being calculated.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9987408637333285,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    },
+    {
+      "question": "What dataset does the TyDi QA contain, and in which languages are the question-answer pairs available?",
+      "answer": "The TyDi QA dataset contains 204K question-answer pairs from 11 typologically diverse languages, including Arabic, Bengali, Kiswahili, Russian, and Thai. The question-answer pairs are not sourced from real-world information needs but are designed to test human knowledge for academic or licensing purposes. These datasets are used to evaluate the question answering abilities of language models.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9331994911448175,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    },
+    {
+      "question": "What are the components of the DeepQA component of the Watson Jeopardy! system?",
+      "answer": "The DeepQA component of the Watson Jeopardy! system was a large and sophisticated feature-based system. It was described in a series of papers in the IBM Journal of Research and Development. This system focused on question-document similarity and used features such as word overlap, named entity features, and more complex similarity between the question and answer span. These approaches were built upon insights from early systems and techniques that focused on answer finding by emphasizing question-document similarity. Early neural reading comprehension systems used datasets like Rajpurkar et al. (2016) and Rajpurkar et al. (2018), and their successors, and often incorporated separate Information Retrieval (IR) algorithms as input to neural reading comprehension systems.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9498150800130435,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    }
+  ]
+}

@@ -343,8 +343,6 @@ Standalone retrieval query:
     return query.strip()
 
 
-
-
 def generate_answer(
     query: str,
     k: int = 5,
