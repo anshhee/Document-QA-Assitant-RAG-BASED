@@ -113,6 +113,7 @@ def retrieve_chunks(
     ids = ids_by_query[0]
     metadatas = (results.get("metadatas") or [[]])[0]
     documents = (results.get("documents") or [[]])[0]
+    distances = (results.get("distances") or [[]])[0]
 
     for index, chunk_id in enumerate(ids):
         if document_id is None:
@@ -151,11 +152,37 @@ def retrieve_chunks(
                 "page": metadata.get("page"),
                 "section": metadata.get("section"),
                 "filename": metadata.get("filename"),
+                "distance": (distances[index] if index < len(distances)
+                            else None), 
             }
         )
 
     return retrieved_chunks
 
+def rerank_chunks(
+    query: str,
+    chunks: list[dict[str, Any]],
+    top_k: int = 5,
+) -> list[dict[str, Any]]:
+    """Prefer retrieved chunks containing more query terms."""
+
+    query_terms = {
+        term.lower()
+        for term in query.split()
+        if len(term) > 2
+    }
+
+    def score(chunk: dict[str, Any]) -> int:
+        chunk_terms = set(chunk["text"].lower().split())
+        return len(query_terms & chunk_terms)
+
+    ranked_chunks = sorted(
+        chunks,
+        key=score,
+        reverse=True,
+    )
+
+    return ranked_chunks[:top_k]
 
 def generate_with_fallback(
     prompt: str,

@@ -1,0 +1,296 @@
+{
+  "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+  "num_questions": 5,
+  "results": [
+    {
+      "question": "What kind of confusion of ideas could provoke the question posed by Babbage (1864) in the text?",
+      "answer": "Babbage's question in 1864 regarding putting incorrect figures into a machine and expecting correct answers was likely a confusion of ideas related to the fundamental understanding of computing. At the time, there was a misconception that a computer, regardless of its design, would always provide accurate results if fed the correct input. Babbage was challenging the notion that any machine, no matter how sophisticated, could guarantee correct outcomes if fed incorrect data. This confusion stemmed from a naive belief that computing systems would inherently verify the correctness of inputs, which is a concept that modern information retrieval and machine learning systems no longer assume.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+        "24\nChapter 11\n•\nRetrieval-based Models\nBabbage, C. 1864. Passages from the Life of a Philosopher.\nLongman.\nBajaj, P., D. Campos, N. Craswell, L. Deng, J. G. ando\nXiaodong Liu, R. Majumder, A. McNamara, B. Mitra,\nT. Nguye, M. Rosenberg, X. Song, A. Stoica, S. Tiwary,\nand T. Wang. 2016. MS MARCO: A human generated\nMAchine Reading COmprehension dataset. NeurIPS.\nChen, D., A. Fisch, J. Weston, and A. Bordes. 2017. Reading\nWikipedia to answer open-domain questions. ACL.\nClark,\nJ.\nH.,\nE.\nChoi,\nM.\nCollins,\nD.\nGarrette,\nT. Kwiatkowski, V. Nikolaev, and J. Palomaki. 2020.\nTyDi QA: A benchmark for information-seeking ques-\ntion answering in typologically diverse languages. TACL,\n8:454–470.\nDahl, M., V. Magesh, M. Suzgun, and D. E. Ho. 2024. Large\nlegal fictions: Profiling legal hallucinations in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis.",
+        "en a question, formed a\nquery from the content words in the question, and then retrieved candidate answer\nsentences in the document, ranked by their frequency-weighted term overlap with\nthe question. The query and each retrieved sentence were then parsed with depen-\ndency parsers, and the sentence whose structure best matches the question structure\nselected. Thus the question What do worms eat? would match worms eat grass:\nboth have the subject worms as a dependent of eat, in the version of dependency\ngrammar used at the time, while birds eat worms has birds as the subject:\nWhat do worms eat\nWorms eat grass\nBirds eat worms\nSimmons (1965) summarizes other early QA systems.\nBy the 1970s, systems used predicate calculus as the meaning representation\nlanguage. The LUNAR system (Woods et al. 1972, Woods 1978) was designed to\nLUNAR\nbe a natural language interface to a database of chemical facts about lunar geology.",
+        "nformation in their parameters. Factual knowledge of this type seems to be stored\nin the connections in the very large feedforward layers of transformer models (Geva\net al., 2021; Meng et al., 2022).\n1\nThe answer was 42, but unfortunately the question was never revealed.\n2\nThe answer, of course, is ‘Who is Bram Stoker’, and the novel was Dracula.",
+        "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_0",
+          "text": "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 368.119384765625
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_84",
+          "text": "24\nChapter 11\n•\nRetrieval-based Models\nBabbage, C. 1864. Passages from the Life of a Philosopher.\nLongman.\nBajaj, P., D. Campos, N. Craswell, L. Deng, J. G. ando\nXiaodong Liu, R. Majumder, A. McNamara, B. Mitra,\nT. Nguye, M. Rosenberg, X. Song, A. Stoica, S. Tiwary,\nand T. Wang. 2016. MS MARCO: A human generated\nMAchine Reading COmprehension dataset. NeurIPS.\nChen, D., A. Fisch, J. Weston, and A. Bordes. 2017. Reading\nWikipedia to answer open-domain questions. ACL.\nClark,\nJ.\nH.,\nE.\nChoi,\nM.\nCollins,\nD.\nGarrette,\nT. Kwiatkowski, V. Nikolaev, and J. Palomaki. 2020.\nTyDi QA: A benchmark for information-seeking ques-\ntion answering in typologically diverse languages. TACL,\n8:454–470.\nDahl, M., V. Magesh, M. Suzgun, and D. E. Ho. 2024. Large\nlegal fictions: Profiling legal hallucinations in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis.",
+          "page": 24,
+          "section": "Page 24",
+          "filename": "rag.pdf",
+          "distance": 369.771240234375
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_77",
+          "text": "en a question, formed a\nquery from the content words in the question, and then retrieved candidate answer\nsentences in the document, ranked by their frequency-weighted term overlap with\nthe question. The query and each retrieved sentence were then parsed with depen-\ndency parsers, and the sentence whose structure best matches the question structure\nselected. Thus the question What do worms eat? would match worms eat grass:\nboth have the subject worms as a dependent of eat, in the version of dependency\ngrammar used at the time, while birds eat worms has birds as the subject:\nWhat do worms eat\nWorms eat grass\nBirds eat worms\nSimmons (1965) summarizes other early QA systems.\nBy the 1970s, systems used predicate calculus as the meaning representation\nlanguage. The LUNAR system (Woods et al. 1972, Woods 1978) was designed to\nLUNAR\nbe a natural language interface to a database of chemical facts about lunar geology.",
+          "page": 22,
+          "section": "Page 22",
+          "filename": "rag.pdf",
+          "distance": 371.62493896484375
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_3",
+          "text": "nformation in their parameters. Factual knowledge of this type seems to be stored\nin the connections in the very large feedforward layers of transformer models (Geva\net al., 2021; Meng et al., 2022).\n1\nThe answer was 42, but unfortunately the question was never revealed.\n2\nThe answer, of course, is ‘Who is Bram Stoker’, and the novel was Dracula.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 372.0141296386719
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_70",
+          "text": "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion.",
+          "page": 20,
+          "section": "Page 20",
+          "filename": "rag.pdf",
+          "distance": 372.2535400390625
+        }
+      ]
+    },
+    {
+      "question": "When did systems start answering questions about baseball statistics?",
+      "answer": "By 1961, a system called BASEBALL answered questions about baseball games, such as \"Where did the Red Sox play on July 7?\" This system queried a structured database of game information, which was stored as an attribute-value matrix.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8415663797662619,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "can be evaluated by exact match with a\nknown answer if only a single answer is given, with token F1 score for free\ntext answers.\nHistorical Notes\nQuestion answering was one of the earliest NLP tasks. By 1961 the BASEBALL\nsystem (Green et al., 1961) answered questions about baseball games like “Where\ndid the Red Sox play on July 7” by querying a structured database of game infor-\nmation. The database was stored as a kind of attribute-value matrix with values for\nattributes of each game:",
+        "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+        "22\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMonth = July\nPlace = Boston\nDay\n= 7\nGame Serial No.\n= 96\n(Team = Red Sox, Score = 5)\n(Team = Yankees, Score = 3)\nEach question was constituency-parsed using the algorithm of Zellig Harris’s\nTDAP project at the University of Pennsylvania, essentially a cascade of finite-state\ntransducers (see the historical discussion in Joshi and Hopely 1999 and Karttunen\n1999). Then in a content analysis phase each word or phrase was associated with a\nprogram that computed parts of its meaning. Thus the phrase ‘Where’ had code to\nassign the semantics Place = ?, with the result that the question “Where did the\nRed Sox play on July 7” was assigned the meaning\nPlace = ?\nTeam = Red Sox\nMonth = July\nDay = 7\nThe question is then matched against the database to return the answer.\nThe Protosynthex system of Simmons et al. (1964), given a question, formed a\nquery from the content words in the question, and then retrieved candidate answer\nsentences in the document, ranked by their frequency-weighted term overlap with\nthe question.",
+        "y a decade\nlater, neural models were applied to semantic parsing (Dong and Lapata 2016, Jia\nand Liang 2016), and then to knowledge-based question answering by mapping text\nto SQL (Iyer et al., 2017).\n[TBD: History of IR.]\nMeanwhile, a paradigm for answering questions that drew more on information-\nretrieval was influenced by the rise of the web in the 1990s. The U.S. government-\nsponsored TREC (Text REtrieval Conference) evaluations, run annually since 1992,",
+        "en a question, formed a\nquery from the content words in the question, and then retrieved candidate answer\nsentences in the document, ranked by their frequency-weighted term overlap with\nthe question. The query and each retrieved sentence were then parsed with depen-\ndency parsers, and the sentence whose structure best matches the question structure\nselected. Thus the question What do worms eat? would match worms eat grass:\nboth have the subject worms as a dependent of eat, in the version of dependency\ngrammar used at the time, while birds eat worms has birds as the subject:\nWhat do worms eat\nWorms eat grass\nBirds eat worms\nSimmons (1965) summarizes other early QA systems.\nBy the 1970s, systems used predicate calculus as the meaning representation\nlanguage. The LUNAR system (Woods et al. 1972, Woods 1978) was designed to\nLUNAR\nbe a natural language interface to a database of chemical facts about lunar geology."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_75",
+          "text": "can be evaluated by exact match with a\nknown answer if only a single answer is given, with token F1 score for free\ntext answers.\nHistorical Notes\nQuestion answering was one of the earliest NLP tasks. By 1961 the BASEBALL\nsystem (Green et al., 1961) answered questions about baseball games like “Where\ndid the Red Sox play on July 7” by querying a structured database of game infor-\nmation. The database was stored as a kind of attribute-value matrix with values for\nattributes of each game:",
+          "page": 21,
+          "section": "Page 21",
+          "filename": "rag.pdf",
+          "distance": 432.1640930175781
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_0",
+          "text": "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 436.29010009765625
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_76",
+          "text": "22\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMonth = July\nPlace = Boston\nDay\n= 7\nGame Serial No.\n= 96\n(Team = Red Sox, Score = 5)\n(Team = Yankees, Score = 3)\nEach question was constituency-parsed using the algorithm of Zellig Harris’s\nTDAP project at the University of Pennsylvania, essentially a cascade of finite-state\ntransducers (see the historical discussion in Joshi and Hopely 1999 and Karttunen\n1999). Then in a content analysis phase each word or phrase was associated with a\nprogram that computed parts of its meaning. Thus the phrase ‘Where’ had code to\nassign the semantics Place = ?, with the result that the question “Where did the\nRed Sox play on July 7” was assigned the meaning\nPlace = ?\nTeam = Red Sox\nMonth = July\nDay = 7\nThe question is then matched against the database to return the answer.\nThe Protosynthex system of Simmons et al. (1964), given a question, formed a\nquery from the content words in the question, and then retrieved candidate answer\nsentences in the document, ranked by their frequency-weighted term overlap with\nthe question.",
+          "page": 22,
+          "section": "Page 22",
+          "filename": "rag.pdf",
+          "distance": 436.5443115234375
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_79",
+          "text": "y a decade\nlater, neural models were applied to semantic parsing (Dong and Lapata 2016, Jia\nand Liang 2016), and then to knowledge-based question answering by mapping text\nto SQL (Iyer et al., 2017).\n[TBD: History of IR.]\nMeanwhile, a paradigm for answering questions that drew more on information-\nretrieval was influenced by the rise of the web in the 1990s. The U.S. government-\nsponsored TREC (Text REtrieval Conference) evaluations, run annually since 1992,",
+          "page": 22,
+          "section": "Page 22",
+          "filename": "rag.pdf",
+          "distance": 437.073974609375
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_77",
+          "text": "en a question, formed a\nquery from the content words in the question, and then retrieved candidate answer\nsentences in the document, ranked by their frequency-weighted term overlap with\nthe question. The query and each retrieved sentence were then parsed with depen-\ndency parsers, and the sentence whose structure best matches the question structure\nselected. Thus the question What do worms eat? would match worms eat grass:\nboth have the subject worms as a dependent of eat, in the version of dependency\ngrammar used at the time, while birds eat worms has birds as the subject:\nWhat do worms eat\nWorms eat grass\nBirds eat worms\nSimmons (1965) summarizes other early QA systems.\nBy the 1970s, systems used predicate calculus as the meaning representation\nlanguage. The LUNAR system (Woods et al. 1972, Woods 1978) was designed to\nLUNAR\nbe a natural language interface to a database of chemical facts about lunar geology.",
+          "page": 22,
+          "section": "Page 22",
+          "filename": "rag.pdf",
+          "distance": 437.5496826171875
+        }
+      ]
+    },
+    {
+      "question": "What is the earliest instance of fictional computers providing an answer in literature?",
+      "answer": "The earliest instance of fictional computers providing an answer in literature is from Douglas Adams' \"The Hitchhiker's Guide to the Galaxy\" series, where the computer Deep Thought answered the \"Ultimate Question of Life, the Universe, and Everything\" with the number 42 in 2001. Prior to this, in 1961, the BASEBALL system could answer questions about American baseball statistics.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9813136109206259,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+        "11.4\n•\nRETRIEVAL-AUGMENTED GENERATION (RAG)\n17\nWhen was\nthe premiere of\nThe Magic Flute?\nRelevant\nDocs\n1791, according \nto this page\nRetriever\nIndexed Docs\nLLM\nGenerator\nCorpus of\nDocuments\nUser prompt:\nPrompt \nformulation\nKnowledge\nCitation\nFigure 11.13\nRetrieval-augmented generation takes as input a user prompt (which may express an informa-\ntion need like this question example), and a corpus of documents that may be useful in meeting the information\nneed. The method has two stages: retrieval, which returns relevant documents from the collection, and genera-\ntion, in which an LLM generates text given the documents as a prompt. Some generations include a knowledge\ncitation that can help the user decide whether to trust the generation, or follow up if they are interested.\nof The Magic Flute?. We pass this question to a dense retriever and return a se-\nries of passages about The Magic Flute.\nThe idea of retrieval-augmented generation is to condition on the retrieved pas-\nsages, jointly with some prompt text, for example like “Based on these texts, answer\nthis question:”.",
+        "can be evaluated by exact match with a\nknown answer if only a single answer is given, with token F1 score for free\ntext answers.\nHistorical Notes\nQuestion answering was one of the earliest NLP tasks. By 1961 the BASEBALL\nsystem (Green et al., 1961) answered questions about baseball games like “Where\ndid the Red Sox play on July 7” by querying a structured database of game infor-\nmation. The database was stored as a kind of attribute-value matrix with values for\nattributes of each game:",
+        "The Magic Flute.\nThe idea of retrieval-augmented generation is to condition on the retrieved pas-\nsages, jointly with some prompt text, for example like “Based on these texts, answer\nthis question:”. Thus given a document collection D and a user query q, the most\nbasic RAG algorithm is:\n1. Call a retriever to return R(q) = d1 ···dk, the top-k relevant passages from D\n2. Create a prompt that includes q and the retrieved passages\n3. Call an LLM with the prompt\nThe resulting prompts might look something like:\nSchematic of a RAG Prompt\nretrieved passage 1\nretrieved passage 2\n...\nretrieved passage k\nBased on these texts, answer this question:\nWhat year\nwas the premiere of The Magic Flute?\nThe task for the language model is then to generate text according to this proba-\nbility model:\np(x1,...,xn) =\nn\nY\ni=1\np(xi|R(q) ; Answer the following question... ; q ;x<i)\nThere are many augmentations of this basic RAG paradigm. One addition is\nthe use of agent-based RAG.",
+        "e memories.\nEMNLP.\nGreen, B. F., A. K. Wolf, C. Chomsky, and K. Laughery.\n1961. Baseball: An automatic question answerer. Pro-\nceedings of the Western Joint Computer Conference 19.\nHe, W., K. Liu, J. Liu, Y. Lyu, S. Zhao, X. Xiao, Y. Liu,\nY. Wang, H. Wu, Q. She, X. Liu, T. Wu, and H. Wang.\n2018. DuReader: a Chinese machine reading compre-\nhension dataset from real-world applications. Workshop\non Machine Reading for Question Answering.\nHermann, K. M., T. Kocisky, E. Grefenstette, L. Espeholt,\nW. Kay, M. Suleyman, and P. Blunsom. 2015. Teaching\nmachines to read and comprehend. NeurIPS.\nHirschman, L., M. Light, E. Breck, and J. D. Burger. 1999.\nDeep Read: A reading comprehension system. ACL.\nIyer, S., I. Konstas, A. Cheung, J. Krishnamurthy, and\nL. Zettlemoyer. 2017. Learning a neural semantic parser\nfrom user feedback. ACL.\nIzacard, G., P. Lewis, M. Lomeli, L. Hosseini, F. Petroni,\nT. Schick, J. Dwivedi-Yu, A. Joulin, S. Riedel, and\nE. Grave. 2022.\nFew-shot learning with retrieval aug-\nmented language models."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_0",
+          "text": "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 448.5091247558594
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_57",
+          "text": "11.4\n•\nRETRIEVAL-AUGMENTED GENERATION (RAG)\n17\nWhen was\nthe premiere of\nThe Magic Flute?\nRelevant\nDocs\n1791, according \nto this page\nRetriever\nIndexed Docs\nLLM\nGenerator\nCorpus of\nDocuments\nUser prompt:\nPrompt \nformulation\nKnowledge\nCitation\nFigure 11.13\nRetrieval-augmented generation takes as input a user prompt (which may express an informa-\ntion need like this question example), and a corpus of documents that may be useful in meeting the information\nneed. The method has two stages: retrieval, which returns relevant documents from the collection, and genera-\ntion, in which an LLM generates text given the documents as a prompt. Some generations include a knowledge\ncitation that can help the user decide whether to trust the generation, or follow up if they are interested.\nof The Magic Flute?. We pass this question to a dense retriever and return a se-\nries of passages about The Magic Flute.\nThe idea of retrieval-augmented generation is to condition on the retrieved pas-\nsages, jointly with some prompt text, for example like “Based on these texts, answer\nthis question:”.",
+          "page": 17,
+          "section": "Page 17",
+          "filename": "rag.pdf",
+          "distance": 449.9580993652344
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_75",
+          "text": "can be evaluated by exact match with a\nknown answer if only a single answer is given, with token F1 score for free\ntext answers.\nHistorical Notes\nQuestion answering was one of the earliest NLP tasks. By 1961 the BASEBALL\nsystem (Green et al., 1961) answered questions about baseball games like “Where\ndid the Red Sox play on July 7” by querying a structured database of game infor-\nmation. The database was stored as a kind of attribute-value matrix with values for\nattributes of each game:",
+          "page": 21,
+          "section": "Page 21",
+          "filename": "rag.pdf",
+          "distance": 450.2695617675781
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_58",
+          "text": "The Magic Flute.\nThe idea of retrieval-augmented generation is to condition on the retrieved pas-\nsages, jointly with some prompt text, for example like “Based on these texts, answer\nthis question:”. Thus given a document collection D and a user query q, the most\nbasic RAG algorithm is:\n1. Call a retriever to return R(q) = d1 ···dk, the top-k relevant passages from D\n2. Create a prompt that includes q and the retrieved passages\n3. Call an LLM with the prompt\nThe resulting prompts might look something like:\nSchematic of a RAG Prompt\nretrieved passage 1\nretrieved passage 2\n...\nretrieved passage k\nBased on these texts, answer this question:\nWhat year\nwas the premiere of The Magic Flute?\nThe task for the language model is then to generate text according to this proba-\nbility model:\np(x1,...,xn) =\nn\nY\ni=1\np(xi|R(q) ; Answer the following question... ; q ;x<i)\nThere are many augmentations of this basic RAG paradigm. One addition is\nthe use of agent-based RAG.",
+          "page": 17,
+          "section": "Page 17",
+          "filename": "rag.pdf",
+          "distance": 450.61981201171875
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_86",
+          "text": "e memories.\nEMNLP.\nGreen, B. F., A. K. Wolf, C. Chomsky, and K. Laughery.\n1961. Baseball: An automatic question answerer. Pro-\nceedings of the Western Joint Computer Conference 19.\nHe, W., K. Liu, J. Liu, Y. Lyu, S. Zhao, X. Xiao, Y. Liu,\nY. Wang, H. Wu, Q. She, X. Liu, T. Wu, and H. Wang.\n2018. DuReader: a Chinese machine reading compre-\nhension dataset from real-world applications. Workshop\non Machine Reading for Question Answering.\nHermann, K. M., T. Kocisky, E. Grefenstette, L. Espeholt,\nW. Kay, M. Suleyman, and P. Blunsom. 2015. Teaching\nmachines to read and comprehend. NeurIPS.\nHirschman, L., M. Light, E. Breck, and J. D. Burger. 1999.\nDeep Read: A reading comprehension system. ACL.\nIyer, S., I. Konstas, A. Cheung, J. Krishnamurthy, and\nL. Zettlemoyer. 2017. Learning a neural semantic parser\nfrom user feedback. ACL.\nIzacard, G., P. Lewis, M. Lomeli, L. Hosseini, F. Petroni,\nT. Schick, J. Dwivedi-Yu, A. Joulin, S. Riedel, and\nE. Grave. 2022.\nFew-shot learning with retrieval aug-\nmented language models.",
+          "page": 24,
+          "section": "Page 24",
+          "filename": "rag.pdf",
+          "distance": 451.2026672363281
+        }
+      ]
+    },
+    {
+      "question": "What type of representation does the document use to represent documents as vectors?",
+      "answer": "The document uses a count vector to represent documents. A count vector is a column in the term-document matrix, where each document is represented as a vector of counts of the words it contains. This representation is also sometimes called a bag-of-words model, where the order of words is ignored and only their frequency in the document is kept.",
+      "faithfulness": 0.16666666666666666,
+      "answer_relevancy": 0.7642334177875519,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "nt a set of documents as a term-document ma-\ntrix in which each row represents a word in the vocabulary and each column rep-\nterm-document\nmatrix\nresents a document from some collection of documents. Fig. 11.3 shows a small\nselection from a term-document matrix showing the occurrence of four words in\nfour plays by Shakespeare. Each cell in this matrix represents the number of times a\nparticular word (defined by the row) occurs in a particular document (defined by the\ncolumn). Thus fool appeared 58 times in Twelfth Night.\nA document is represented as a count vector, a column in Fig. 11.4. In the\nexample in Fig. 11.4, we’ve chosen to make the document vectors of dimension 4,\njust so they fit on the page; in real term-document matrices, the document vectors\nwould have dimensionality |V|, the vocabulary size. The first dimension for both\nthese vectors corresponds to the number of times the word battle occurs, and we can",
+        "4\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\ndocuments and queries with embeddings, computed from language models (either\nencoder or decoder models). We’ll discuss sparse retrieval in the rest of this section,\nand turn to dense retrieval in Section 11.3.\n11.1.1\nRepresenting documents as vectors\nIn the vector space model of information retrieval (Salton, 1971) a document is\nvector space\nmodel\nrepresented as a vector of counts of the words it contains.\nWe sometimes call this kind of model a bag-of-words model. Fig. 11.2 shows\nthe intuition: we are representing a text document as if it were a bag of words,\nbag of words\nthat is, an unordered set of words with their position ignored, keeping only their\nfrequency in the document. In the example in the figure, instead of representing the\nword order in all the phrases like “It manages to be whimsical and romantic”, we\nsimply note that the word it occurred 5 times in the entire excerpt, the words love,\nrecommend, and movie once, and so on.",
+        "ne is the normalized dot product\nof tf-idf values, so for the normalization we must need to compute the document\nvector lengths |q|, |d1|, and |d2| for the query and the first two documents using\nEq. 11.4, Eq. 11.5, Eq. 11.6, and Eq. 11.9 (computations for Documents 3 and 4 are\nalso needed but are left as an exercise for the reader). The dot product between the\nvectors is the sum over dimensions of the product, for each dimension, of the values\nof the two tf-idf vectors for that dimension. This product is only non-zero where\nboth the query and document have non-zero values, so for this example, in which\nonly sweet and love have non-zero values in the query, the dot product will be the\nsum of the products of those elements of each vector.\nDocument 1 has a higher cosine with the query (0.747) than Document 2 has\nwith the query (0.0779), and so the tf-idf cosine model would rank Document 1\nabove Document 2.",
+        "to be to meet the users information\nneed. There are two classes of IR systems, based on the two classes of vectors that are used to represent queries\nand documents: sparse vectors and dense vectors. These two kinds of retrieval differ in the details of the\nindexing and scoring mechanisms.\nThe high-level architecture of an ad hoc retrieval engine is shown in Fig. 11.1.\nThis figure abstracts over the two classes of IR systems, which are based on the\ntwo classes of vectors that are used to represent queries and documents: sparse\nvectors and dense vectors. In sparse retrieval, we represent documents and queries\nwith count vectors, weighted by tf-idf or BM25. In dense retrieval, we represent",
+        "hose elements of each vector.\nDocument 1 has a higher cosine with the query (0.747) than Document 2 has\nwith the query (0.0779), and so the tf-idf cosine model would rank Document 1\nabove Document 2. This ranking is intuitive given the vector space model, since\nDocument 1 has both terms including two instances of sweet, while Document 2 is"
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_16",
+          "text": "nt a set of documents as a term-document ma-\ntrix in which each row represents a word in the vocabulary and each column rep-\nterm-document\nmatrix\nresents a document from some collection of documents. Fig. 11.3 shows a small\nselection from a term-document matrix showing the occurrence of four words in\nfour plays by Shakespeare. Each cell in this matrix represents the number of times a\nparticular word (defined by the row) occurs in a particular document (defined by the\ncolumn). Thus fool appeared 58 times in Twelfth Night.\nA document is represented as a count vector, a column in Fig. 11.4. In the\nexample in Fig. 11.4, we’ve chosen to make the document vectors of dimension 4,\njust so they fit on the page; in real term-document matrices, the document vectors\nwould have dimensionality |V|, the vocabulary size. The first dimension for both\nthese vectors corresponds to the number of times the word battle occurs, and we can",
+          "page": 4,
+          "section": "Page 4",
+          "filename": "rag.pdf",
+          "distance": 445.9809265136719
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_13",
+          "text": "4\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\ndocuments and queries with embeddings, computed from language models (either\nencoder or decoder models). We’ll discuss sparse retrieval in the rest of this section,\nand turn to dense retrieval in Section 11.3.\n11.1.1\nRepresenting documents as vectors\nIn the vector space model of information retrieval (Salton, 1971) a document is\nvector space\nmodel\nrepresented as a vector of counts of the words it contains.\nWe sometimes call this kind of model a bag-of-words model. Fig. 11.2 shows\nthe intuition: we are representing a text document as if it were a bag of words,\nbag of words\nthat is, an unordered set of words with their position ignored, keeping only their\nfrequency in the document. In the example in the figure, instead of representing the\nword order in all the phrases like “It manages to be whimsical and romantic”, we\nsimply note that the word it occurred 5 times in the entire excerpt, the words love,\nrecommend, and movie once, and so on.",
+          "page": 4,
+          "section": "Page 4",
+          "filename": "rag.pdf",
+          "distance": 447.04705810546875
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_25",
+          "text": "ne is the normalized dot product\nof tf-idf values, so for the normalization we must need to compute the document\nvector lengths |q|, |d1|, and |d2| for the query and the first two documents using\nEq. 11.4, Eq. 11.5, Eq. 11.6, and Eq. 11.9 (computations for Documents 3 and 4 are\nalso needed but are left as an exercise for the reader). The dot product between the\nvectors is the sum over dimensions of the product, for each dimension, of the values\nof the two tf-idf vectors for that dimension. This product is only non-zero where\nboth the query and document have non-zero values, so for this example, in which\nonly sweet and love have non-zero values in the query, the dot product will be the\nsum of the products of those elements of each vector.\nDocument 1 has a higher cosine with the query (0.747) than Document 2 has\nwith the query (0.0779), and so the tf-idf cosine model would rank Document 1\nabove Document 2.",
+          "page": 7,
+          "section": "Page 7",
+          "filename": "rag.pdf",
+          "distance": 447.37310791015625
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_12",
+          "text": "to be to meet the users information\nneed. There are two classes of IR systems, based on the two classes of vectors that are used to represent queries\nand documents: sparse vectors and dense vectors. These two kinds of retrieval differ in the details of the\nindexing and scoring mechanisms.\nThe high-level architecture of an ad hoc retrieval engine is shown in Fig. 11.1.\nThis figure abstracts over the two classes of IR systems, which are based on the\ntwo classes of vectors that are used to represent queries and documents: sparse\nvectors and dense vectors. In sparse retrieval, we represent documents and queries\nwith count vectors, weighted by tf-idf or BM25. In dense retrieval, we represent",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "rag.pdf",
+          "distance": 447.46533203125
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_26",
+          "text": "hose elements of each vector.\nDocument 1 has a higher cosine with the query (0.747) than Document 2 has\nwith the query (0.0779), and so the tf-idf cosine model would rank Document 1\nabove Document 2. This ranking is intuitive given the vector space model, since\nDocument 1 has both terms including two instances of sweet, while Document 2 is",
+          "page": 7,
+          "section": "Page 7",
+          "filename": "rag.pdf",
+          "distance": 447.6082458496094
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of using interpolated precision values in evaluating retrieval-augmented generation systems?",
+      "answer": "Interpolated precision values are used in evaluating retrieval-augmented generation systems to smooth over irregular precision values in the original data. This interpolation scheme is particularly useful when we do not have exact datapoints at the fixed levels of recall, as is common in many evaluation scenarios. The method of interpolation involves choosing the maximum precision value achieved at or above the recall level being calculated. This interpolation scheme helps in averaging the performance over a set of queries and provides a more continuous curve for comparison. The resulting interpolated data points, as shown in Figure 11.9 and Figure 11.10, can be used to compare the precision and recall of different retrieval-augmented generation systems. These interpolated precision-recall curves help in understanding the overall behavior of a system, whether it favors precision over recall or is more geared towards higher recall levels.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8957259547418298,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "12\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nfor all the queries, and in a way that lets us compare one system to another. One way\nof doing this is to plot averaged precision values at 11 fixed levels of recall (0 to 100,\nin steps of 10). Since we’re not likely to have datapoints at these exact levels, we\nuse interpolated precision values for the 11 recall values from the data points we do\ninterpolated\nprecision\nhave. We can accomplish this by choosing the maximum precision value achieved\nat any level of recall at or above the one we’re calculating. In other words,\nIntPrecision(r) = max\ni>=r Precision(i)\n(11.15)\nThis interpolation scheme not only lets us average performance over a set of queries,\nbut also helps smooth over the irregular precision values in the original data. It is\ndesigned to give systems the benefit of the doubt by assigning the maximum preci-\nsion value achieved at higher levels of recall from the one being measured. Fig. 11.9\nand Fig. 11.10 show the resulting interpolated data points from our example.",
+        "oubt by assigning the maximum preci-\nsion value achieved at higher levels of recall from the one being measured. Fig. 11.9\nand Fig. 11.10 show the resulting interpolated data points from our example.\nInterpolated Precision\nRecall\n1.0\n0.0\n1.0\n.10\n.66\n.20\n.66\n.30\n.66\n.40\n.63\n.50\n.55\n.60\n.47\n.70\n.44\n.80\n.36\n.90\n.36\n1.0\nFigure 11.9\nInterpolated data points from Fig. 11.7.\nGiven curves such as that in Fig. 11.10 we can compare two systems or ap-\nproaches by comparing their curves. Clearly, curves that are higher in precision\nacross all recall values are preferred. However, these curves can also provide insight\ninto the overall behavior of a system. Systems that are higher in precision toward\nthe left may favor precision over recall, while systems that are more geared towards\nrecall will be higher at higher levels of recall (to the right).\nA second way to evaluate ranked retrieval is mean average precision (MAP),\nmean average\nprecision\nwhich provides a single metric that can be used to compare competing systems or\napproaches.",
+        "uery.\nAs we summarized in the introduction to the chapter, there are many goals of\nretrieval-augmented generation. RAG can help mitigate hallucination, by giving\nthe model a set of trusted documents. RAG can also help language models gen-\nerate factual text about proprietary data, like personal email, or health records, or\ncompany-internal documents, or other legal documents. RAG can also help with\nthe problem that knowledge is dynamic and time-sensitive, for example if we know\nthe user’s information need references data from a time after a language model was\ntrained.\nA RAG system is based on two major components: the retriever and the gener-\nator, (the latter is sometimes called, for historical reasons, the reader (Chen et al.,\n2017)). Fig. 11.13 sketches out this standard model for answering questions.\nIn the first stage of the retrieval-augmented generation, or RAG model shown\nretrieval-\naugmented\ngeneration\nRAG\nin Fig.",
+        "11.3\n•\nINFORMATION RETRIEVAL WITH DENSE VECTORS\n13\nInterpolated Precision Recall Curve\n0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1\n0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1\nRecall\nPrecision\nFigure 11.10\nAn 11 point interpolated precision-recall curve. Precision at each of the 11\nstandard recall levels is interpolated for each query from the maximum at any higher level of\nrecall. The original measured precision recall points are also shown.\n11.3\nInformation Retrieval with Dense Vectors\nThe classic tf-idf or BM25 algorithms for IR have long been known to have a con-\nceptual flaw: they work only if there is exact overlap of words between the query\nand document. In other words, the user posing a query (or asking a question) needs\nto guess exactly what words the writer of the answer might have used, an issue called\nthe vocabulary mismatch problem (Furnas et al., 1987).\nThe solution to this problem is to use an approach that can handle synonymy:\ninstead of (sparse) word-count vectors, using (dense) embeddings.",
+        "BM25) cosine with the user’s query vector. The\ndocuments are sorted according to relevance scores, from most to least relevant, and\nthe list (or the first N documents on it) are returned to the user.\n11.2\nEvaluation of Information-Retrieval Systems\nWe measure the performance of ranked retrieval systems using the same precision\nand recall metrics we have been using. We make the assumption that each docu-\nment returned by the IR system is either relevant to our purposes or not relevant.\nPrecision is the fraction of the returned documents that are relevant, and recall is the\nfraction of all relevant documents that are returned. More formally, let’s assume a\nsystem returns T ranked documents in response to an information request, a subset\nR of these are relevant, a disjoint subset, N, are the remaining irrelevant documents,\nand U documents in the collection as a whole are relevant to this request."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_40",
+          "text": "12\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nfor all the queries, and in a way that lets us compare one system to another. One way\nof doing this is to plot averaged precision values at 11 fixed levels of recall (0 to 100,\nin steps of 10). Since we’re not likely to have datapoints at these exact levels, we\nuse interpolated precision values for the 11 recall values from the data points we do\ninterpolated\nprecision\nhave. We can accomplish this by choosing the maximum precision value achieved\nat any level of recall at or above the one we’re calculating. In other words,\nIntPrecision(r) = max\ni>=r Precision(i)\n(11.15)\nThis interpolation scheme not only lets us average performance over a set of queries,\nbut also helps smooth over the irregular precision values in the original data. It is\ndesigned to give systems the benefit of the doubt by assigning the maximum preci-\nsion value achieved at higher levels of recall from the one being measured. Fig. 11.9\nand Fig. 11.10 show the resulting interpolated data points from our example.",
+          "page": 12,
+          "section": "Page 12",
+          "filename": "rag.pdf",
+          "distance": 371.8186950683594
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_41",
+          "text": "oubt by assigning the maximum preci-\nsion value achieved at higher levels of recall from the one being measured. Fig. 11.9\nand Fig. 11.10 show the resulting interpolated data points from our example.\nInterpolated Precision\nRecall\n1.0\n0.0\n1.0\n.10\n.66\n.20\n.66\n.30\n.66\n.40\n.63\n.50\n.55\n.60\n.47\n.70\n.44\n.80\n.36\n.90\n.36\n1.0\nFigure 11.9\nInterpolated data points from Fig. 11.7.\nGiven curves such as that in Fig. 11.10 we can compare two systems or ap-\nproaches by comparing their curves. Clearly, curves that are higher in precision\nacross all recall values are preferred. However, these curves can also provide insight\ninto the overall behavior of a system. Systems that are higher in precision toward\nthe left may favor precision over recall, while systems that are more geared towards\nrecall will be higher at higher levels of recall (to the right).\nA second way to evaluate ranked retrieval is mean average precision (MAP),\nmean average\nprecision\nwhich provides a single metric that can be used to compare competing systems or\napproaches.",
+          "page": 12,
+          "section": "Page 12",
+          "filename": "rag.pdf",
+          "distance": 374.4602355957031
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_55",
+          "text": "uery.\nAs we summarized in the introduction to the chapter, there are many goals of\nretrieval-augmented generation. RAG can help mitigate hallucination, by giving\nthe model a set of trusted documents. RAG can also help language models gen-\nerate factual text about proprietary data, like personal email, or health records, or\ncompany-internal documents, or other legal documents. RAG can also help with\nthe problem that knowledge is dynamic and time-sensitive, for example if we know\nthe user’s information need references data from a time after a language model was\ntrained.\nA RAG system is based on two major components: the retriever and the gener-\nator, (the latter is sometimes called, for historical reasons, the reader (Chen et al.,\n2017)). Fig. 11.13 sketches out this standard model for answering questions.\nIn the first stage of the retrieval-augmented generation, or RAG model shown\nretrieval-\naugmented\ngeneration\nRAG\nin Fig.",
+          "page": 16,
+          "section": "Page 16",
+          "filename": "rag.pdf",
+          "distance": 375.7437438964844
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_43",
+          "text": "11.3\n•\nINFORMATION RETRIEVAL WITH DENSE VECTORS\n13\nInterpolated Precision Recall Curve\n0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1\n0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1\nRecall\nPrecision\nFigure 11.10\nAn 11 point interpolated precision-recall curve. Precision at each of the 11\nstandard recall levels is interpolated for each query from the maximum at any higher level of\nrecall. The original measured precision recall points are also shown.\n11.3\nInformation Retrieval with Dense Vectors\nThe classic tf-idf or BM25 algorithms for IR have long been known to have a con-\nceptual flaw: they work only if there is exact overlap of words between the query\nand document. In other words, the user posing a query (or asking a question) needs\nto guess exactly what words the writer of the answer might have used, an issue called\nthe vocabulary mismatch problem (Furnas et al., 1987).\nThe solution to this problem is to use an approach that can handle synonymy:\ninstead of (sparse) word-count vectors, using (dense) embeddings.",
+          "page": 13,
+          "section": "Page 13",
+          "filename": "rag.pdf",
+          "distance": 375.9283752441406
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_35",
+          "text": "BM25) cosine with the user’s query vector. The\ndocuments are sorted according to relevance scores, from most to least relevant, and\nthe list (or the first N documents on it) are returned to the user.\n11.2\nEvaluation of Information-Retrieval Systems\nWe measure the performance of ranked retrieval systems using the same precision\nand recall metrics we have been using. We make the assumption that each docu-\nment returned by the IR system is either relevant to our purposes or not relevant.\nPrecision is the fraction of the returned documents that are relevant, and recall is the\nfraction of all relevant documents that are returned. More formally, let’s assume a\nsystem returns T ranked documents in response to an information request, a subset\nR of these are relevant, a disjoint subset, N, are the remaining irrelevant documents,\nand U documents in the collection as a whole are relevant to this request.",
+          "page": 10,
+          "section": "Page 10",
+          "filename": "rag.pdf",
+          "distance": 376.24957275390625
+        }
+      ]
+    }
+  ]
+}

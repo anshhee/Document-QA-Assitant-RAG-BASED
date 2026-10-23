@@ -70,21 +70,18 @@ def generate_questions(
     )
 
     prompt = f"""
+
 You are generating evaluation questions for a document-based RAG system.
 
 Based ONLY on the document excerpts below:
 
-- Generate exactly {num_questions} distinct questions.
 - Each question must be understandable on its own.
 - Each question must be answerable directly from the document.
 - Ask one specific thing per question.
 - Avoid broad questions with multiple parts.
 - Avoid questions about figures, images, or tables unless their contents are explicitly described in the text.
-- Cover different topics where possible.
-- Do not answer the questions.
-- Return only a valid JSON array of strings.
-- Put a comma after every string except the last one.
-  Example: ["Question one?", "Question two?"]
+- Cover different topics where possible.  
+
 
 Document excerpts:
 {document_text}
@@ -103,6 +100,7 @@ Document excerpts:
         if raw_output.endswith("```"):
             raw_output = raw_output[:-3].strip()
 
+    questions = None 
     try:
         questions = json.loads(raw_output)
     except json.JSONDecodeError:
@@ -113,11 +111,23 @@ Document excerpts:
         )
 
         try: 
-            questions: json.loads(repaired_output)
-        except json.JSONDecodeError as exc:
-            raise ValueError(
-                f"Qwen returned invalid JSON {raw_output}"
-            ) from exc
+            questions =  json.loads(repaired_output)
+        except json.JSONDecodeError:
+            numbered_questions = re.findall(
+                r"^\s*\d+[.)]\s*(.+?)\s*$",
+                raw_output,
+                flags=re.MULTILINE,
+            )
+
+            if len(numbered_questions) >= num_questions:
+                questions = numbered_questions[:num_questions]
+
+            else:
+                raise ValueError(
+                    f"Qwen returned invalid question format.\n"
+                    f"Parsed Question: {questions}\n"
+                    f"Raw Output: {raw_output}"
+                )
 
 
     if (
@@ -128,9 +138,11 @@ Document excerpts:
             for question in questions
         )
     ):
+
         raise ValueError(
-            "Qwen did not return the requested number "
-            "of non-empty questions."
+        f"Qwen returned {len(questions) if isinstance(questions, list) else 'non-list'} "
+        f"questions instead of {num_questions}.\n"
+        f"Questions: {questions}"
         )
 
     return [question.strip() for question in questions]
@@ -219,6 +231,8 @@ async def evaluate_uploaded_document(document_id: str) -> Path:
 
             answer = rag_result["answer"]
 
+
+            retrieved_chunks = rag_result.get("chunks", []) 
             contexts = [
                 chunk["text"]
                 for chunk in rag_result.get("chunks", [])
@@ -237,6 +251,17 @@ async def evaluate_uploaded_document(document_id: str) -> Path:
             evaluation["model_used"] = rag_result.get("model_used")
             evaluation["contexts"] = contexts 
             evaluation["num_contexts"] = len(contexts)
+            evaluation["retrieved_chunks"] = [
+                {
+                    "chunk_id" : chunk.get("chunk_id"),
+                    "text" : chunk.get("text"),
+                    "page" : chunk.get("page"),
+                    "section" : chunk.get("section"),
+                    "filename" : chunk.get("filename"),
+                    "distance": chunk.get("distance"),
+                }
+                for chunk in retrieved_chunks
+            ] 
 
             results.append(evaluation)
 
@@ -256,10 +281,35 @@ async def evaluate_uploaded_document(document_id: str) -> Path:
             )
             counter += 1
 
+        average_faithfulness = (
+            sum(
+                result["faithfulness"]
+                for result in results
+            ) / len(results)
+            if results 
+            else 0.0
+        )
+
+        average_answer_relevancy = (
+            sum(
+                result["answer_relevancy"]
+                for result in results
+            
+        ) / len(results)
+        if results 
+        else 0.0
+        )
+
         output_data = {
             "document_id": document_id,
             "num_questions": len(questions),
             "results": results,
+            "summary": {
+                "average_faithfulness": (average_faithfulness),
+                "average_answer_relevancy": (average_answer_relevancy),
+            },
+
+            "results": results,      
         }
 
         with open(output_path, "w", encoding="utf-8") as file:
@@ -295,4 +345,6 @@ async def main() -> None:
 
 
 if __name__ == "__main__":
-    asyncio.run(main())  
+    asyncio.run(main())
+
+

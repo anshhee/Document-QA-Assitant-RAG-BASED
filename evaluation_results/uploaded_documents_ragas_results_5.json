@@ -1,0 +1,300 @@
+{
+  "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+  "num_questions": 5,
+  "results": [
+    {
+      "question": "Who is the author of the passage from which the quote by Babbage (1864) comes from?",
+      "answer": "The quote by Babbage from 1864 does not come from any passage in the given sources. Therefore, the author of the passage from which the quote comes from cannot be determined based on the provided evidence.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "24\nChapter 11\n•\nRetrieval-based Models\nBabbage, C. 1864. Passages from the Life of a Philosopher.\nLongman.\nBajaj, P., D. Campos, N. Craswell, L. Deng, J. G. ando\nXiaodong Liu, R. Majumder, A. McNamara, B. Mitra,\nT. Nguye, M. Rosenberg, X. Song, A. Stoica, S. Tiwary,\nand T. Wang. 2016. MS MARCO: A human generated\nMAchine Reading COmprehension dataset. NeurIPS.\nChen, D., A. Fisch, J. Weston, and A. Bordes. 2017. Reading\nWikipedia to answer open-domain questions. ACL.\nClark,\nJ.\nH.,\nE.\nChoi,\nM.\nCollins,\nD.\nGarrette,\nT. Kwiatkowski, V. Nikolaev, and J. Palomaki. 2020.\nTyDi QA: A benchmark for information-seeking ques-\ntion answering in typologically diverse languages. TACL,\n8:454–470.\nDahl, M., V. Magesh, M. Suzgun, and D. E. Ho. 2024. Large\nlegal fictions: Profiling legal hallucinations in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis.",
+        "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+        "nformation in their parameters. Factual knowledge of this type seems to be stored\nin the connections in the very large feedforward layers of transformer models (Geva\net al., 2021; Meng et al., 2022).\n1\nThe answer was 42, but unfortunately the question was never revealed.\n2\nThe answer, of course, is ‘Who is Bram Stoker’, and the novel was Dracula.",
+        "11.4\n•\nRETRIEVAL-AUGMENTED GENERATION (RAG)\n17\nWhen was\nthe premiere of\nThe Magic Flute?\nRelevant\nDocs\n1791, according \nto this page\nRetriever\nIndexed Docs\nLLM\nGenerator\nCorpus of\nDocuments\nUser prompt:\nPrompt \nformulation\nKnowledge\nCitation\nFigure 11.13\nRetrieval-augmented generation takes as input a user prompt (which may express an informa-\ntion need like this question example), and a corpus of documents that may be useful in meeting the information\nneed. The method has two stages: retrieval, which returns relevant documents from the collection, and genera-\ntion, in which an LLM generates text given the documents as a prompt. Some generations include a knowledge\ncitation that can help the user decide whether to trust the generation, or follow up if they are interested.\nof The Magic Flute?. We pass this question to a dense retriever and return a se-\nries of passages about The Magic Flute.\nThe idea of retrieval-augmented generation is to condition on the retrieved pas-\nsages, jointly with some prompt text, for example like “Based on these texts, answer\nthis question:”.",
+        "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_84",
+          "text": "24\nChapter 11\n•\nRetrieval-based Models\nBabbage, C. 1864. Passages from the Life of a Philosopher.\nLongman.\nBajaj, P., D. Campos, N. Craswell, L. Deng, J. G. ando\nXiaodong Liu, R. Majumder, A. McNamara, B. Mitra,\nT. Nguye, M. Rosenberg, X. Song, A. Stoica, S. Tiwary,\nand T. Wang. 2016. MS MARCO: A human generated\nMAchine Reading COmprehension dataset. NeurIPS.\nChen, D., A. Fisch, J. Weston, and A. Bordes. 2017. Reading\nWikipedia to answer open-domain questions. ACL.\nClark,\nJ.\nH.,\nE.\nChoi,\nM.\nCollins,\nD.\nGarrette,\nT. Kwiatkowski, V. Nikolaev, and J. Palomaki. 2020.\nTyDi QA: A benchmark for information-seeking ques-\ntion answering in typologically diverse languages. TACL,\n8:454–470.\nDahl, M., V. Magesh, M. Suzgun, and D. E. Ho. 2024. Large\nlegal fictions: Profiling legal hallucinations in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis.",
+          "page": 24,
+          "section": "Page 24",
+          "filename": "rag.pdf",
+          "distance": 415.4194030761719
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_0",
+          "text": "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 417.8782653808594
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_3",
+          "text": "nformation in their parameters. Factual knowledge of this type seems to be stored\nin the connections in the very large feedforward layers of transformer models (Geva\net al., 2021; Meng et al., 2022).\n1\nThe answer was 42, but unfortunately the question was never revealed.\n2\nThe answer, of course, is ‘Who is Bram Stoker’, and the novel was Dracula.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 418.891845703125
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_57",
+          "text": "11.4\n•\nRETRIEVAL-AUGMENTED GENERATION (RAG)\n17\nWhen was\nthe premiere of\nThe Magic Flute?\nRelevant\nDocs\n1791, according \nto this page\nRetriever\nIndexed Docs\nLLM\nGenerator\nCorpus of\nDocuments\nUser prompt:\nPrompt \nformulation\nKnowledge\nCitation\nFigure 11.13\nRetrieval-augmented generation takes as input a user prompt (which may express an informa-\ntion need like this question example), and a corpus of documents that may be useful in meeting the information\nneed. The method has two stages: retrieval, which returns relevant documents from the collection, and genera-\ntion, in which an LLM generates text given the documents as a prompt. Some generations include a knowledge\ncitation that can help the user decide whether to trust the generation, or follow up if they are interested.\nof The Magic Flute?. We pass this question to a dense retriever and return a se-\nries of passages about The Magic Flute.\nThe idea of retrieval-augmented generation is to condition on the retrieved pas-\nsages, jointly with some prompt text, for example like “Based on these texts, answer\nthis question:”.",
+          "page": 17,
+          "section": "Page 17",
+          "filename": "rag.pdf",
+          "distance": 419.0469665527344
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_70",
+          "text": "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion.",
+          "page": 20,
+          "section": "Page 20",
+          "filename": "rag.pdf",
+          "distance": 419.2106628417969
+        }
+      ]
+    },
+    {
+      "question": "In which year did IBM's Watson system win the TV game show Jeopardy?",
+      "answer": "IBM's Watson system won the TV game show Jeopardy! in 2011.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9913726700935389,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "EXERCISES\n23\nprovide a testbed for evaluating information-retrieval tasks and techniques (Voorhees\nand Harman, 2005). TREC added an influential QA track in 1999, which led to a\nwide variety of factoid and non-factoid question answering systems competing in\nannual evaluations.\nAt that same time, Hirschman et al. (1999) introduced the idea of using chil-\ndren’s reading comprehension tests to evaluate machine text comprehension algo-\nrithms. They acquired a corpus of 120 passages with 5 questions each designed for\n3rd-6th grade children, built an answer extraction system, and measured how well\nthe answers given by their system corresponded to the answer key from the test’s\npublisher. Their algorithm focused on word overlap as a feature; later algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy!",
+        "ater algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy! system was a large and so-\nphisticated feature-based system developed just before neural systems became com-\nmon. It is described in a series of papers in volume 56 of the IBM Journal of Re-\nsearch and Development, e.g., Ferrucci (2012).\nEarly neural reading comprehension systems drew on the insight common to\nearly systems that answer finding should focus on question-passage similarity. Many\nof the architectural outlines of these neural systems were laid out in Hermann et al.\n(2015), Chen et al. (2017), and Seo et al. (2017). These systems focused on datasets\nlike Rajpurkar et al. (2016) and Rajpurkar et al. (2018) and their successors, usually\nusing separate IR algorithms as input to neural reading comprehension systems.",
+        "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+        "can be evaluated by exact match with a\nknown answer if only a single answer is given, with token F1 score for free\ntext answers.\nHistorical Notes\nQuestion answering was one of the earliest NLP tasks. By 1961 the BASEBALL\nsystem (Green et al., 1961) answered questions about baseball games like “Where\ndid the Red Sox play on July 7” by querying a structured database of game infor-\nmation. The database was stored as a kind of attribute-value matrix with values for\nattributes of each game:",
+        "y a decade\nlater, neural models were applied to semantic parsing (Dong and Lapata 2016, Jia\nand Liang 2016), and then to knowledge-based question answering by mapping text\nto SQL (Iyer et al., 2017).\n[TBD: History of IR.]\nMeanwhile, a paradigm for answering questions that drew more on information-\nretrieval was influenced by the rise of the web in the 1990s. The U.S. government-\nsponsored TREC (Text REtrieval Conference) evaluations, run annually since 1992,"
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_80",
+          "text": "EXERCISES\n23\nprovide a testbed for evaluating information-retrieval tasks and techniques (Voorhees\nand Harman, 2005). TREC added an influential QA track in 1999, which led to a\nwide variety of factoid and non-factoid question answering systems competing in\nannual evaluations.\nAt that same time, Hirschman et al. (1999) introduced the idea of using chil-\ndren’s reading comprehension tests to evaluate machine text comprehension algo-\nrithms. They acquired a corpus of 120 passages with 5 questions each designed for\n3rd-6th grade children, built an answer extraction system, and measured how well\nthe answers given by their system corresponded to the answer key from the test’s\npublisher. Their algorithm focused on word overlap as a feature; later algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy!",
+          "page": 23,
+          "section": "Page 23",
+          "filename": "rag.pdf",
+          "distance": 461.4017333984375
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_81",
+          "text": "ater algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy! system was a large and so-\nphisticated feature-based system developed just before neural systems became com-\nmon. It is described in a series of papers in volume 56 of the IBM Journal of Re-\nsearch and Development, e.g., Ferrucci (2012).\nEarly neural reading comprehension systems drew on the insight common to\nearly systems that answer finding should focus on question-passage similarity. Many\nof the architectural outlines of these neural systems were laid out in Hermann et al.\n(2015), Chen et al. (2017), and Seo et al. (2017). These systems focused on datasets\nlike Rajpurkar et al. (2016) and Rajpurkar et al. (2018) and their successors, usually\nusing separate IR algorithms as input to neural reading comprehension systems.",
+          "page": 23,
+          "section": "Page 23",
+          "filename": "rag.pdf",
+          "distance": 461.569580078125
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_0",
+          "text": "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 462.1797180175781
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_75",
+          "text": "can be evaluated by exact match with a\nknown answer if only a single answer is given, with token F1 score for free\ntext answers.\nHistorical Notes\nQuestion answering was one of the earliest NLP tasks. By 1961 the BASEBALL\nsystem (Green et al., 1961) answered questions about baseball games like “Where\ndid the Red Sox play on July 7” by querying a structured database of game infor-\nmation. The database was stored as a kind of attribute-value matrix with values for\nattributes of each game:",
+          "page": 21,
+          "section": "Page 21",
+          "filename": "rag.pdf",
+          "distance": 462.85699462890625
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_79",
+          "text": "y a decade\nlater, neural models were applied to semantic parsing (Dong and Lapata 2016, Jia\nand Liang 2016), and then to knowledge-based question answering by mapping text\nto SQL (Iyer et al., 2017).\n[TBD: History of IR.]\nMeanwhile, a paradigm for answering questions that drew more on information-\nretrieval was influenced by the rise of the web in the 1990s. The U.S. government-\nsponsored TREC (Text REtrieval Conference) evaluations, run annually since 1992,",
+          "page": 22,
+          "section": "Page 22",
+          "filename": "rag.pdf",
+          "distance": 463.0651550292969
+        }
+      ]
+    },
+    {
+      "question": "What is an example of a fictional computer that answered a philosophical question in The Hitchhiker’s Guide to the Galaxy?",
+      "answer": "An example of a fictional computer that answered a philosophical question in The Hitchhiker’s Guide to the Galaxy is Deep Thought. In the book, Deep Thought was a supercomputer tasked with answering the \"Ultimate Question of Life, the Universe, and Everything,\" a question that had been asked for 7.5 million years without a definitive answer. Deep Thought computed the answer to this question for 7.5 million years and concluded that the answer was 42.",
+      "faithfulness": 0.42857142857142855,
+      "answer_relevancy": 0.7652061803074779,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+        "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion.",
+        "ater algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy! system was a large and so-\nphisticated feature-based system developed just before neural systems became com-\nmon. It is described in a series of papers in volume 56 of the IBM Journal of Re-\nsearch and Development, e.g., Ferrucci (2012).\nEarly neural reading comprehension systems drew on the insight common to\nearly systems that answer finding should focus on question-passage similarity. Many\nof the architectural outlines of these neural systems were laid out in Hermann et al.\n(2015), Chen et al. (2017), and Seo et al. (2017). These systems focused on datasets\nlike Rajpurkar et al. (2016) and Rajpurkar et al. (2018) and their successors, usually\nusing separate IR algorithms as input to neural reading comprehension systems.",
+        "24\nChapter 11\n•\nRetrieval-based Models\nBabbage, C. 1864. Passages from the Life of a Philosopher.\nLongman.\nBajaj, P., D. Campos, N. Craswell, L. Deng, J. G. ando\nXiaodong Liu, R. Majumder, A. McNamara, B. Mitra,\nT. Nguye, M. Rosenberg, X. Song, A. Stoica, S. Tiwary,\nand T. Wang. 2016. MS MARCO: A human generated\nMAchine Reading COmprehension dataset. NeurIPS.\nChen, D., A. Fisch, J. Weston, and A. Bordes. 2017. Reading\nWikipedia to answer open-domain questions. ACL.\nClark,\nJ.\nH.,\nE.\nChoi,\nM.\nCollins,\nD.\nGarrette,\nT. Kwiatkowski, V. Nikolaev, and J. Palomaki. 2020.\nTyDi QA: A benchmark for information-seeking ques-\ntion answering in typologically diverse languages. TACL,\n8:454–470.\nDahl, M., V. Magesh, M. Suzgun, and D. E. Ho. 2024. Large\nlegal fictions: Profiling legal hallucinations in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis.",
+        "e memories.\nEMNLP.\nGreen, B. F., A. K. Wolf, C. Chomsky, and K. Laughery.\n1961. Baseball: An automatic question answerer. Pro-\nceedings of the Western Joint Computer Conference 19.\nHe, W., K. Liu, J. Liu, Y. Lyu, S. Zhao, X. Xiao, Y. Liu,\nY. Wang, H. Wu, Q. She, X. Liu, T. Wu, and H. Wang.\n2018. DuReader: a Chinese machine reading compre-\nhension dataset from real-world applications. Workshop\non Machine Reading for Question Answering.\nHermann, K. M., T. Kocisky, E. Grefenstette, L. Espeholt,\nW. Kay, M. Suleyman, and P. Blunsom. 2015. Teaching\nmachines to read and comprehend. NeurIPS.\nHirschman, L., M. Light, E. Breck, and J. D. Burger. 1999.\nDeep Read: A reading comprehension system. ACL.\nIyer, S., I. Konstas, A. Cheung, J. Krishnamurthy, and\nL. Zettlemoyer. 2017. Learning a neural semantic parser\nfrom user feedback. ACL.\nIzacard, G., P. Lewis, M. Lomeli, L. Hosseini, F. Petroni,\nT. Schick, J. Dwivedi-Yu, A. Joulin, S. Riedel, and\nE. Grave. 2022.\nFew-shot learning with retrieval aug-\nmented language models."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_0",
+          "text": "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 406.14288330078125
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_70",
+          "text": "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion.",
+          "page": 20,
+          "section": "Page 20",
+          "filename": "rag.pdf",
+          "distance": 407.870361328125
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_81",
+          "text": "ater algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy! system was a large and so-\nphisticated feature-based system developed just before neural systems became com-\nmon. It is described in a series of papers in volume 56 of the IBM Journal of Re-\nsearch and Development, e.g., Ferrucci (2012).\nEarly neural reading comprehension systems drew on the insight common to\nearly systems that answer finding should focus on question-passage similarity. Many\nof the architectural outlines of these neural systems were laid out in Hermann et al.\n(2015), Chen et al. (2017), and Seo et al. (2017). These systems focused on datasets\nlike Rajpurkar et al. (2016) and Rajpurkar et al. (2018) and their successors, usually\nusing separate IR algorithms as input to neural reading comprehension systems.",
+          "page": 23,
+          "section": "Page 23",
+          "filename": "rag.pdf",
+          "distance": 408.5438537597656
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_84",
+          "text": "24\nChapter 11\n•\nRetrieval-based Models\nBabbage, C. 1864. Passages from the Life of a Philosopher.\nLongman.\nBajaj, P., D. Campos, N. Craswell, L. Deng, J. G. ando\nXiaodong Liu, R. Majumder, A. McNamara, B. Mitra,\nT. Nguye, M. Rosenberg, X. Song, A. Stoica, S. Tiwary,\nand T. Wang. 2016. MS MARCO: A human generated\nMAchine Reading COmprehension dataset. NeurIPS.\nChen, D., A. Fisch, J. Weston, and A. Bordes. 2017. Reading\nWikipedia to answer open-domain questions. ACL.\nClark,\nJ.\nH.,\nE.\nChoi,\nM.\nCollins,\nD.\nGarrette,\nT. Kwiatkowski, V. Nikolaev, and J. Palomaki. 2020.\nTyDi QA: A benchmark for information-seeking ques-\ntion answering in typologically diverse languages. TACL,\n8:454–470.\nDahl, M., V. Magesh, M. Suzgun, and D. E. Ho. 2024. Large\nlegal fictions: Profiling legal hallucinations in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis.",
+          "page": 24,
+          "section": "Page 24",
+          "filename": "rag.pdf",
+          "distance": 409.1641845703125
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_86",
+          "text": "e memories.\nEMNLP.\nGreen, B. F., A. K. Wolf, C. Chomsky, and K. Laughery.\n1961. Baseball: An automatic question answerer. Pro-\nceedings of the Western Joint Computer Conference 19.\nHe, W., K. Liu, J. Liu, Y. Lyu, S. Zhao, X. Xiao, Y. Liu,\nY. Wang, H. Wu, Q. She, X. Liu, T. Wu, and H. Wang.\n2018. DuReader: a Chinese machine reading compre-\nhension dataset from real-world applications. Workshop\non Machine Reading for Question Answering.\nHermann, K. M., T. Kocisky, E. Grefenstette, L. Espeholt,\nW. Kay, M. Suleyman, and P. Blunsom. 2015. Teaching\nmachines to read and comprehend. NeurIPS.\nHirschman, L., M. Light, E. Breck, and J. D. Burger. 1999.\nDeep Read: A reading comprehension system. ACL.\nIyer, S., I. Konstas, A. Cheung, J. Krishnamurthy, and\nL. Zettlemoyer. 2017. Learning a neural semantic parser\nfrom user feedback. ACL.\nIzacard, G., P. Lewis, M. Lomeli, L. Hosseini, F. Petroni,\nT. Schick, J. Dwivedi-Yu, A. Joulin, S. Riedel, and\nE. Grave. 2022.\nFew-shot learning with retrieval aug-\nmented language models.",
+          "page": 24,
+          "section": "Page 24",
+          "filename": "rag.pdf",
+          "distance": 409.1785888671875
+        }
+      ]
+    },
+    {
+      "question": "How did Babbage's quote reflect on the concept of wrong figures in computing?",
+      "answer": "Babbage's quote suggests that the confusion of using a computer with incorrect input is a misunderstanding. Babbage himself did not understand how a machine could give wrong answers to the right figures, implying that the concept of using incorrect data to expect correct results is not valid. In the context of computing and language models, this means that even if large language models store the correct information in their parameters, they can still generate incorrect answers due to the limitations of their neural network layers. This makes it important for users and developers to be cautious and verify the information provided by these models, especially when dealing with important or sensitive data.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+        "24\nChapter 11\n•\nRetrieval-based Models\nBabbage, C. 1864. Passages from the Life of a Philosopher.\nLongman.\nBajaj, P., D. Campos, N. Craswell, L. Deng, J. G. ando\nXiaodong Liu, R. Majumder, A. McNamara, B. Mitra,\nT. Nguye, M. Rosenberg, X. Song, A. Stoica, S. Tiwary,\nand T. Wang. 2016. MS MARCO: A human generated\nMAchine Reading COmprehension dataset. NeurIPS.\nChen, D., A. Fisch, J. Weston, and A. Bordes. 2017. Reading\nWikipedia to answer open-domain questions. ACL.\nClark,\nJ.\nH.,\nE.\nChoi,\nM.\nCollins,\nD.\nGarrette,\nT. Kwiatkowski, V. Nikolaev, and J. Palomaki. 2020.\nTyDi QA: A benchmark for information-seeking ques-\ntion answering in typologically diverse languages. TACL,\n8:454–470.\nDahl, M., V. Magesh, M. Suzgun, and D. E. Ho. 2024. Large\nlegal fictions: Profiling legal hallucinations in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis.",
+        "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion.",
+        "responses\neven when the correct facts are stored in the parameters; this seems to be caused\nby the feedforward layers failing to recall the knowledge stored in their parameters\n(Jiang et al., 2024).\nAnd it’s not always possible to tell when language models are hallucinating,\npartly because LLMs aren’t well-calibrated. In a calibrated system, the confidence\ncalibrated\nof a system in the correctness of its answer is highly correlated with the probability\nof an answer being correct. So if a calibrated system is wrong, at least it might hedge\nits answer or tell us to go check another source. But since language models are not\nwell-calibrated, they often give a very wrong answer with complete certainty (Zhou\net al., 2024).\nA second problem with meeting user information needs with simple prompting\nmethods is that prompting a large language model to answer from its pretrained pa-\nrameters doesn’t allow us to ask questions about proprietary data.",
+        "2\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nSimply prompting an LLM is useful for many generation tasks, including those\ninvolving facts. But the fact that knowledge is stored in the feedforward weights of\nthe LLM leads to a number of problems with prompting as a method for correctly\ngenerating factual texts or answers.\nThe first and main problem is that LLMs are often incorrect when generating\nanswers or other texts about facts! Large language models hallucinate. A hallu-\nhallucinate\ncination is a response that is not faithful to the facts of the world. That is, when\nasked questions, large language models sometimes make up answers that sound rea-\nsonable. For example, Dahl et al. (2024) found that when asked questions about the\nlegal domain (like about particular legal cases), large language models hallucinated\nfrom 69% to 88% of the time! LLMs sometimes give incorrect factual responses\neven when the correct facts are stored in the parameters; this seems to be caused\nby the feedforward layers failing to recall the knowledge stored in their parameters\n(Jiang et al., 2024)."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_0",
+          "text": "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 388.97113037109375
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_84",
+          "text": "24\nChapter 11\n•\nRetrieval-based Models\nBabbage, C. 1864. Passages from the Life of a Philosopher.\nLongman.\nBajaj, P., D. Campos, N. Craswell, L. Deng, J. G. ando\nXiaodong Liu, R. Majumder, A. McNamara, B. Mitra,\nT. Nguye, M. Rosenberg, X. Song, A. Stoica, S. Tiwary,\nand T. Wang. 2016. MS MARCO: A human generated\nMAchine Reading COmprehension dataset. NeurIPS.\nChen, D., A. Fisch, J. Weston, and A. Bordes. 2017. Reading\nWikipedia to answer open-domain questions. ACL.\nClark,\nJ.\nH.,\nE.\nChoi,\nM.\nCollins,\nD.\nGarrette,\nT. Kwiatkowski, V. Nikolaev, and J. Palomaki. 2020.\nTyDi QA: A benchmark for information-seeking ques-\ntion answering in typologically diverse languages. TACL,\n8:454–470.\nDahl, M., V. Magesh, M. Suzgun, and D. E. Ho. 2024. Large\nlegal fictions: Profiling legal hallucinations in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis.",
+          "page": 24,
+          "section": "Page 24",
+          "filename": "rag.pdf",
+          "distance": 393.802001953125
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_70",
+          "text": "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion.",
+          "page": 20,
+          "section": "Page 20",
+          "filename": "rag.pdf",
+          "distance": 393.9850769042969
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_5",
+          "text": "responses\neven when the correct facts are stored in the parameters; this seems to be caused\nby the feedforward layers failing to recall the knowledge stored in their parameters\n(Jiang et al., 2024).\nAnd it’s not always possible to tell when language models are hallucinating,\npartly because LLMs aren’t well-calibrated. In a calibrated system, the confidence\ncalibrated\nof a system in the correctness of its answer is highly correlated with the probability\nof an answer being correct. So if a calibrated system is wrong, at least it might hedge\nits answer or tell us to go check another source. But since language models are not\nwell-calibrated, they often give a very wrong answer with complete certainty (Zhou\net al., 2024).\nA second problem with meeting user information needs with simple prompting\nmethods is that prompting a large language model to answer from its pretrained pa-\nrameters doesn’t allow us to ask questions about proprietary data.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "rag.pdf",
+          "distance": 394.8256530761719
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_4",
+          "text": "2\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nSimply prompting an LLM is useful for many generation tasks, including those\ninvolving facts. But the fact that knowledge is stored in the feedforward weights of\nthe LLM leads to a number of problems with prompting as a method for correctly\ngenerating factual texts or answers.\nThe first and main problem is that LLMs are often incorrect when generating\nanswers or other texts about facts! Large language models hallucinate. A hallu-\nhallucinate\ncination is a response that is not faithful to the facts of the world. That is, when\nasked questions, large language models sometimes make up answers that sound rea-\nsonable. For example, Dahl et al. (2024) found that when asked questions about the\nlegal domain (like about particular legal cases), large language models hallucinated\nfrom 69% to 88% of the time! LLMs sometimes give incorrect factual responses\neven when the correct facts are stored in the parameters; this seems to be caused\nby the feedforward layers failing to recall the knowledge stored in their parameters\n(Jiang et al., 2024).",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "rag.pdf",
+          "distance": 395.00921630859375
+        }
+      ]
+    },
+    {
+      "question": "What kind of model is referred to as a \"bag-of-words model\" in the text?",
+      "answer": "The term \"bag-of-words model\" refers to a model where a document is represented as a vector of counts of the words it contains, disregarding the position of the words and only keeping their frequency in the document.",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.8569475755171245,
+      "document_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "4\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\ndocuments and queries with embeddings, computed from language models (either\nencoder or decoder models). We’ll discuss sparse retrieval in the rest of this section,\nand turn to dense retrieval in Section 11.3.\n11.1.1\nRepresenting documents as vectors\nIn the vector space model of information retrieval (Salton, 1971) a document is\nvector space\nmodel\nrepresented as a vector of counts of the words it contains.\nWe sometimes call this kind of model a bag-of-words model. Fig. 11.2 shows\nthe intuition: we are representing a text document as if it were a bag of words,\nbag of words\nthat is, an unordered set of words with their position ignored, keeping only their\nfrequency in the document. In the example in the figure, instead of representing the\nword order in all the phrases like “It manages to be whimsical and romantic”, we\nsimply note that the word it occurred 5 times in the entire excerpt, the words love,\nrecommend, and movie once, and so on.",
+        "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion.",
+        "ns in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis. JASIS, 41(6):391–407.\nDong, L. and M. Lapata. 2016. Language to logical form\nwith neural attention. ACL.\nFerrucci, D. A. 2012. Introduction to “This is Watson”. IBM\nJournal of Research and Development, 56(3/4):1:1–1:15.\nFurnas, G. W., T. K. Landauer, L. M. Gomez, and S. T.\nDumais. 1987.\nThe vocabulary problem in human-\nsystem communication.\nCommunications of the ACM,\n30(11):964–971.\nGao, T., H. Yen, J. Yu, and D. Chen. 2023. Enabling large\nlanguage models to generate text with citations. EMNLP.\nGeva, M., R. Schuster, J. Berant, and O. Levy. 2021.\nTransformer feed-forward layers are key-value memories.\nEMNLP.\nGreen, B. F., A. K. Wolf, C. Chomsky, and K. Laughery.\n1961. Baseball: An automatic question answerer. Pro-\nceedings of the Western Joint Computer Conference 19.\nHe, W., K. Liu, J.",
+        "2\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nSimply prompting an LLM is useful for many generation tasks, including those\ninvolving facts. But the fact that knowledge is stored in the feedforward weights of\nthe LLM leads to a number of problems with prompting as a method for correctly\ngenerating factual texts or answers.\nThe first and main problem is that LLMs are often incorrect when generating\nanswers or other texts about facts! Large language models hallucinate. A hallu-\nhallucinate\ncination is a response that is not faithful to the facts of the world. That is, when\nasked questions, large language models sometimes make up answers that sound rea-\nsonable. For example, Dahl et al. (2024) found that when asked questions about the\nlegal domain (like about particular legal cases), large language models hallucinated\nfrom 69% to 88% of the time! LLMs sometimes give incorrect factual responses\neven when the correct facts are stored in the parameters; this seems to be caused\nby the feedforward layers failing to recall the knowledge stored in their parameters\n(Jiang et al., 2024).",
+        "6\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nThe term frequency term tells us how frequent the word is; words that occur\nmore often in a document are likely to be informative about the document’s contents.\nWe usually use the log10 of the word frequency, rather than the raw count. The\nintuition is that a word appearing 100 times in a document doesn’t make that word\n100 times more likely to be relevant to the meaning of the document. We also need\nto do something special with counts of 0, since we can’t take the log of 0.3 So if we\ndefine count(t,d) as the raw count of term t in document d, then tft,d, the tf of term t\nin document d is\ntft,d =\n(\n1+log10 count(t,d)\nif count(t,d) > 0\n0\notherwise\n(11.4)\nIf we use log weighting, terms which occur 0 times in a document would have tf = 0,\n1 times in a document tf = 1 + log10(1) = 1 + 0 = 1, 10 times in a document tf =\n1+log10(10) = 2, 100 times tf = 1+log10(100) = 3, 1000 times tf = 4, and so on.\nThe document frequency dft of a term t is the number of documents it oc-\ncurs in."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_13",
+          "text": "4\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\ndocuments and queries with embeddings, computed from language models (either\nencoder or decoder models). We’ll discuss sparse retrieval in the rest of this section,\nand turn to dense retrieval in Section 11.3.\n11.1.1\nRepresenting documents as vectors\nIn the vector space model of information retrieval (Salton, 1971) a document is\nvector space\nmodel\nrepresented as a vector of counts of the words it contains.\nWe sometimes call this kind of model a bag-of-words model. Fig. 11.2 shows\nthe intuition: we are representing a text document as if it were a bag of words,\nbag of words\nthat is, an unordered set of words with their position ignored, keeping only their\nfrequency in the document. In the example in the figure, instead of representing the\nword order in all the phrases like “It manages to be whimsical and romantic”, we\nsimply note that the word it occurred 5 times in the entire excerpt, the words love,\nrecommend, and movie once, and so on.",
+          "page": 4,
+          "section": "Page 4",
+          "filename": "rag.pdf",
+          "distance": 418.7332763671875
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_70",
+          "text": "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion.",
+          "page": 20,
+          "section": "Page 20",
+          "filename": "rag.pdf",
+          "distance": 422.4502258300781
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_85",
+          "text": "ns in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis. JASIS, 41(6):391–407.\nDong, L. and M. Lapata. 2016. Language to logical form\nwith neural attention. ACL.\nFerrucci, D. A. 2012. Introduction to “This is Watson”. IBM\nJournal of Research and Development, 56(3/4):1:1–1:15.\nFurnas, G. W., T. K. Landauer, L. M. Gomez, and S. T.\nDumais. 1987.\nThe vocabulary problem in human-\nsystem communication.\nCommunications of the ACM,\n30(11):964–971.\nGao, T., H. Yen, J. Yu, and D. Chen. 2023. Enabling large\nlanguage models to generate text with citations. EMNLP.\nGeva, M., R. Schuster, J. Berant, and O. Levy. 2021.\nTransformer feed-forward layers are key-value memories.\nEMNLP.\nGreen, B. F., A. K. Wolf, C. Chomsky, and K. Laughery.\n1961. Baseball: An automatic question answerer. Pro-\nceedings of the Western Joint Computer Conference 19.\nHe, W., K. Liu, J.",
+          "page": 24,
+          "section": "Page 24",
+          "filename": "rag.pdf",
+          "distance": 422.608642578125
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_4",
+          "text": "2\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nSimply prompting an LLM is useful for many generation tasks, including those\ninvolving facts. But the fact that knowledge is stored in the feedforward weights of\nthe LLM leads to a number of problems with prompting as a method for correctly\ngenerating factual texts or answers.\nThe first and main problem is that LLMs are often incorrect when generating\nanswers or other texts about facts! Large language models hallucinate. A hallu-\nhallucinate\ncination is a response that is not faithful to the facts of the world. That is, when\nasked questions, large language models sometimes make up answers that sound rea-\nsonable. For example, Dahl et al. (2024) found that when asked questions about the\nlegal domain (like about particular legal cases), large language models hallucinated\nfrom 69% to 88% of the time! LLMs sometimes give incorrect factual responses\neven when the correct facts are stored in the parameters; this seems to be caused\nby the feedforward layers failing to recall the knowledge stored in their parameters\n(Jiang et al., 2024).",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "rag.pdf",
+          "distance": 422.690185546875
+        },
+        {
+          "chunk_id": "623b98b1-ff3b-4ff9-94fc-1cb88c7d94b2_20",
+          "text": "6\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nThe term frequency term tells us how frequent the word is; words that occur\nmore often in a document are likely to be informative about the document’s contents.\nWe usually use the log10 of the word frequency, rather than the raw count. The\nintuition is that a word appearing 100 times in a document doesn’t make that word\n100 times more likely to be relevant to the meaning of the document. We also need\nto do something special with counts of 0, since we can’t take the log of 0.3 So if we\ndefine count(t,d) as the raw count of term t in document d, then tft,d, the tf of term t\nin document d is\ntft,d =\n(\n1+log10 count(t,d)\nif count(t,d) > 0\n0\notherwise\n(11.4)\nIf we use log weighting, terms which occur 0 times in a document would have tf = 0,\n1 times in a document tf = 1 + log10(1) = 1 + 0 = 1, 10 times in a document tf =\n1+log10(10) = 2, 100 times tf = 1+log10(100) = 3, 1000 times tf = 4, and so on.\nThe document frequency dft of a term t is the number of documents it oc-\ncurs in.",
+          "page": 6,
+          "section": "Page 6",
+          "filename": "rag.pdf",
+          "distance": 422.8929443359375
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "average_faithfulness": 0.2357142857142857,
+    "average_answer_relevancy": 0.5227052851836282
+  }
+}
