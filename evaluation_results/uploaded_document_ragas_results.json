@@ -1,0 +1,51 @@
+{
+  "document_id": "54fa78dc-ef91-45d4-be25-a60dde2a5c6e",
+  "num_questions": 5,
+  "results": [
+    {
+      "question": "What notable fictional computer, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy, was capable of answering a 'Ultimate Question'?",
+      "answer": "The notable fictional computer, invented by Douglas Adams in \"The Hitchhiker's Guide to the Galaxy,\" that was capable of answering the \"Ultimate Question\" was Deep Thought.",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9516058912762276,
+      "document_id": "54fa78dc-ef91-45d4-be25-a60dde2a5c6e",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    },
+    {
+      "question": "According to the document, by what year was a system developed to answer questions about American baseball statistics created?",
+      "answer": "According to the document, the system to answer questions about American baseball statistics was developed by 1961.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9480543902672024,
+      "document_id": "54fa78dc-ef91-45d4-be25-a60dde2a5c6e",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    },
+    {
+      "question": "What is the term-document matrix in the context of the vector space model of information retrieval, as described in the document?",
+      "answer": "The term-document matrix is a representation used in the vector space model of information retrieval. In this model, a document is represented as a vector of counts, where each word in a document's vocabulary is a dimension, and the value of each dimension represents the frequency of the corresponding word in the document. This matrix can be visualized as a grid, where rows represent words and columns represent documents. Each cell in the matrix indicates the number of times a particular word occurs in a particular document.\n\nFor example, a term-document matrix could be constructed from a collection of documents to show how frequently certain words appear in each document. This matrix helps in understanding the relevance of documents to a given term or query. In the context of the vector space model, the term-document matrix is a fundamental component that enables the representation of documents and their retrieval based on query terms.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9232478270939714,
+      "document_id": "54fa78dc-ef91-45d4-be25-a60dde2a5c6e",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    },
+    {
+      "question": "In the computation of the tf-idf cosine score, what term is typically omitted in one common variant of tf-idf cosine, as mentioned in the document?",
+      "answer": "In one common variant of tf-idf cosine, the idf term for the document is typically omitted.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "document_id": "54fa78dc-ef91-45d4-be25-a60dde2a5c6e",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    },
+    {
+      "question": "What method is used to evaluate the performance of retrieval-augmented generation (RAG) in the context of the document?",
+      "answer": "To evaluate the performance of retrieval-augmented generation (RAG) in the context of the document, several methods are commonly used, including mean average precision (MAP) and interpolated precision. These metrics are used to evaluate the relevance of the documents retrieved for a given query to the user's information need. The retrieval step involves using information retrieval techniques to find the k most similar document embeddings to a query embedding, allowing for quick ranking of the retrieved documents. In the generation stage, a large language model is prompted with the query and the set of documents retrieved from the collection, and then it conditionally generates an answer. For factual tasks like question answering, the evaluation can be based on exact match or token F1 score with a known answer.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9476258180971792,
+      "document_id": "54fa78dc-ef91-45d4-be25-a60dde2a5c6e",
+      "model_used": "qwen2.5:3b",
+      "num_contexts": 5
+    }
+  ]
+}

@@ -6,13 +6,18 @@ class AskRequest(BaseModel):
         min_length = 1,
         max_length = 2000
     )
-
+    document_id: str | None = None 
+    conversation_id: str | None = None 
 
 class Source(BaseModel):
     doc_id : str
     chunk_id: str
     text:str
     source : str
+    filename:  str | None =  None  
+    page: int | None = None 
+    section: str | None  = None 
+    citation: str | None  = None 
 
 
 
@@ -21,3 +26,17 @@ class AskResponse(BaseModel):
     status : str
     model_used : str 
     sources : list[Source]
+    conversation_id: str | None = None  
+
+
+class AskRequest(BaseModel):
+    question: str = Field(
+        ...,
+        min_length=1,
+        max_length=2000,
+    )
+    document_id: str | None = None
+    conversation_id: str | None = None
+    conversation_history: list[dict[str, str]] = Field(
+        default_factory=list
+    )
