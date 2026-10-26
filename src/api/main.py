@@ -1,3 +1,4 @@
+import asyncio 
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 import logging
@@ -98,6 +99,12 @@ def ask(request: AskRequest):
         "conversation_id": conversation_id,
     }
 
+def run_evaluation_in_background(document_id: str) -> None:
+    asyncio.run(
+        evaluate_uploaded_document(document_id)
+    )
+
+
 #DOC UPLOAD Endpoint
 
 
@@ -143,7 +150,7 @@ async def upload_document(
         chunk_count = index_document(document)
 
         background_tasks.add_task(
-            evaluate_uploaded_document , 
+           run_evaluation_in_background , 
             document.document_id,
         )
 

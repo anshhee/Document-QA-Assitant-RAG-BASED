@@ -1,0 +1,300 @@
+{
+  "document_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd",
+  "num_questions": 5,
+  "results": [
+    {
+      "question": "What are the three key dietary components emphasized for blood sugar control according to the document?",
+      "answer": "The three key dietary components emphasized for blood sugar control according to the document are:\n\n1. **Quality Protein**: This includes wild caught fish, pasture raised eggs, grass fed beef, and organic beans.\n2. **Healthy Fat**: Sources like nuts, seeds, olive oil, and fatty fish.\n3. **Natural Fiber**: Found in non-starchy vegetables.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9999999999999999,
+      "document_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+        "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+        "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+        "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+        "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_1",
+          "text": "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 383.50811767578125
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_2",
+          "text": "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 386.20513916015625
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_4",
+          "text": "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 386.98052978515625
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_3",
+          "text": "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 388.4591064453125
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_0",
+          "text": "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 388.5140075683594
+        }
+      ]
+    },
+    {
+      "question": "What is the recommended ratio of carbohydrates to dietary fiber in packaged foods according to the document?",
+      "answer": "According to the document, for packaged foods, a recommended ratio of carbohydrates to dietary fiber is 5:1. Prioritize breakfast, which is the most reactive time for sugar, and aim for a breakfast high in healthy fats and protein, and low in carbohydrates.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9690544699775785,
+      "document_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+        "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+        "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+        "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+        "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_1",
+          "text": "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 380.4680480957031
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_2",
+          "text": "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 383.36376953125
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_4",
+          "text": "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 383.65069580078125
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_3",
+          "text": "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 385.2652282714844
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_0",
+          "text": "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 388.36334228515625
+        }
+      ]
+    },
+    {
+      "question": "How does reorganizing the food on your plate impact blood sugar control according to the document?",
+      "answer": "Reorganizing the food on your plate can impact blood sugar control by promoting a more balanced intake of carbohydrates, fats, and proteins. According to the document, by eating fibrous vegetables first, followed by healthy fats and proteins, and lastly starchy or higher carbohydrate foods, you can blunt the blood sugar spike by 70%. This strategy is simple yet effective. Additionally, adding vinegar before a meal can further reduce the blood sugar spike by up to 30%.",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.754652483258512,
+      "document_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+        "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+        "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+        "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+        "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_1",
+          "text": "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 361.43133544921875
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_2",
+          "text": "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 361.8074645996094
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_4",
+          "text": "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 362.0821228027344
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_3",
+          "text": "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 363.40374755859375
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_0",
+          "text": "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 365.07183837890625
+        }
+      ]
+    },
+    {
+      "question": "What is the effect of having vinegar before a meal on blood sugar control, as per the document?",
+      "answer": "Having vinegar before a meal can blunt the blood sugar spike by up to 30%, according to Source 1. To implement this, you can drink 1 tablespoon of vinegar with a 12oz glass of water before your meal. Any food-grade vinegar can be used, and pregnant women should avoid apple cider vinegar as it is often unpasteurized. Additionally, Source 1 suggests adding vinegar over a bed of leafy greens at the start of your meal to blunt the spike.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8975632060172836,
+      "document_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+        "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+        "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+        "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+        "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_2",
+          "text": "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 404.51947021484375
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_1",
+          "text": "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 408.26446533203125
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_4",
+          "text": "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 408.8887939453125
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_3",
+          "text": "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 409.7767639160156
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_0",
+          "text": "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 412.3768615722656
+        }
+      ]
+    },
+    {
+      "question": "What is the recommended method for those who must have bread or a sugary drink during a meal, according to the document?",
+      "answer": "The recommended method for those who must have bread or a sugary drink during a meal, according to the document, is to save these foods for the end of the meal. The document suggests that by eating fibrous vegetables first, followed by healthy fats and protein, and then starchy or higher carbohydrate foods, you can blunt the blood sugar spike by 70%. If you must have bread or a sugary drink, save it for last. Additionally, the document recommends adding vinegar before the meal to blunt the blood sugar spike by up to 30%.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.980924439386654,
+      "document_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+        "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+        "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+        "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+        "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_2",
+          "text": "the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%. An amazing result for a\nsimple strategy. If everything on your plate\nis mixed, start with a side salad. If you must\nhave bread or a sugary drink, save it for the\nend of the meal. \nConsider adding vinegar\nHaving vinegar before a meal can\nblunt the blood sugar spike by up to\n30%. Consider drinking 1 tbsp of\nvinegar with a 12oz glass of water\nbefore your meal to reduce the blood\nsugar spike. Any food grade vinegar\nwill work. If you are currently\npregnant, avoid apple cider vinegar as\nthis is often unpasteurized. You can\nalso have the vinegar over a bed of\nleafy greens at the start of your meal\nto blunt the spike. \nOur blood sugar levels regulate our insulin level which is an incredibly important hormone in keeping all of\nour hormones in balance. Here is what is necessary to balance our blood sugars.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 383.1670227050781
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_1",
+          "text": "Plenty of quality protein,\nhealthy fat, and fiber.\nThis is where blood sugar control starts. A\ndiet high in quality protein (ex: wild caught\nfish, pasture raised eggs, grass fed beef,\norganic beens), healthy fats (ex: nuts,\nseeds, olive oil, fatty fish), and natural fiber\n(ex: non-starchy vegetables), will promote\nblood sugar control. If eating a packaged\nfood high in carbohydrates, look for 5:1\nratio of carbohydrates to dietary fiber. \nPrioritize the first meal of the\nday. \nBreakfast time (whether that be at 6am or\n11am) is when our bodies are the most\nreactive to sugar. Eating a breakfast high\nin healthy fat and protein, and low in\ncarbohydrates, can improve our blood\nsugar balance throughout the day. Go for\nthe savory breakfast over the sweet\noptions.\nBLOOD SUGAR AND INSULIN CONTROL\nRe-organize the food on your\nplate. \nBy eating your fibrous vegetables first,\nfollowed by your healthy fats and protein,\nand lastly any starchy or higher\ncarbohydrate food can blunt the blood\nsugar spike by 70%.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 383.7470397949219
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_3",
+          "text": "Avoid or minimize snacking.\nWaiting to eat for your next meal rather\nthan snacking allows for your blood sugar\nand insulin to return to baseline. This is\nnecessary to improve our insulin sensitivity.\nIf insulin is always elevated, our bodies\nstop responding and more insulin needs to\nbe released to get the job done. This has a\nnegative impact on our reproductive\nhormones. Drink water or tea instead! \nMove after eating. \nExercising or going for a walk after a meal\nreduces the blood sugar spike and allows\nour muscles to uptake more sugar from\nthe blood stream without the use of\ninsulin. This is a very good thing! If you\nhave the time, go for a walk or do squats\nafter a meal. \nAdd fat to your carbs. \nIf you must snack on occasion or have\ndessert, add healthy fat. This slows the\nuptake of carbohydrates from our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer.",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 383.889892578125
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_4",
+          "text": "rom our gut to\nour blood stream. Examples of this would\nbe to add peanut butter to an apple or\ncracker, or to add a spoonful of Greek\nyogurt to your dessert. This also helps keep\nus full for longer. \nCheck the label.\nSweeteners (even artificial calorie free\nsweeteners) increase our insulin release\nand can lead to insulin resistance. If\nsomething tastes sweet, it is likely effecting\nyour insulin levels. Be sure to avoid\nartificial sweeteners as they also have a\nnegative impact on our gut microbiome.\nAdd your own flavoring to things like\nseltzer water. Click here to read alternative\nnames to sugar that you may see on the\nlabel. Barley malt sounds harmless, but is\njust another name for sugar. \nContinued\nBLOOD SUGAR AND INSULIN CONTROL",
+          "page": 3,
+          "section": "Page 3",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 384.4313049316406
+        },
+        {
+          "chunk_id": "98aac421-8d7f-448a-bea5-a3163a70d3dd_0",
+          "text": "BLOOD SUGAR\nHACKS\nThese easy to implement tricks help\nblunt the blood sugar spike and keep\nyour insulin under control for weight\ncontrol and reduce risk for illness.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "Blood Sugar Hacks.pdf",
+          "distance": 388.4324645996094
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "average_faithfulness": 0.35,
+    "average_answer_relevancy": 0.9204389197280056
+  }
+}

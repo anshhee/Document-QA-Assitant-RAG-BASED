@@ -1,0 +1,300 @@
+{
+  "document_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091",
+  "num_questions": 5,
+  "results": [
+    {
+      "question": "What year did IBM's Watson system win the TV game show Jeopardy?",
+      "answer": "IBM's Watson system won the TV game show Jeopardy! in 2011.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9926962273186039,
+      "document_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "EXERCISES\n23\nprovide a testbed for evaluating information-retrieval tasks and techniques (Voorhees\nand Harman, 2005). TREC added an influential QA track in 1999, which led to a\nwide variety of factoid and non-factoid question answering systems competing in\nannual evaluations.\nAt that same time, Hirschman et al. (1999) introduced the idea of using chil-\ndren’s reading comprehension tests to evaluate machine text comprehension algo-\nrithms. They acquired a corpus of 120 passages with 5 questions each designed for\n3rd-6th grade children, built an answer extraction system, and measured how well\nthe answers given by their system corresponded to the answer key from the test’s\npublisher. Their algorithm focused on word overlap as a feature; later algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy!",
+        "ater algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy! system was a large and so-\nphisticated feature-based system developed just before neural systems became com-\nmon. It is described in a series of papers in volume 56 of the IBM Journal of Re-\nsearch and Development, e.g., Ferrucci (2012).\nEarly neural reading comprehension systems drew on the insight common to\nearly systems that answer finding should focus on question-passage similarity. Many\nof the architectural outlines of these neural systems were laid out in Hermann et al.\n(2015), Chen et al. (2017), and Seo et al. (2017). These systems focused on datasets\nlike Rajpurkar et al. (2016) and Rajpurkar et al. (2018) and their successors, usually\nusing separate IR algorithms as input to neural reading comprehension systems.",
+        "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+        "can be evaluated by exact match with a\nknown answer if only a single answer is given, with token F1 score for free\ntext answers.\nHistorical Notes\nQuestion answering was one of the earliest NLP tasks. By 1961 the BASEBALL\nsystem (Green et al., 1961) answered questions about baseball games like “Where\ndid the Red Sox play on July 7” by querying a structured database of game infor-\nmation. The database was stored as a kind of attribute-value matrix with values for\nattributes of each game:",
+        "y a decade\nlater, neural models were applied to semantic parsing (Dong and Lapata 2016, Jia\nand Liang 2016), and then to knowledge-based question answering by mapping text\nto SQL (Iyer et al., 2017).\n[TBD: History of IR.]\nMeanwhile, a paradigm for answering questions that drew more on information-\nretrieval was influenced by the rise of the web in the 1990s. The U.S. government-\nsponsored TREC (Text REtrieval Conference) evaluations, run annually since 1992,"
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_80",
+          "text": "EXERCISES\n23\nprovide a testbed for evaluating information-retrieval tasks and techniques (Voorhees\nand Harman, 2005). TREC added an influential QA track in 1999, which led to a\nwide variety of factoid and non-factoid question answering systems competing in\nannual evaluations.\nAt that same time, Hirschman et al. (1999) introduced the idea of using chil-\ndren’s reading comprehension tests to evaluate machine text comprehension algo-\nrithms. They acquired a corpus of 120 passages with 5 questions each designed for\n3rd-6th grade children, built an answer extraction system, and measured how well\nthe answers given by their system corresponded to the answer key from the test’s\npublisher. Their algorithm focused on word overlap as a feature; later algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy!",
+          "page": 23,
+          "section": "Page 23",
+          "filename": "rag.pdf",
+          "distance": 456.119140625
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_81",
+          "text": "ater algorithms\nadded named entity features and more complex similarity between the question and\nthe answer span (Riloff and Thelen 2000, Ng et al. 2000).\nThe DeepQA component of the Watson Jeopardy! system was a large and so-\nphisticated feature-based system developed just before neural systems became com-\nmon. It is described in a series of papers in volume 56 of the IBM Journal of Re-\nsearch and Development, e.g., Ferrucci (2012).\nEarly neural reading comprehension systems drew on the insight common to\nearly systems that answer finding should focus on question-passage similarity. Many\nof the architectural outlines of these neural systems were laid out in Hermann et al.\n(2015), Chen et al. (2017), and Seo et al. (2017). These systems focused on datasets\nlike Rajpurkar et al. (2016) and Rajpurkar et al. (2018) and their successors, usually\nusing separate IR algorithms as input to neural reading comprehension systems.",
+          "page": 23,
+          "section": "Page 23",
+          "filename": "rag.pdf",
+          "distance": 456.381591796875
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_0",
+          "text": "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 456.8597106933594
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_75",
+          "text": "can be evaluated by exact match with a\nknown answer if only a single answer is given, with token F1 score for free\ntext answers.\nHistorical Notes\nQuestion answering was one of the earliest NLP tasks. By 1961 the BASEBALL\nsystem (Green et al., 1961) answered questions about baseball games like “Where\ndid the Red Sox play on July 7” by querying a structured database of game infor-\nmation. The database was stored as a kind of attribute-value matrix with values for\nattributes of each game:",
+          "page": 21,
+          "section": "Page 21",
+          "filename": "rag.pdf",
+          "distance": 457.60491943359375
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_79",
+          "text": "y a decade\nlater, neural models were applied to semantic parsing (Dong and Lapata 2016, Jia\nand Liang 2016), and then to knowledge-based question answering by mapping text\nto SQL (Iyer et al., 2017).\n[TBD: History of IR.]\nMeanwhile, a paradigm for answering questions that drew more on information-\nretrieval was influenced by the rise of the web in the 1990s. The U.S. government-\nsponsored TREC (Text REtrieval Conference) evaluations, run annually since 1992,",
+          "page": 22,
+          "section": "Page 22",
+          "filename": "rag.pdf",
+          "distance": 457.73675537109375
+        }
+      ]
+    },
+    {
+      "question": "How was information encoded in text-based systems prior to the development of Large Language Models (LLMs)?",
+      "answer": "Prior to the development of Large Language Models (LLMs), information was encoded in text-based systems. Systems such as IBM's Watson, which won the TV game show Jeopardy! in 2011, could answer questions at human-level performance using facts expressed in short texts. This capability allowed for the retrieval of necessary information from the web, a process closely related to what modern search engines perform. However, LLMs have several limitations, including their inability to correctly generate answers to questions about proprietary data and their static nature, which means they cannot provide answers to rapidly changing information. Additionally, LLMs sometimes generate incorrect answers due to their feedforward layers failing to recall the knowledge stored in their parameters.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "document_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "e, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy! in 2011, surpassing humans at answering questions like:\nWILLIAM WILKINSON’S “AN ACCOUNT OF THE \nPRINCIPALITIES OF WALLACHIA AND MOLDOVIA”\nINSPIRED THIS AUTHOR’S MOST FAMOUS NOVEL 2\nIt follows naturally, then, that an important function of large language models is\nto fill human information needs. And since a lot of information is online, finding\nthe information that fills our needs is closely related to web information retrieval,\nthe task performed by search engines. Indeed, the distinction is becoming ever more\nfuzzy, as modern search engines are integrated with large language models.\nConsider some simple information needs, for example factoid questions that\nfactoid\nquestions\ncan be met with facts expressed in short texts like the following:\n(11.1) Where is the Louvre Museum located?",
+        "ting user information needs with simple prompting\nmethods is that prompting a large language model to answer from its pretrained pa-\nrameters doesn’t allow us to ask questions about proprietary data. We would like to\nuse language models to help with user information needs about proprietary data like\npersonal email. Or for the healthcare application we might want to apply a language\nmodel to medical records. Or a company may have internal documents that contain\nanswers for customer service or internal use. Or legal firms need to ask questions\nabout legal discovery from proprietary documents. None of this data (hopefully)\nwas in the large web-based corpora that large language models are pretrained on.\nA final issue with using large language models to answer knowledge questions is\nthat they are static; they were pretrained once, at a particular time. This means that\nLLMs cannot talk about about rapidly changing information (like something that\nhappened last week) since they won’t have up-to-date information from after their\nrelease data.",
+        "2\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nSimply prompting an LLM is useful for many generation tasks, including those\ninvolving facts. But the fact that knowledge is stored in the feedforward weights of\nthe LLM leads to a number of problems with prompting as a method for correctly\ngenerating factual texts or answers.\nThe first and main problem is that LLMs are often incorrect when generating\nanswers or other texts about facts! Large language models hallucinate. A hallu-\nhallucinate\ncination is a response that is not faithful to the facts of the world. That is, when\nasked questions, large language models sometimes make up answers that sound rea-\nsonable. For example, Dahl et al. (2024) found that when asked questions about the\nlegal domain (like about particular legal cases), large language models hallucinated\nfrom 69% to 88% of the time! LLMs sometimes give incorrect factual responses\neven when the correct facts are stored in the parameters; this seems to be caused\nby the feedforward layers failing to recall the knowledge stored in their parameters\n(Jiang et al., 2024).",
+        "ns in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis. JASIS, 41(6):391–407.\nDong, L. and M. Lapata. 2016. Language to logical form\nwith neural attention. ACL.\nFerrucci, D. A. 2012. Introduction to “This is Watson”. IBM\nJournal of Research and Development, 56(3/4):1:1–1:15.\nFurnas, G. W., T. K. Landauer, L. M. Gomez, and S. T.\nDumais. 1987.\nThe vocabulary problem in human-\nsystem communication.\nCommunications of the ACM,\n30(11):964–971.\nGao, T., H. Yen, J. Yu, and D. Chen. 2023. Enabling large\nlanguage models to generate text with citations. EMNLP.\nGeva, M., R. Schuster, J. Berant, and O. Levy. 2021.\nTransformer feed-forward layers are key-value memories.\nEMNLP.\nGreen, B. F., A. K. Wolf, C. Chomsky, and K. Laughery.\n1961. Baseball: An automatic question answerer. Pro-\nceedings of the Western Joint Computer Conference 19.\nHe, W., K. Liu, J.",
+        "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!"
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_1",
+          "text": "e, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy! in 2011, surpassing humans at answering questions like:\nWILLIAM WILKINSON’S “AN ACCOUNT OF THE \nPRINCIPALITIES OF WALLACHIA AND MOLDOVIA”\nINSPIRED THIS AUTHOR’S MOST FAMOUS NOVEL 2\nIt follows naturally, then, that an important function of large language models is\nto fill human information needs. And since a lot of information is online, finding\nthe information that fills our needs is closely related to web information retrieval,\nthe task performed by search engines. Indeed, the distinction is becoming ever more\nfuzzy, as modern search engines are integrated with large language models.\nConsider some simple information needs, for example factoid questions that\nfactoid\nquestions\ncan be met with facts expressed in short texts like the following:\n(11.1) Where is the Louvre Museum located?",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 365.85595703125
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_6",
+          "text": "ting user information needs with simple prompting\nmethods is that prompting a large language model to answer from its pretrained pa-\nrameters doesn’t allow us to ask questions about proprietary data. We would like to\nuse language models to help with user information needs about proprietary data like\npersonal email. Or for the healthcare application we might want to apply a language\nmodel to medical records. Or a company may have internal documents that contain\nanswers for customer service or internal use. Or legal firms need to ask questions\nabout legal discovery from proprietary documents. None of this data (hopefully)\nwas in the large web-based corpora that large language models are pretrained on.\nA final issue with using large language models to answer knowledge questions is\nthat they are static; they were pretrained once, at a particular time. This means that\nLLMs cannot talk about about rapidly changing information (like something that\nhappened last week) since they won’t have up-to-date information from after their\nrelease data.",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "rag.pdf",
+          "distance": 367.1873474121094
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_4",
+          "text": "2\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nSimply prompting an LLM is useful for many generation tasks, including those\ninvolving facts. But the fact that knowledge is stored in the feedforward weights of\nthe LLM leads to a number of problems with prompting as a method for correctly\ngenerating factual texts or answers.\nThe first and main problem is that LLMs are often incorrect when generating\nanswers or other texts about facts! Large language models hallucinate. A hallu-\nhallucinate\ncination is a response that is not faithful to the facts of the world. That is, when\nasked questions, large language models sometimes make up answers that sound rea-\nsonable. For example, Dahl et al. (2024) found that when asked questions about the\nlegal domain (like about particular legal cases), large language models hallucinated\nfrom 69% to 88% of the time! LLMs sometimes give incorrect factual responses\neven when the correct facts are stored in the parameters; this seems to be caused\nby the feedforward layers failing to recall the knowledge stored in their parameters\n(Jiang et al., 2024).",
+          "page": 2,
+          "section": "Page 2",
+          "filename": "rag.pdf",
+          "distance": 368.07073974609375
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_85",
+          "text": "ns in large lan-\nguage models. Journal of Legal Analysis, 16:64–93.\nDeerwester, S. C., S. T. Dumais, T. K. Landauer, G. W. Fur-\nnas, and R. A. Harshman. 1990. Indexing by latent se-\nmantics analysis. JASIS, 41(6):391–407.\nDong, L. and M. Lapata. 2016. Language to logical form\nwith neural attention. ACL.\nFerrucci, D. A. 2012. Introduction to “This is Watson”. IBM\nJournal of Research and Development, 56(3/4):1:1–1:15.\nFurnas, G. W., T. K. Landauer, L. M. Gomez, and S. T.\nDumais. 1987.\nThe vocabulary problem in human-\nsystem communication.\nCommunications of the ACM,\n30(11):964–971.\nGao, T., H. Yen, J. Yu, and D. Chen. 2023. Enabling large\nlanguage models to generate text with citations. EMNLP.\nGeva, M., R. Schuster, J. Berant, and O. Levy. 2021.\nTransformer feed-forward layers are key-value memories.\nEMNLP.\nGreen, B. F., A. K. Wolf, C. Chomsky, and K. Laughery.\n1961. Baseball: An automatic question answerer. Pro-\nceedings of the Western Joint Computer Conference 19.\nHe, W., K. Liu, J.",
+          "page": 24,
+          "section": "Page 24",
+          "filename": "rag.pdf",
+          "distance": 368.3588562011719
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_0",
+          "text": "Speech and Language Processing.\nDaniel Jurafsky & James H. Martin.\nCopyright © 2026.\nAll\nrights reserved.\nDraft of August 19, 2026.\nCHAPTER\n11\nInformation Retrieval and\nRetrieval-Augmented Generation\nOn two occasions I have been asked,—“Pray, Mr. Babbage, if you put into\nthe machine wrong figures, will the right answers come out?” ... I am not able\nrightly to apprehend the kind of confusion of ideas that could provoke such a\nquestion.\nBabbage (1864)\nPeople need to know things. So pretty much as soon as there were computers\nwe were asking them questions. By 1961 there was a system to answer questions\nabout American baseball statistics like “How many games did the Yankees play\nin July?” (Green et al., 1961). Even fictional computers in the 1970s like Deep\nThought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy,\nanswered “the Ultimate Question Of Life, The Universe, and Everything”.1 And\nbecause so much knowledge is encoded in text, systems were answering questions\nat human-level performance even before LLMs: IBM’s Watson system won the TV\ngame-show Jeopardy!",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "rag.pdf",
+          "distance": 368.6355285644531
+        }
+      ]
+    },
+    {
+      "question": "What is a \"bag-of-words\" model, and how does it represent documents?",
+      "answer": "A \"bag-of-words\" model represents documents as vectors where each dimension corresponds to the frequency of a word in the document. In this model, the order of words is ignored, and only the count of each word's occurrence in the document is considered. This representation treats the document as if it were a bag of words, with each word having its frequency in the document, regardless of its position within the text.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9377716023970227,
+      "document_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "4\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\ndocuments and queries with embeddings, computed from language models (either\nencoder or decoder models). We’ll discuss sparse retrieval in the rest of this section,\nand turn to dense retrieval in Section 11.3.\n11.1.1\nRepresenting documents as vectors\nIn the vector space model of information retrieval (Salton, 1971) a document is\nvector space\nmodel\nrepresented as a vector of counts of the words it contains.\nWe sometimes call this kind of model a bag-of-words model. Fig. 11.2 shows\nthe intuition: we are representing a text document as if it were a bag of words,\nbag of words\nthat is, an unordered set of words with their position ignored, keeping only their\nfrequency in the document. In the example in the figure, instead of representing the\nword order in all the phrases like “It manages to be whimsical and romantic”, we\nsimply note that the word it occurred 5 times in the entire excerpt, the words love,\nrecommend, and movie once, and so on.",
+        "nt a set of documents as a term-document ma-\ntrix in which each row represents a word in the vocabulary and each column rep-\nterm-document\nmatrix\nresents a document from some collection of documents. Fig. 11.3 shows a small\nselection from a term-document matrix showing the occurrence of four words in\nfour plays by Shakespeare. Each cell in this matrix represents the number of times a\nparticular word (defined by the row) occurs in a particular document (defined by the\ncolumn). Thus fool appeared 58 times in Twelfth Night.\nA document is represented as a count vector, a column in Fig. 11.4. In the\nexample in Fig. 11.4, we’ve chosen to make the document vectors of dimension 4,\njust so they fit on the page; in real term-document matrices, the document vectors\nwould have dimensionality |V|, the vocabulary size. The first dimension for both\nthese vectors corresponds to the number of times the word battle occurs, and we can",
+        "6\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nThe term frequency term tells us how frequent the word is; words that occur\nmore often in a document are likely to be informative about the document’s contents.\nWe usually use the log10 of the word frequency, rather than the raw count. The\nintuition is that a word appearing 100 times in a document doesn’t make that word\n100 times more likely to be relevant to the meaning of the document. We also need\nto do something special with counts of 0, since we can’t take the log of 0.3 So if we\ndefine count(t,d) as the raw count of term t in document d, then tft,d, the tf of term t\nin document d is\ntft,d =\n(\n1+log10 count(t,d)\nif count(t,d) > 0\n0\notherwise\n(11.4)\nIf we use log weighting, terms which occur 0 times in a document would have tf = 0,\n1 times in a document tf = 1 + log10(1) = 1 + 0 = 1, 10 times in a document tf =\n1+log10(10) = 2, 100 times tf = 1+log10(100) = 3, 1000 times tf = 4, and so on.\nThe document frequency dft of a term t is the number of documents it oc-\ncurs in.",
+        "uery.\nAs we summarized in the introduction to the chapter, there are many goals of\nretrieval-augmented generation. RAG can help mitigate hallucination, by giving\nthe model a set of trusted documents. RAG can also help language models gen-\nerate factual text about proprietary data, like personal email, or health records, or\ncompany-internal documents, or other legal documents. RAG can also help with\nthe problem that knowledge is dynamic and time-sensitive, for example if we know\nthe user’s information need references data from a time after a language model was\ntrained.\nA RAG system is based on two major components: the retriever and the gener-\nator, (the latter is sometimes called, for historical reasons, the reader (Chen et al.,\n2017)). Fig. 11.13 sketches out this standard model for answering questions.\nIn the first stage of the retrieval-augmented generation, or RAG model shown\nretrieval-\naugmented\ngeneration\nRAG\nin Fig.",
+        "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_13",
+          "text": "4\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\ndocuments and queries with embeddings, computed from language models (either\nencoder or decoder models). We’ll discuss sparse retrieval in the rest of this section,\nand turn to dense retrieval in Section 11.3.\n11.1.1\nRepresenting documents as vectors\nIn the vector space model of information retrieval (Salton, 1971) a document is\nvector space\nmodel\nrepresented as a vector of counts of the words it contains.\nWe sometimes call this kind of model a bag-of-words model. Fig. 11.2 shows\nthe intuition: we are representing a text document as if it were a bag of words,\nbag of words\nthat is, an unordered set of words with their position ignored, keeping only their\nfrequency in the document. In the example in the figure, instead of representing the\nword order in all the phrases like “It manages to be whimsical and romantic”, we\nsimply note that the word it occurred 5 times in the entire excerpt, the words love,\nrecommend, and movie once, and so on.",
+          "page": 4,
+          "section": "Page 4",
+          "filename": "rag.pdf",
+          "distance": 411.3013000488281
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_16",
+          "text": "nt a set of documents as a term-document ma-\ntrix in which each row represents a word in the vocabulary and each column rep-\nterm-document\nmatrix\nresents a document from some collection of documents. Fig. 11.3 shows a small\nselection from a term-document matrix showing the occurrence of four words in\nfour plays by Shakespeare. Each cell in this matrix represents the number of times a\nparticular word (defined by the row) occurs in a particular document (defined by the\ncolumn). Thus fool appeared 58 times in Twelfth Night.\nA document is represented as a count vector, a column in Fig. 11.4. In the\nexample in Fig. 11.4, we’ve chosen to make the document vectors of dimension 4,\njust so they fit on the page; in real term-document matrices, the document vectors\nwould have dimensionality |V|, the vocabulary size. The first dimension for both\nthese vectors corresponds to the number of times the word battle occurs, and we can",
+          "page": 4,
+          "section": "Page 4",
+          "filename": "rag.pdf",
+          "distance": 415.2779541015625
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_20",
+          "text": "6\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nThe term frequency term tells us how frequent the word is; words that occur\nmore often in a document are likely to be informative about the document’s contents.\nWe usually use the log10 of the word frequency, rather than the raw count. The\nintuition is that a word appearing 100 times in a document doesn’t make that word\n100 times more likely to be relevant to the meaning of the document. We also need\nto do something special with counts of 0, since we can’t take the log of 0.3 So if we\ndefine count(t,d) as the raw count of term t in document d, then tft,d, the tf of term t\nin document d is\ntft,d =\n(\n1+log10 count(t,d)\nif count(t,d) > 0\n0\notherwise\n(11.4)\nIf we use log weighting, terms which occur 0 times in a document would have tf = 0,\n1 times in a document tf = 1 + log10(1) = 1 + 0 = 1, 10 times in a document tf =\n1+log10(10) = 2, 100 times tf = 1+log10(100) = 3, 1000 times tf = 4, and so on.\nThe document frequency dft of a term t is the number of documents it oc-\ncurs in.",
+          "page": 6,
+          "section": "Page 6",
+          "filename": "rag.pdf",
+          "distance": 415.959228515625
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_55",
+          "text": "uery.\nAs we summarized in the introduction to the chapter, there are many goals of\nretrieval-augmented generation. RAG can help mitigate hallucination, by giving\nthe model a set of trusted documents. RAG can also help language models gen-\nerate factual text about proprietary data, like personal email, or health records, or\ncompany-internal documents, or other legal documents. RAG can also help with\nthe problem that knowledge is dynamic and time-sensitive, for example if we know\nthe user’s information need references data from a time after a language model was\ntrained.\nA RAG system is based on two major components: the retriever and the gener-\nator, (the latter is sometimes called, for historical reasons, the reader (Chen et al.,\n2017)). Fig. 11.13 sketches out this standard model for answering questions.\nIn the first stage of the retrieval-augmented generation, or RAG model shown\nretrieval-\naugmented\ngeneration\nRAG\nin Fig.",
+          "page": 16,
+          "section": "Page 16",
+          "filename": "rag.pdf",
+          "distance": 416.72210693359375
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_70",
+          "text": "20\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nMMLU examples\nCollege Computer Science\nAny set of Boolean operators that is sufficient to represent all Boolean ex-\npressions is said to be complete. Which of the following is NOT complete?\n(A) AND, NOT\n(B) NOT, OR\n(C) AND, OR\n(D) NAND\nCollege Physics\nThe primary source of the Sun’s energy is a series of thermonuclear\nreactions in which the energy produced is c2 times the mass difference\nbetween\n(A) two hydrogen atoms and one helium atom\n(B) four hydrogen atoms and one helium atom\n(C) six hydrogen atoms and two helium atoms\n(D) three helium atoms and one carbon atom\nInternational Law\nWhich of the following is a treaty-based human rights mechanism?\n(A) The UN Human Rights Committee\n(B) The UN Human Rights Council\n(C) The UN Universal Periodic Review\n(D) The UN special mandates\nPrehistory\nUnlike most other early civilizations, Minoan culture shows little evidence\nof\n(A) trade.\n(B) warfare.\n(C) the development of a common religion.",
+          "page": 20,
+          "section": "Page 20",
+          "filename": "rag.pdf",
+          "distance": 416.8066101074219
+        }
+      ]
+    },
+    {
+      "question": "What is the formula for calculating the tf-idf normalized score between a query and a document, as shown in Figure 11.6?",
+      "answer": "The formula for calculating the tf-idf normalized score between a query and a document, as shown in Figure 11.6, is given by:\n\n\\[ score(q,d) = q \\cdot d = \\frac{q \\cdot d}{|q| \\cdot |d|} \\]\n\nWhere:\n- \\( q \\) is the query vector.\n- \\( d \\) is the document vector.\n- \\( q \\cdot d \\) is the dot product of the query and document vectors.\n- \\( |q| \\) and \\( |d| \\) are the lengths (or norms) of the query and document vectors, respectively.\n\nThis score represents the cosine of the query vector with the document vector, which is a measure of the similarity between the query and the document in the vector space. The normalization by the lengths \\( |q| \\) and \\( |d| \\) ensures that the score is scale-independent.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9828477532640069,
+      "document_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "ne is the normalized dot product\nof tf-idf values, so for the normalization we must need to compute the document\nvector lengths |q|, |d1|, and |d2| for the query and the first two documents using\nEq. 11.4, Eq. 11.5, Eq. 11.6, and Eq. 11.9 (computations for Documents 3 and 4 are\nalso needed but are left as an exercise for the reader). The dot product between the\nvectors is the sum over dimensions of the product, for each dimension, of the values\nof the two tf-idf vectors for that dimension. This product is only non-zero where\nboth the query and document have non-zero values, so for this example, in which\nonly sweet and love have non-zero values in the query, the dot product will be the\nsum of the products of those elements of each vector.\nDocument 1 has a higher cosine with the query (0.747) than Document 2 has\nwith the query (0.0779), and so the tf-idf cosine model would rank Document 1\nabove Document 2.",
+        "can first normalize both the query and document vector to unit vectors, by\ndividing by their lengths, and then take the dot product:\nscore(q,d) = cos(q,d) = q\n|q| · d\n|d|\n(11.8)\nWe can spell out Eq. 11.8, using the tf-idf values and spelling out the dot product\nas a sum of products:\nscore(q,d) =\nX\nt∈q\ntf-idf(t,q)\nqP\nqi∈q tf-idf 2(qi,q)\n·\ntf-idf(t,d)\nqP\ndi∈d tf-idf 2(di,d)\n(11.9)\nNow let’s use Eq. 11.9 to walk through an example of a tiny query against a\ncollection of 4 nano documents, computing tf-idf values and seeing the rank of the\ndocuments. We’ll assume all words in the following query and documents are down-\ncased and punctuation is removed:\nQuery: sweet love\nDoc 1:\nSweet sweet nurse! Love?\nDoc 2:\nSweet sorrow\nDoc 3:\nHow sweet is love?\nDoc 4:\nNurse!\nFig. 11.6 shows the computation of the tf-idf cosine between the query and Doc-\nument 1, and the query and Document 2. The cosine is the normalized dot product\nof tf-idf values, so for the normalization we must need to compute the document\nvector lengths |q|, |d1|, and |d2| for the query and the first two documents using\nEq.",
+        "ut to sometimes result in better performance:\nscore(q,d) =\nX\nt∈q\ntft,q·idft\nqP\nqi∈q tf-idf 2(qi,q)\n·\ntft,d ·idft\nqP\ndi∈d tf-idf 2(di,d)\n(11.11)\nOther variants of tf-idf eliminate various other terms.\nA slightly more complex variant in the tf-idf family is the BM25 weighting\nBM25\nscheme (sometimes called Okapi BM25 after the Okapi IR system in which it was\nintroduced (Robertson et al., 1995)). BM25 adds two parameters: k, a knob that\nadjusts the balance between term frequency and IDF, and b, which controls the im-\nportance of document length normalization. The BM25 score of a document d given",
+        "Eq. 11.5, Eq. 11.6 and Eq. 11.9.\nmissing one of the terms. We leave the computation for Documents 3 and 4 as an\nexercise for the reader.\nIn practice, there are many variants and approximations to Eq. 11.9. For exam-\nple, we might choose to simplify processing by removing some terms. To see this,\nlet’s start by expanding the formula for tf-idf in Eq. 11.9 to explicitly mention the tf\nand idf terms from Eq. 11.6:\nscore(q,d) =\nX\nt∈q\ntft,q ·idft\nqP\nqi∈q tf-idf 2(qi,q)\n·\ntft,d ·idft\nqP\ndi∈d tf-idf 2(di,d)\n(11.10)\nIn one common variant of tf-idf cosine, for example, we drop the idf term for the\ndocument. Eliminating the second copy of the idf term (since the identical term is\nalready computed for the query) turns out to sometimes result in better performance:\nscore(q,d) =\nX\nt∈q\ntft,q·idft\nqP\nqi∈q tf-idf 2(qi,q)\n·\ntft,d ·idft\nqP\ndi∈d tf-idf 2(di,d)\n(11.11)\nOther variants of tf-idf eliminate various other terms.",
+        "11.1\n•\nINFORMATION RETRIEVAL\n7\n11.1.3\nDocument Scoring\nOnce we have represented each document and query as a weighted vector, we need\nto score each document. Our goal is to measure the relevance of the document to the\nuser’s information need, as expressed in their query. In the classic tf-idf model we\nestimate this relevance of a document by measuring its geometric similarity in vector\nspace to the query. That is, we make the simplifying assumption that documents that\nhave similar words to the query are more relevant to the user.\nWe use the cosine similarity function introduced in Chapter 5, scoring document\nd by the cosine of its vector d with the query vector q:\nscore(q,d) = cos(q,d) = q·d\n|q||d|\n(11.7)\nAnother way to think of the cosine computation is as the dot product of unit vec-\ntors; we can first normalize both the query and document vector to unit vectors, by\ndividing by their lengths, and then take the dot product:\nscore(q,d) = cos(q,d) = q\n|q| · d\n|d|\n(11.8)\nWe can spell out Eq."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_25",
+          "text": "ne is the normalized dot product\nof tf-idf values, so for the normalization we must need to compute the document\nvector lengths |q|, |d1|, and |d2| for the query and the first two documents using\nEq. 11.4, Eq. 11.5, Eq. 11.6, and Eq. 11.9 (computations for Documents 3 and 4 are\nalso needed but are left as an exercise for the reader). The dot product between the\nvectors is the sum over dimensions of the product, for each dimension, of the values\nof the two tf-idf vectors for that dimension. This product is only non-zero where\nboth the query and document have non-zero values, so for this example, in which\nonly sweet and love have non-zero values in the query, the dot product will be the\nsum of the products of those elements of each vector.\nDocument 1 has a higher cosine with the query (0.747) than Document 2 has\nwith the query (0.0779), and so the tf-idf cosine model would rank Document 1\nabove Document 2.",
+          "page": 7,
+          "section": "Page 7",
+          "filename": "rag.pdf",
+          "distance": 369.7959289550781
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_24",
+          "text": "can first normalize both the query and document vector to unit vectors, by\ndividing by their lengths, and then take the dot product:\nscore(q,d) = cos(q,d) = q\n|q| · d\n|d|\n(11.8)\nWe can spell out Eq. 11.8, using the tf-idf values and spelling out the dot product\nas a sum of products:\nscore(q,d) =\nX\nt∈q\ntf-idf(t,q)\nqP\nqi∈q tf-idf 2(qi,q)\n·\ntf-idf(t,d)\nqP\ndi∈d tf-idf 2(di,d)\n(11.9)\nNow let’s use Eq. 11.9 to walk through an example of a tiny query against a\ncollection of 4 nano documents, computing tf-idf values and seeing the rank of the\ndocuments. We’ll assume all words in the following query and documents are down-\ncased and punctuation is removed:\nQuery: sweet love\nDoc 1:\nSweet sweet nurse! Love?\nDoc 2:\nSweet sorrow\nDoc 3:\nHow sweet is love?\nDoc 4:\nNurse!\nFig. 11.6 shows the computation of the tf-idf cosine between the query and Doc-\nument 1, and the query and Document 2. The cosine is the normalized dot product\nof tf-idf values, so for the normalization we must need to compute the document\nvector lengths |q|, |d1|, and |d2| for the query and the first two documents using\nEq.",
+          "page": 7,
+          "section": "Page 7",
+          "filename": "rag.pdf",
+          "distance": 370.25714111328125
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_29",
+          "text": "ut to sometimes result in better performance:\nscore(q,d) =\nX\nt∈q\ntft,q·idft\nqP\nqi∈q tf-idf 2(qi,q)\n·\ntft,d ·idft\nqP\ndi∈d tf-idf 2(di,d)\n(11.11)\nOther variants of tf-idf eliminate various other terms.\nA slightly more complex variant in the tf-idf family is the BM25 weighting\nBM25\nscheme (sometimes called Okapi BM25 after the Okapi IR system in which it was\nintroduced (Robertson et al., 1995)). BM25 adds two parameters: k, a knob that\nadjusts the balance between term frequency and IDF, and b, which controls the im-\nportance of document length normalization. The BM25 score of a document d given",
+          "page": 8,
+          "section": "Page 8",
+          "filename": "rag.pdf",
+          "distance": 371.3723449707031
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_28",
+          "text": "Eq. 11.5, Eq. 11.6 and Eq. 11.9.\nmissing one of the terms. We leave the computation for Documents 3 and 4 as an\nexercise for the reader.\nIn practice, there are many variants and approximations to Eq. 11.9. For exam-\nple, we might choose to simplify processing by removing some terms. To see this,\nlet’s start by expanding the formula for tf-idf in Eq. 11.9 to explicitly mention the tf\nand idf terms from Eq. 11.6:\nscore(q,d) =\nX\nt∈q\ntft,q ·idft\nqP\nqi∈q tf-idf 2(qi,q)\n·\ntft,d ·idft\nqP\ndi∈d tf-idf 2(di,d)\n(11.10)\nIn one common variant of tf-idf cosine, for example, we drop the idf term for the\ndocument. Eliminating the second copy of the idf term (since the identical term is\nalready computed for the query) turns out to sometimes result in better performance:\nscore(q,d) =\nX\nt∈q\ntft,q·idft\nqP\nqi∈q tf-idf 2(qi,q)\n·\ntft,d ·idft\nqP\ndi∈d tf-idf 2(di,d)\n(11.11)\nOther variants of tf-idf eliminate various other terms.",
+          "page": 8,
+          "section": "Page 8",
+          "filename": "rag.pdf",
+          "distance": 371.5886535644531
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_23",
+          "text": "11.1\n•\nINFORMATION RETRIEVAL\n7\n11.1.3\nDocument Scoring\nOnce we have represented each document and query as a weighted vector, we need\nto score each document. Our goal is to measure the relevance of the document to the\nuser’s information need, as expressed in their query. In the classic tf-idf model we\nestimate this relevance of a document by measuring its geometric similarity in vector\nspace to the query. That is, we make the simplifying assumption that documents that\nhave similar words to the query are more relevant to the user.\nWe use the cosine similarity function introduced in Chapter 5, scoring document\nd by the cosine of its vector d with the query vector q:\nscore(q,d) = cos(q,d) = q·d\n|q||d|\n(11.7)\nAnother way to think of the cosine computation is as the dot product of unit vec-\ntors; we can first normalize both the query and document vector to unit vectors, by\ndividing by their lengths, and then take the dot product:\nscore(q,d) = cos(q,d) = q\n|q| · d\n|d|\n(11.8)\nWe can spell out Eq.",
+          "page": 7,
+          "section": "Page 7",
+          "filename": "rag.pdf",
+          "distance": 372.2251892089844
+        }
+      ]
+    },
+    {
+      "question": "How is interpolated precision calculated, and why is it used in performance evaluation?",
+      "answer": "Interpolated precision is calculated using the formula:\n\n\\[ \\text{Interpolated Precision}(r) = \\max_{i \\geq r} \\text{Precision}(i) \\]\n\nThis formula interpolates precision values at 11 fixed levels of recall (0 to 100, in steps of 10). It chooses the maximum precision value achieved at any level of recall at or above the one being calculated. In other words, for a given recall level \\( r \\), the interpolated precision is the highest precision that was achieved at any recall level that is equal to or greater than \\( r \\).\n\nInterpolated precision is used in performance evaluation because it allows for averaging performance over a set of queries and smoothing out irregular precision values in the original data. It gives systems the benefit of the doubt by assigning the maximum precision value achieved at higher levels of recall from the one being measured. This method helps in comparing the performance of different systems or approaches more fairly and smoothly, especially when precision values are not precisely aligned with the recall levels of interest.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8546344413676191,
+      "document_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "12\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nfor all the queries, and in a way that lets us compare one system to another. One way\nof doing this is to plot averaged precision values at 11 fixed levels of recall (0 to 100,\nin steps of 10). Since we’re not likely to have datapoints at these exact levels, we\nuse interpolated precision values for the 11 recall values from the data points we do\ninterpolated\nprecision\nhave. We can accomplish this by choosing the maximum precision value achieved\nat any level of recall at or above the one we’re calculating. In other words,\nIntPrecision(r) = max\ni>=r Precision(i)\n(11.15)\nThis interpolation scheme not only lets us average performance over a set of queries,\nbut also helps smooth over the irregular precision values in the original data. It is\ndesigned to give systems the benefit of the doubt by assigning the maximum preci-\nsion value achieved at higher levels of recall from the one being measured. Fig. 11.9\nand Fig. 11.10 show the resulting interpolated data points from our example.",
+        "oubt by assigning the maximum preci-\nsion value achieved at higher levels of recall from the one being measured. Fig. 11.9\nand Fig. 11.10 show the resulting interpolated data points from our example.\nInterpolated Precision\nRecall\n1.0\n0.0\n1.0\n.10\n.66\n.20\n.66\n.30\n.66\n.40\n.63\n.50\n.55\n.60\n.47\n.70\n.44\n.80\n.36\n.90\n.36\n1.0\nFigure 11.9\nInterpolated data points from Fig. 11.7.\nGiven curves such as that in Fig. 11.10 we can compare two systems or ap-\nproaches by comparing their curves. Clearly, curves that are higher in precision\nacross all recall values are preferred. However, these curves can also provide insight\ninto the overall behavior of a system. Systems that are higher in precision toward\nthe left may favor precision over recall, while systems that are more geared towards\nrecall will be higher at higher levels of recall (to the right).\nA second way to evaluate ranked retrieval is mean average precision (MAP),\nmean average\nprecision\nwhich provides a single metric that can be used to compare competing systems or\napproaches.",
+        "l increases, and when a non-relevant document is found it remains unchanged.\nPrecision, on the other hand, jumps up and down, increasing when relevant doc-\numents are found, and decreasing otherwise. The most common way to visualize\nprecision and recall is to plot precision against recall in a precision-recall curve,\nprecision-recall\ncurve\nlike the one shown in Fig. 11.8 for the data in table 11.7.\nFig. 11.8 shows the values for a single query. But we’ll need to combine values",
+        "e to an information request, a subset\nR of these are relevant, a disjoint subset, N, are the remaining irrelevant documents,\nand U documents in the collection as a whole are relevant to this request. Precision\nand recall are then defined as:\nPrecision = |R|\n|T|\nRecall = |R|\n|U|\n(11.13)\nUnfortunately, these metrics don’t adequately measure the performance of a system\nthat ranks the documents it returns. If we are comparing the performance of two\nranked retrieval systems, we need a metric that prefers the one that ranks the relevant\ndocuments higher. We need to adapt precision and recall to capture how well a\nsystem does at putting relevant documents higher in the ranking.\nLet’s turn to an example. Assume we have a user query and have retrieved a\nset of documents from a collection of 25 documents, 9 of which are relevant to the\nquery in this collection. The table in Fig. 11.7 shows the 25 ranked documents with\nthe judgment column indicating if the document was relevant or not.",
+        "e right).\nA second way to evaluate ranked retrieval is mean average precision (MAP),\nmean average\nprecision\nwhich provides a single metric that can be used to compare competing systems or\napproaches. In this approach, we again descend through the ranked list of items,\nbut now we note the precision only at those points where a relevant item has been\nencountered (for example at ranks 1, 3, 5, 6 but not 2 or 4 in Fig. 11.7). For a single\nquery, we average these individual precision measurements over the return set (up\nto some fixed cutoff). More formally, if we assume that Rr is the set of relevant\ndocuments at or above r, then the average precision (AP) for a single query is\nAP =\n1\n|Rr|\nX\nd∈Rr\nPrecisionr(d)\n(11.16)\nwhere Precisionr(d) is the precision measured at the rank at which document d was\nfound. For an ensemble of queries Q, we then average over these averages, to get\nour final MAP measure:\nMAP = 1\n|Q|\nX\nq∈Q\nAP(q)\n(11.17)\nThe MAP for the single query (hence = AP) in Fig. 11.7 is 0.6."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_40",
+          "text": "12\nCHAPTER 11\n•\nRETRIEVAL-BASED MODELS\nfor all the queries, and in a way that lets us compare one system to another. One way\nof doing this is to plot averaged precision values at 11 fixed levels of recall (0 to 100,\nin steps of 10). Since we’re not likely to have datapoints at these exact levels, we\nuse interpolated precision values for the 11 recall values from the data points we do\ninterpolated\nprecision\nhave. We can accomplish this by choosing the maximum precision value achieved\nat any level of recall at or above the one we’re calculating. In other words,\nIntPrecision(r) = max\ni>=r Precision(i)\n(11.15)\nThis interpolation scheme not only lets us average performance over a set of queries,\nbut also helps smooth over the irregular precision values in the original data. It is\ndesigned to give systems the benefit of the doubt by assigning the maximum preci-\nsion value achieved at higher levels of recall from the one being measured. Fig. 11.9\nand Fig. 11.10 show the resulting interpolated data points from our example.",
+          "page": 12,
+          "section": "Page 12",
+          "filename": "rag.pdf",
+          "distance": 406.4335632324219
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_41",
+          "text": "oubt by assigning the maximum preci-\nsion value achieved at higher levels of recall from the one being measured. Fig. 11.9\nand Fig. 11.10 show the resulting interpolated data points from our example.\nInterpolated Precision\nRecall\n1.0\n0.0\n1.0\n.10\n.66\n.20\n.66\n.30\n.66\n.40\n.63\n.50\n.55\n.60\n.47\n.70\n.44\n.80\n.36\n.90\n.36\n1.0\nFigure 11.9\nInterpolated data points from Fig. 11.7.\nGiven curves such as that in Fig. 11.10 we can compare two systems or ap-\nproaches by comparing their curves. Clearly, curves that are higher in precision\nacross all recall values are preferred. However, these curves can also provide insight\ninto the overall behavior of a system. Systems that are higher in precision toward\nthe left may favor precision over recall, while systems that are more geared towards\nrecall will be higher at higher levels of recall (to the right).\nA second way to evaluate ranked retrieval is mean average precision (MAP),\nmean average\nprecision\nwhich provides a single metric that can be used to compare competing systems or\napproaches.",
+          "page": 12,
+          "section": "Page 12",
+          "filename": "rag.pdf",
+          "distance": 407.2408447265625
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_39",
+          "text": "l increases, and when a non-relevant document is found it remains unchanged.\nPrecision, on the other hand, jumps up and down, increasing when relevant doc-\numents are found, and decreasing otherwise. The most common way to visualize\nprecision and recall is to plot precision against recall in a precision-recall curve,\nprecision-recall\ncurve\nlike the one shown in Fig. 11.8 for the data in table 11.7.\nFig. 11.8 shows the values for a single query. But we’ll need to combine values",
+          "page": 11,
+          "section": "Page 11",
+          "filename": "rag.pdf",
+          "distance": 409.47174072265625
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_36",
+          "text": "e to an information request, a subset\nR of these are relevant, a disjoint subset, N, are the remaining irrelevant documents,\nand U documents in the collection as a whole are relevant to this request. Precision\nand recall are then defined as:\nPrecision = |R|\n|T|\nRecall = |R|\n|U|\n(11.13)\nUnfortunately, these metrics don’t adequately measure the performance of a system\nthat ranks the documents it returns. If we are comparing the performance of two\nranked retrieval systems, we need a metric that prefers the one that ranks the relevant\ndocuments higher. We need to adapt precision and recall to capture how well a\nsystem does at putting relevant documents higher in the ranking.\nLet’s turn to an example. Assume we have a user query and have retrieved a\nset of documents from a collection of 25 documents, 9 of which are relevant to the\nquery in this collection. The table in Fig. 11.7 shows the 25 ranked documents with\nthe judgment column indicating if the document was relevant or not.",
+          "page": 10,
+          "section": "Page 10",
+          "filename": "rag.pdf",
+          "distance": 410.3644104003906
+        },
+        {
+          "chunk_id": "b4b7d213-0f3b-4e3e-b0cc-eed03e9c7091_42",
+          "text": "e right).\nA second way to evaluate ranked retrieval is mean average precision (MAP),\nmean average\nprecision\nwhich provides a single metric that can be used to compare competing systems or\napproaches. In this approach, we again descend through the ranked list of items,\nbut now we note the precision only at those points where a relevant item has been\nencountered (for example at ranks 1, 3, 5, 6 but not 2 or 4 in Fig. 11.7). For a single\nquery, we average these individual precision measurements over the return set (up\nto some fixed cutoff). More formally, if we assume that Rr is the set of relevant\ndocuments at or above r, then the average precision (AP) for a single query is\nAP =\n1\n|Rr|\nX\nd∈Rr\nPrecisionr(d)\n(11.16)\nwhere Precisionr(d) is the precision measured at the rank at which document d was\nfound. For an ensemble of queries Q, we then average over these averages, to get\nour final MAP measure:\nMAP = 1\n|Q|\nX\nq∈Q\nAP(q)\n(11.17)\nThe MAP for the single query (hence = AP) in Fig. 11.7 is 0.6.",
+          "page": 12,
+          "section": "Page 12",
+          "filename": "rag.pdf",
+          "distance": 410.56475830078125
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "average_faithfulness": 0.2,
+    "average_answer_relevancy": 0.7535900048694505
+  }
+}
