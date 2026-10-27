@@ -1,5 +1,6 @@
+# pyrefly: ignore[missing-import]
 from openai import AsyncOpenAI
-from src.rag.service import collection, generate_answer
+from src.rag.service import (collection , collection_lock ,  generate_answer ,)
 
 from ragas.llms import llm_factory
 from ragas.embeddings.base import embedding_factory
@@ -16,7 +17,8 @@ from ragas.metrics.collections import Faithfulness, AnswerRelevancy
 
 def load_document_chunks(document_id: str) -> list[dict]:
     """Load all stored chunks belonging to one uploaded document."""
-    result = collection.get(
+    with collection_lock:
+        result = collection.get(
         where={"document_id": document_id},
         include=["documents", "metadatas"],
     )

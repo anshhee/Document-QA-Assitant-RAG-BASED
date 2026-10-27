@@ -5,6 +5,7 @@ import random
 import time
 from pathlib import Path
 from typing import Any
+import threading 
 
 import chromadb
 import ollama
@@ -52,6 +53,7 @@ except (OSError, json.JSONDecodeError, ValueError) as exc:
 try:
     client = chromadb.PersistentClient(path=str(CHROMA_DIR))
     collection = client.get_collection(name="documents")
+    collection_lock = threading.Lock() 
 except Exception as exc:
     raise RuntimeError(
         f"Failed to initialize Chroma collection at {CHROMA_DIR}"
@@ -99,7 +101,8 @@ def retrieve_chunks(
         if document_id is not None:
             query_args["where"] = {"document_id": document_id}
 
-        results = collection.query(**query_args)
+        with collection_lock:
+            results = collection.query(**query_args) 
 
     except Exception as exc:
         logger.exception("Chunk retrieval failed.")
