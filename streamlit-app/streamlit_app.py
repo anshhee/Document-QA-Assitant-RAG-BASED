@@ -17,7 +17,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-
 st.markdown(
     """
     <style>
@@ -25,9 +24,7 @@ st.markdown(
         'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap'
     );
 
-    html,
-    body,
-    [class*="css"] {
+    html, body, [class*="css"] {
         font-family: "Inter", sans-serif;
     }
 
@@ -39,10 +36,6 @@ st.markdown(
 
     [data-testid="stHeader"] {
         background: #f5f2ec !important;
-    }
-
-    [data-testid="stToolbar"] {
-        background: transparent !important;
     }
 
     [data-testid="stAppViewContainer"] .main .block-container {
@@ -81,7 +74,8 @@ st.markdown(
 
     .section-label,
     .upload-label,
-    .thread-label {
+    .thread-label,
+    .suggestions-label {
         color: #6b6762 !important;
         font-size: 0.68rem;
         font-weight: 600;
@@ -172,6 +166,10 @@ st.markdown(
         border-bottom: 1px solid #e8e4dc;
     }
 
+    .suggestions-label {
+        margin: 1.2rem 0 0.6rem;
+    }
+
     [data-testid="stChatMessage"] {
         padding: 0.75rem 0 !important;
         border-bottom: 1px solid #e8e4dc !important;
@@ -181,10 +179,7 @@ st.markdown(
     [data-testid="stChatMessage"] p,
     [data-testid="stChatMessage"] li,
     [data-testid="stChatMessage"] span,
-    [data-testid="stChatMessage"] div {
-        color: #1c1c1c !important;
-    }
-
+    [data-testid="stChatMessage"] div,
     [data-testid="stChatMessage"] strong,
     [data-testid="stChatMessage"] code {
         color: #1c1c1c !important;
@@ -264,6 +259,21 @@ st.markdown(
         border-color: #b7d5c7 !important;
     }
 
+    button[data-testid="stBaseButton-secondary"] {
+        min-height: 42px !important;
+        border: 1px solid #ddd9d2 !important;
+        border-radius: 6px !important;
+        background: #ffffff !important;
+        color: #2d6a4f !important;
+        font-size: 0.78rem !important;
+        text-align: left !important;
+    }
+
+    button[data-testid="stBaseButton-secondary"]:hover {
+        border-color: #b7d5c7 !important;
+        background: #edf4f0 !important;
+    }
+
     hr {
         border-color: #e8e4dc !important;
     }
@@ -294,6 +304,11 @@ if "conversations" not in st.session_state:
 if "active_conversation_id" not in st.session_state:
     create_conversation()
 
+if "retry_question" not in st.session_state:
+    st.session_state.retry_question =  None 
+
+if "retry_now" not in st.session_state:
+    st.session_state.retry_now =  False
 
 with st.sidebar:
     st.markdown(
@@ -306,10 +321,7 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
 
-    if st.button(
-        "+ New session",
-        use_container_width=True,
-    ):
+    if st.button("+ New session", use_container_width=True):
         create_conversation(
             document_id=st.session_state.document_id
         )
@@ -372,9 +384,7 @@ uploaded_file = st.file_uploader(
 
 
 if uploaded_file is not None:
-    upload_key = (
-        f"{uploaded_file.name}:{uploaded_file.size}"
-    )
+    upload_key = f"{uploaded_file.name}:{uploaded_file.size}"
 
     if st.session_state.get("indexed_upload_key") != upload_key:
         with st.spinner("Uploading and indexing document..."):
@@ -462,9 +472,7 @@ if st.session_state.document_id:
                             unsafe_allow_html=True,
                         )
 
-                        st.caption(
-                            source.get("text", "")
-                        )
+                        st.caption(source.get("text", ""))
 
     if not active_conversation["messages"]:
         st.markdown(
@@ -474,17 +482,75 @@ if st.session_state.document_id:
             unsafe_allow_html=True,
         )
 
+        st.markdown(
+            '<div class="suggestions-label">'
+            "Suggested questions"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
+        suggested_questions = [
+            "What is the main purpose of this document?",
+            "Summarize the key findings.",
+            "What are the most important concepts or terms?",
+            "What methods or evidence support the conclusions?",
+        ]
+
+        suggestion_columns = st.columns(2)
+
+        for index, suggested_question in enumerate(
+            suggested_questions
+        ):
+            with suggestion_columns[index % 2]:
+                if st.button(
+                    suggested_question,
+                    key=f"suggestion_{index}",
+                    use_container_width=True,
+                ):
+                    st.session_state.selected_question = (
+                        suggested_question
+                    )
+                    st.rerun()
+
+    if st.session_state.retry_question:
+        if st.button(
+            "Retry last question",
+            key = "retry_last_question",
+        ):
+            st.session_state.retry_now = True
+            st.rerun()
     question = st.chat_input(
-        "Ask something about the uploaded document..."
+        "Ask something about the uploaded document...",
     )
 
+    is_retry = False 
+
+    if st.session_state.retry_now:
+        question  = st.session_state.retry_question
+        st.session_state.retry_question = None
+        st.session_state.retry_now = False 
+        is_retry = True
+
+    selected_question = st.session_state.pop(
+        "selected_question",
+        None,
+    )
+
+    if selected_question:
+        question = selected_question
+
     if question:
-        active_conversation["messages"].append(
-            {
-                "role": "user",
-                "content": question,
-            }
-        )
+        if not is_retry:
+
+                active_conversation["messages"].append(
+
+
+                    {
+                        "role": "user",
+                        "content": question,
+                    }
+                )
+            
 
         if active_conversation["title"] == "New conversation":
             active_conversation["title"] = question[:40]
@@ -551,7 +617,19 @@ if st.session_state.document_id:
                                 )
 
                 except requests.RequestException as exc:
-                    st.error(f"Question failed: {exc}")
+                    if active_conversation["messages"]:
+                        last_message = (
+                            active_conversation["messages"][-1]
+                        )
+                    if(last_message["role"] == "user"
+                    and last_message["content"] == question):
+                        active_conversation["messages"].pop()
+
+                    st.session_state.retry_question =  question 
+                    st.error(
+                        "The question could not be processed."
+                        "Click below to retry."
+                    )
 
 else:
     st.markdown(

@@ -1,0 +1,210 @@
+{
+  "document_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2",
+  "num_questions": 5,
+  "results": [
+    {
+      "question": "What is the name of the system architecture described in the document?",
+      "answer": "The name of the system architecture described in the document is OneRayze.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999997,
+      "document_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+        "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.",
+        "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review."
+      ],
+      "num_contexts": 3,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_0",
+          "text": "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 438.24755859375
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_1",
+          "text": "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 439.9143371582031
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_2",
+          "text": "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 441.35546875
+        }
+      ]
+    },
+    {
+      "question": "How many layers does the architecture have according to the document?",
+      "answer": "The architecture described in the retrieved documents has 6 layers.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9371737076743786,
+      "document_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+        "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.",
+        "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review."
+      ],
+      "num_contexts": 3,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_0",
+          "text": "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 436.96685791015625
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_1",
+          "text": "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 437.975830078125
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_2",
+          "text": "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 440.6634216308594
+        }
+      ]
+    },
+    {
+      "question": "What is the name of the database or data lake used in the architecture?",
+      "answer": "The database or data lake used in the architecture is Databricks.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.959709743625838,
+      "document_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review.",
+        "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+        "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility."
+      ],
+      "num_contexts": 3,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_2",
+          "text": "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 428.61627197265625
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_0",
+          "text": "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 428.66949462890625
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_1",
+          "text": "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 431.48284912109375
+        }
+      ]
+    },
+    {
+      "question": "What are the sources of data mentioned in the document?",
+      "answer": "Sources 1 and 2 mention Databricks EDP as the layer where sources are harmonized once. Source 3 states that sources are served through an app-facing serving tier with access open by default with project-based visibility. Source 1 describes Databricks SQL and Aurora as sources for open calls. Databricks EDP is referenced as the layer for the compound model (grain), semantic/vector index, and curated, query-ready data.",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "document_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.",
+        "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+        "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review."
+      ],
+      "num_contexts": 3,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_1",
+          "text": "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 433.1666564941406
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_0",
+          "text": "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 434.00604248046875
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_2",
+          "text": "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 434.537841796875
+        }
+      ]
+    },
+    {
+      "question": "How are the sources of data described in the document?",
+      "answer": "The sources of data are described in multiple layers and tiers. They include CRO SharePoint, WuXi TIDES/SAI/Aragen, CDD Vault, Titian Mosaic, and legacy stores like Excel and Smartsheet. Data is harmonized once on Databricks and served through an app-facing serving tier with project-based visibility. Access is limited to non-GxP lakes today. Data is processed through layers such as ingestion and integration, compound model (grain), semantic/vector index for NL search, and a curated, query-ready Lakehouse structure. Audit and lineage across sources are performed for governance.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8961926837391871,
+      "document_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.",
+        "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+        "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review."
+      ],
+      "num_contexts": 3,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_1",
+          "text": "vernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by default\nCaching & performance\nfast reads for the UI\n5\nServices & AI\nNL search\nsurface data in plain language\nEventing & notifications\narrival · results · duplicates\nQuantity-check service\nenforced before requests\nSDF export\nfor deeper analysis\n6\nOneRayze\napplication\nOverview\nCompounds\nstructure + QC\nRegistrar tools\nCR + Chemtrack\nAssays\nqty-gated\nCRO reports\nNotifications\nVisibility\nInsights\n7\nUsers ·\nproject-based\nChemistry\nBiology\nCompound\nmanagement\nProject leads\nLeadership\nCRO partners\nextract & assign keys\nharmonize on the EDP\nserve via APIs\napp services\npower the app\ndeliver by project\nRegistrar API → CDD + Mosaic (virtual)\nBuild on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 418.23370361328125
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_0",
+          "text": "OneRayze — Solution Architecture\nLayered on the Databricks EDP — sources harmonized once, served to a project-based app with NL search, notifications and quantity-gated requests\nOneRayze\nConfidential · RayzeBio Research\n1\nData sources\nCRO SharePoint\nWuXi TIDES / Tianjin, SAI, Aragen — weekly\nreports\nCDD Vault\nstructure, QC, assay results\nTitian Mosaic\nmaterial, quantity, location\nLegacy stores\nExcel, Smartsheet, R:Drive\n2\nIngestion &\nintegration\nCRO report parser\nextract + CRO tracker key\nRegistrar API\nassign RayzeID · register → CDD + Mosaic\nMosaic sync\nvirtual + physical quantity\nCDD sync\nstructure, QC, results\n3\nDatabricks EDP ·\nLakehouse\nCompound model (grain)\nRayzeID → batch/lot → container\nSemantic / vector index\nembeddings for NL search\nBronze → Silver → Gold\ncurated, query-ready\nGovernance & lineage\naudit across sources\n4\nServing tier ·\nAPIs\nServing store\nDatabricks SQL / Aurora — open call\nQuery & aggregation APIs\nwhat the app reads\nAuth & visibility\nproject-based, open by def",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 419.6387939453125
+        },
+        {
+          "chunk_id": "b5ac5f56-db86-4ec9-a0ab-acfd71a197e2_2",
+          "text": "Build on the existing EDP — reuse pipelines, don’t duplicate.\nSources harmonized once on Databricks · served through an app-facing serving tier · access open by default with project-based visibility.\nOpen calls: serving store (Databricks SQL vs Aurora) · access is limited to non-GxP lakes today — GxP lake usage is in legal review.",
+          "page": 1,
+          "section": "Page 1",
+          "filename": "OneRayze_Architecture.pdf",
+          "distance": 420.10382080078125
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "average_faithfulness": 0.5,
+    "average_answer_relevancy": 0.7586152270078806
+  }
+}

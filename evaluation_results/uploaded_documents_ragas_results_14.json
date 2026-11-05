@@ -1,0 +1,300 @@
+{
+  "document_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873",
+  "num_questions": 5,
+  "results": [
+    {
+      "question": "What is the target duration for Phase 1 of the AI layer implementation?",
+      "answer": "Explicit details:\n- 14 weeks — target duration for Phase 1 of the AI layer implementation",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.999300596225265,
+      "document_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+        "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+        "OneRayze\nUnified Research Data + AI Platform\nPhase 1 — Approach\nPrepared by the OneRayze Solution & Delivery Team\nfor RayzeBio Research & the Enterprise Data Platform team\nContents\n1.  Executive Summary\t3\n2.  Problem Statement\t3\n3.  Current-State Systems Landscape\t4\n4.  Proposed Solution\t5\n5.  Proposed Solution — the AI Layer\t6\n6.  Solution Shape & Platform\t7\n7.  User Journey & Process Flow\t8\n8.  Target Orchestration & Compound State Model\t10\n9.  Feature List Delivered (Phase 1)\t10\n10.  Approach to Achieve\t11\n11.  Phase 1 Scope — Deliverables & Relative Dates\t11\n12.  Draft Sprint Plan & Timeline\t12\n13.  Next Phases — Scaling the Product\t13\n14.  Assumptions\t14\n15.  Exclusions (Phase 1)\t14\n16.  Open Questions / Clarifications Needed\t15\nAppendix A — Confirmed Data-Source Inventory\t15",
+        "anguage search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management. It begins with CDD (already ingested) and the CRO weekly reports flagged as the most tractable first win, then layers in Mosaic (already integrated on the EDP). The target duration is approximately 14 weeks across seven two-week sprints, with a searchable “first win” live within the first month.",
+        "The consolidated lakehouse is valuable on its own, but the AI layer is what turns it into the experience RayzeBio described. Each AI capability maps directly to a stated pain point and is grounded in governed data so answers are trustworthy and cited.\nScope for now. Phase 1 focuses on natural-language search to surface data, with SDF export for deeper analysis outside OneRayze. Comparative and cross-compound analysis is a deliberate later phase.\nGuardrails. Answers are grounded in the governed gold layer and returned with citations back to source records, so they are traceable rather than free-form. Access through the AI layer honours the same role-based permissions as the underlying data, and every interaction is written to the audit trail. Human review stays in the loop for consequential actions. The model-hosting and data-handling architecture — how RayzeBio's IP and research data are protected, and which model options are used — will be defined together with RayzeBio's security and platform teams to meet enterprise data-governance and IP requirements; this is an early open question (see the Open Questions section)."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_22",
+          "text": "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+          "page": null,
+          "section": "13.  Next Phases — Scaling the Product",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 397.78045654296875
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_20",
+          "text": "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+          "page": null,
+          "section": "11.  Phase 1 Scope — Deliverables & Relative Dates",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 402.2513427734375
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_0",
+          "text": "OneRayze\nUnified Research Data + AI Platform\nPhase 1 — Approach\nPrepared by the OneRayze Solution & Delivery Team\nfor RayzeBio Research & the Enterprise Data Platform team\nContents\n1.  Executive Summary\t3\n2.  Problem Statement\t3\n3.  Current-State Systems Landscape\t4\n4.  Proposed Solution\t5\n5.  Proposed Solution — the AI Layer\t6\n6.  Solution Shape & Platform\t7\n7.  User Journey & Process Flow\t8\n8.  Target Orchestration & Compound State Model\t10\n9.  Feature List Delivered (Phase 1)\t10\n10.  Approach to Achieve\t11\n11.  Phase 1 Scope — Deliverables & Relative Dates\t11\n12.  Draft Sprint Plan & Timeline\t12\n13.  Next Phases — Scaling the Product\t13\n14.  Assumptions\t14\n15.  Exclusions (Phase 1)\t14\n16.  Open Questions / Clarifications Needed\t15\nAppendix A — Confirmed Data-Source Inventory\t15",
+          "page": null,
+          "section": null,
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 402.3534240722656
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_4",
+          "text": "anguage search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management. It begins with CDD (already ingested) and the CRO weekly reports flagged as the most tractable first win, then layers in Mosaic (already integrated on the EDP). The target duration is approximately 14 weeks across seven two-week sprints, with a searchable “first win” live within the first month.",
+          "page": null,
+          "section": "1.  Executive Summary",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 403.643310546875
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_12",
+          "text": "The consolidated lakehouse is valuable on its own, but the AI layer is what turns it into the experience RayzeBio described. Each AI capability maps directly to a stated pain point and is grounded in governed data so answers are trustworthy and cited.\nScope for now. Phase 1 focuses on natural-language search to surface data, with SDF export for deeper analysis outside OneRayze. Comparative and cross-compound analysis is a deliberate later phase.\nGuardrails. Answers are grounded in the governed gold layer and returned with citations back to source records, so they are traceable rather than free-form. Access through the AI layer honours the same role-based permissions as the underlying data, and every interaction is written to the audit trail. Human review stays in the loop for consequential actions. The model-hosting and data-handling architecture — how RayzeBio's IP and research data are protected, and which model options are used — will be defined together with RayzeBio's security and platform teams to meet enterprise data-governance and IP requirements; this is an early open question (see the Open Questions section).",
+          "page": null,
+          "section": "5.  Proposed Solution — the AI Layer",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 404.05328369140625
+        }
+      ]
+    },
+    {
+      "question": "How does OneRayze handle requests for compound quantity during Phase 1?",
+      "answer": "Based on the retrieved evidence, OneRayze handles requests for compound quantity during Phase 1 by enforcing a quantity check before any assay request. Specifically:\n\n- Quantity is not checked at the request time when a request proceeds without checking the available amount in Mosaic.\n- In Phase 1, quantity is checked on-site during physical arrival and vial scan, ensuring the available amount in Mosaic covers the assay and verifying physical presence.\n- The system runs three checks before a request can be submitted:\n  1. Physically on site: Mosaic must show scanned vials.\n  2. Sufficient quantity: The available amount in Mosaic must cover the assay.\n  3. Not a duplicate: No completed run of the same assay already exists for the compound.\n  4. Phase mapping: The onsite + quantity gate is within Phase 1's tracker, resolving the DMPK \"queued but not onsite\" problem.\n- The Compound Tracker for Chemistry and Compound Management is introduced in Phase 1 to centralize the chemistry-to-compound-management journey.",
+      "faithfulness": 0.5555555555555556,
+      "answer_relevancy": 0.6363696338874195,
+      "document_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time. Requests proceed without checking the available amount in Mosaic; OneRayze verifies physical presence and sufficient quantity before a request can be submitted.\nStructure, QC & amounts are hard to find. These live in CDD but are not surfaced where the work happens; OneRayze shows structure, QC and amounts directly in the compound profile.",
+        "Before an assay request can be submitted, OneRayze runs three checks. Any failure blocks the request, which is exactly how the premature, duplicate and under-quantity problems are prevented:\nPhysically on site? Mosaic must show scanned vials — a virtual record alone is not enough (prevents premature requests before delivery).\nSufficient quantity? The available amount in Mosaic must cover the assay (prevents under-quantity requests).\nNot a duplicate? No completed run of the same assay already exists for the compound (prevents duplicate requests).\nPhase mapping. Reported→On site and the quantity-gated request sit inside Phase 1's tracker. Full assay execution, DMPK and Tier 1 / Tier 2 criteria and gating are Phase 3; the onsite + quantity gate here already resolves the DMPK “queued but not onsite” problem raised in the intake.",
+        "ual Mosaic record from physical, scanned-on-site material — and enforces a quantity check before any assay request, notifying the right person at each transition instead of relying on manual chasing.\nWhat changed since the last review. Following sessions with the chemistry and biology teams, OneRayze is organised by project rather than by role, with customizable visibility (chemists see the full chemistry→biology track; biologists opt in). Access is open by default — the priority is visibility, with permissions tightened later only where needed. The compound-registration tools (Compound Registrar and Chemtrack) sit in the application layer as directly usable tools; the compound profile shows structure, QC and amounts from CDD, and the AI scope is set to natural-language search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management.",
+        "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+        "At a glance: OneRayze runs as an application on top of RayzeBio’s Databricks enterprise data platform (EDP). Sources are harmonised once, held at a clear grain (compound → batch/lot → container), and served to a project-based app with natural-language search, notifications and quantity-gated requests. The compound-registration tools (Compound Registrar and Chemtrack) and the compound profile live in the application layer; CDD Vault and Mosaic remain the systems of record.\nPlatform detail is in a companion document. The layered architecture — including the app-facing serving tier and the semantic / vector layer — plus layer naming, the access model, integration status and the GxP position are covered in the EDP Annex prepared for the Enterprise Data Platform team (Stephen Lee) and ZS. This keeps the main document focused on the research story."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_8",
+          "text": "When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time. Requests proceed without checking the available amount in Mosaic; OneRayze verifies physical presence and sufficient quantity before a request can be submitted.\nStructure, QC & amounts are hard to find. These live in CDD but are not surfaced where the work happens; OneRayze shows structure, QC and amounts directly in the compound profile.",
+          "page": null,
+          "section": "2.2  What the chemistry-team intake confirmed",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 373.34857177734375
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_16",
+          "text": "Before an assay request can be submitted, OneRayze runs three checks. Any failure blocks the request, which is exactly how the premature, duplicate and under-quantity problems are prevented:\nPhysically on site? Mosaic must show scanned vials — a virtual record alone is not enough (prevents premature requests before delivery).\nSufficient quantity? The available amount in Mosaic must cover the assay (prevents under-quantity requests).\nNot a duplicate? No completed run of the same assay already exists for the compound (prevents duplicate requests).\nPhase mapping. Reported→On site and the quantity-gated request sit inside Phase 1's tracker. Full assay execution, DMPK and Tier 1 / Tier 2 criteria and gating are Phase 3; the onsite + quantity gate here already resolves the DMPK “queued but not onsite” problem raised in the intake.",
+          "page": null,
+          "section": "8.1  The request gate (what prevents the pain points)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 373.3555908203125
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_3",
+          "text": "ual Mosaic record from physical, scanned-on-site material — and enforces a quantity check before any assay request, notifying the right person at each transition instead of relying on manual chasing.\nWhat changed since the last review. Following sessions with the chemistry and biology teams, OneRayze is organised by project rather than by role, with customizable visibility (chemists see the full chemistry→biology track; biologists opt in). Access is open by default — the priority is visibility, with permissions tightened later only where needed. The compound-registration tools (Compound Registrar and Chemtrack) sit in the application layer as directly usable tools; the compound profile shows structure, QC and amounts from CDD, and the AI scope is set to natural-language search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management.",
+          "page": null,
+          "section": "1.  Executive Summary",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 373.8191833496094
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_14",
+          "text": "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+          "page": null,
+          "section": "7.  User Journey & Process Flow",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 374.24700927734375
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_13",
+          "text": "At a glance: OneRayze runs as an application on top of RayzeBio’s Databricks enterprise data platform (EDP). Sources are harmonised once, held at a clear grain (compound → batch/lot → container), and served to a project-based app with natural-language search, notifications and quantity-gated requests. The compound-registration tools (Compound Registrar and Chemtrack) and the compound profile live in the application layer; CDD Vault and Mosaic remain the systems of record.\nPlatform detail is in a companion document. The layered architecture — including the app-facing serving tier and the semantic / vector layer — plus layer naming, the access model, integration status and the GxP position are covered in the EDP Annex prepared for the Enterprise Data Platform team (Stephen Lee) and ZS. This keeps the main document focused on the research story.",
+          "page": null,
+          "section": "6.  Solution Shape & Platform",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 375.9240417480469
+        }
+      ]
+    },
+    {
+      "question": "Where are structure, QC, and amount details accessible during Phase 1?",
+      "answer": "Explicit details:\n- Structure, QC, and amount details are accessible directly in the compound profile in Phase 1.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "document_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build.",
+        "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+        "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+        "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+        "When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time. Requests proceed without checking the available amount in Mosaic; OneRayze verifies physical presence and sufficient quantity before a request can be submitted.\nStructure, QC & amounts are hard to find. These live in CDD but are not surfaced where the work happens; OneRayze shows structure, QC and amounts directly in the compound profile."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_17",
+          "text": "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build.",
+          "page": null,
+          "section": "9.  Feature List Delivered (Phase 1)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 413.4822082519531
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_20",
+          "text": "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+          "page": null,
+          "section": "11.  Phase 1 Scope — Deliverables & Relative Dates",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 414.97998046875
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_14",
+          "text": "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+          "page": null,
+          "section": "7.  User Journey & Process Flow",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 415.83416748046875
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_22",
+          "text": "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+          "page": null,
+          "section": "13.  Next Phases — Scaling the Product",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 416.2115478515625
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_8",
+          "text": "When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time. Requests proceed without checking the available amount in Mosaic; OneRayze verifies physical presence and sufficient quantity before a request can be submitted.\nStructure, QC & amounts are hard to find. These live in CDD but are not surfaced where the work happens; OneRayze shows structure, QC and amounts directly in the compound profile.",
+          "page": null,
+          "section": "2.2  What the chemistry-team intake confirmed",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 416.75811767578125
+        }
+      ]
+    },
+    {
+      "question": "What specific AI capabilities are included in Phase 1 of the AI layer?",
+      "answer": "Explicit details:\n- 6 — features scoped to Chemistry and Compound Management in Phase 1",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "document_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+        "The consolidated lakehouse is valuable on its own, but the AI layer is what turns it into the experience RayzeBio described. Each AI capability maps directly to a stated pain point and is grounded in governed data so answers are trustworthy and cited.\nScope for now. Phase 1 focuses on natural-language search to surface data, with SDF export for deeper analysis outside OneRayze. Comparative and cross-compound analysis is a deliberate later phase.\nGuardrails. Answers are grounded in the governed gold layer and returned with citations back to source records, so they are traceable rather than free-form. Access through the AI layer honours the same role-based permissions as the underlying data, and every interaction is written to the audit trail. Human review stays in the loop for consequential actions. The model-hosting and data-handling architecture — how RayzeBio's IP and research data are protected, and which model options are used — will be defined together with RayzeBio's security and platform teams to meet enterprise data-governance and IP requirements; this is an early open question (see the Open Questions section).",
+        "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build.",
+        "OneRayze\nUnified Research Data + AI Platform\nPhase 1 — Approach\nPrepared by the OneRayze Solution & Delivery Team\nfor RayzeBio Research & the Enterprise Data Platform team\nContents\n1.  Executive Summary\t3\n2.  Problem Statement\t3\n3.  Current-State Systems Landscape\t4\n4.  Proposed Solution\t5\n5.  Proposed Solution — the AI Layer\t6\n6.  Solution Shape & Platform\t7\n7.  User Journey & Process Flow\t8\n8.  Target Orchestration & Compound State Model\t10\n9.  Feature List Delivered (Phase 1)\t10\n10.  Approach to Achieve\t11\n11.  Phase 1 Scope — Deliverables & Relative Dates\t11\n12.  Draft Sprint Plan & Timeline\t12\n13.  Next Phases — Scaling the Product\t13\n14.  Assumptions\t14\n15.  Exclusions (Phase 1)\t14\n16.  Open Questions / Clarifications Needed\t15\nAppendix A — Confirmed Data-Source Inventory\t15",
+        "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_22",
+          "text": "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+          "page": null,
+          "section": "13.  Next Phases — Scaling the Product",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 420.6064453125
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_12",
+          "text": "The consolidated lakehouse is valuable on its own, but the AI layer is what turns it into the experience RayzeBio described. Each AI capability maps directly to a stated pain point and is grounded in governed data so answers are trustworthy and cited.\nScope for now. Phase 1 focuses on natural-language search to surface data, with SDF export for deeper analysis outside OneRayze. Comparative and cross-compound analysis is a deliberate later phase.\nGuardrails. Answers are grounded in the governed gold layer and returned with citations back to source records, so they are traceable rather than free-form. Access through the AI layer honours the same role-based permissions as the underlying data, and every interaction is written to the audit trail. Human review stays in the loop for consequential actions. The model-hosting and data-handling architecture — how RayzeBio's IP and research data are protected, and which model options are used — will be defined together with RayzeBio's security and platform teams to meet enterprise data-governance and IP requirements; this is an early open question (see the Open Questions section).",
+          "page": null,
+          "section": "5.  Proposed Solution — the AI Layer",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 425.85150146484375
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_17",
+          "text": "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build.",
+          "page": null,
+          "section": "9.  Feature List Delivered (Phase 1)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 426.9501953125
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_0",
+          "text": "OneRayze\nUnified Research Data + AI Platform\nPhase 1 — Approach\nPrepared by the OneRayze Solution & Delivery Team\nfor RayzeBio Research & the Enterprise Data Platform team\nContents\n1.  Executive Summary\t3\n2.  Problem Statement\t3\n3.  Current-State Systems Landscape\t4\n4.  Proposed Solution\t5\n5.  Proposed Solution — the AI Layer\t6\n6.  Solution Shape & Platform\t7\n7.  User Journey & Process Flow\t8\n8.  Target Orchestration & Compound State Model\t10\n9.  Feature List Delivered (Phase 1)\t10\n10.  Approach to Achieve\t11\n11.  Phase 1 Scope — Deliverables & Relative Dates\t11\n12.  Draft Sprint Plan & Timeline\t12\n13.  Next Phases — Scaling the Product\t13\n14.  Assumptions\t14\n15.  Exclusions (Phase 1)\t14\n16.  Open Questions / Clarifications Needed\t15\nAppendix A — Confirmed Data-Source Inventory\t15",
+          "page": null,
+          "section": null,
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 426.96331787109375
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_20",
+          "text": "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+          "page": null,
+          "section": "11.  Phase 1 Scope — Deliverables & Relative Dates",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 427.91680908203125
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of the gold layer in the AI layer architecture?",
+      "answer": "Explicit details:\n- gold layer — a foundational layer in the AI layer architecture, which is grounded in governed data to ensure answers are trustworthy and can be traced back to source records.",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "document_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "The consolidated lakehouse is valuable on its own, but the AI layer is what turns it into the experience RayzeBio described. Each AI capability maps directly to a stated pain point and is grounded in governed data so answers are trustworthy and cited.\nScope for now. Phase 1 focuses on natural-language search to surface data, with SDF export for deeper analysis outside OneRayze. Comparative and cross-compound analysis is a deliberate later phase.\nGuardrails. Answers are grounded in the governed gold layer and returned with citations back to source records, so they are traceable rather than free-form. Access through the AI layer honours the same role-based permissions as the underlying data, and every interaction is written to the audit trail. Human review stays in the loop for consequential actions. The model-hosting and data-handling architecture — how RayzeBio's IP and research data are protected, and which model options are used — will be defined together with RayzeBio's security and platform teams to meet enterprise data-governance and IP requirements; this is an early open question (see the Open Questions section).",
+        "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+        "OneRayze is a single platform that consolidates RayzeBio research data and presents it through one interface, with an AI layer on top. It is delivered as four cooperating layers on top of RayzeBio's Databricks lakehouse:\nUnified data foundation. Sources are ingested into the Databricks lakehouse using a medallion pattern (bronze → silver → gold). Where the platform team has already built a pipeline (CDD is done; Mosaic is integrated), OneRayze consumes it rather than rebuilding it.\nCommon compound identity. An entity-resolution / cross-walk maps each compound to a single identity across CDD, Mosaic and CRO reports — the linchpin that makes cross-referencing possible.\nApplication layer. A compound tracker, cross-system search, an immutable assay-request audit trail with duplicate detection, an automated notification chain, and dashboards.\nAI & semantic layer. A natural-language research assistant grounded in the governed data — ask a question across all sources and get grounded, cited answers — plus report summarisation, semantic duplicate detection and knowledge capture.",
+        "RayzeBio's research data and workflows are spread across many disconnected systems — CDD Vault, Titian Mosaic, SharePoint, OneDrive, Excel, Smartsheet and email. Because no system links to another and few actions leave an audit trail, teams duplicate assay requests, cannot cross-reference compound availability against assay activity, and steadily lose hard-won institutional knowledge — particularly from translational target research. Day-to-day work depends on individuals manually checking drives, folders and inboxes.\nOneRayze addresses this by consolidating RayzeBio's research data onto the existing Databricks lakehouse and layering a natural-language AI experience on top — an AI research assistant that lets any authorised user ask questions across every source and get grounded, cited answers. OneRayze builds on the enterprise data platform rather than duplicating pipelines already owned by RayzeBio's platform team.\nSince the initial review, a chemistry-team intake and two client process diagrams have sharpened the picture.",
+        "e research assistant grounded in the governed data — ask a question across all sources and get grounded, cited answers — plus report summarisation, semantic duplicate detection and knowledge capture.\nProject-based experience. Views are organised by project with customizable visibility and access open by default; the Compound Registrar and Chemtrack are directly accessible tools in the app; the compound profile surfaces structure, QC and amounts from CDD; and each compound carries a clear virtual (registered) vs. physical (on-site) state with a quantity check before assay requests.\nBuild on what exists. CDD Vault and Mosaic remain authoritative, and the current Streamlit “AI Compound Registrar” is retained; OneRayze consumes and extends them rather than rebuilding registration.\nDesign principle: build on the enterprise data platform, not around it. The delivery team coordinates with Stephen Lee's team and ZS (the EDP delivery partner) to distinguish data sources that are done from those in progress, and never duplicates pipelines the platform team is already building."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_12",
+          "text": "The consolidated lakehouse is valuable on its own, but the AI layer is what turns it into the experience RayzeBio described. Each AI capability maps directly to a stated pain point and is grounded in governed data so answers are trustworthy and cited.\nScope for now. Phase 1 focuses on natural-language search to surface data, with SDF export for deeper analysis outside OneRayze. Comparative and cross-compound analysis is a deliberate later phase.\nGuardrails. Answers are grounded in the governed gold layer and returned with citations back to source records, so they are traceable rather than free-form. Access through the AI layer honours the same role-based permissions as the underlying data, and every interaction is written to the audit trail. Human review stays in the loop for consequential actions. The model-hosting and data-handling architecture — how RayzeBio's IP and research data are protected, and which model options are used — will be defined together with RayzeBio's security and platform teams to meet enterprise data-governance and IP requirements; this is an early open question (see the Open Questions section).",
+          "page": null,
+          "section": "5.  Proposed Solution — the AI Layer",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 432.37420654296875
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_22",
+          "text": "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+          "page": null,
+          "section": "13.  Next Phases — Scaling the Product",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 433.25787353515625
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_10",
+          "text": "OneRayze is a single platform that consolidates RayzeBio research data and presents it through one interface, with an AI layer on top. It is delivered as four cooperating layers on top of RayzeBio's Databricks lakehouse:\nUnified data foundation. Sources are ingested into the Databricks lakehouse using a medallion pattern (bronze → silver → gold). Where the platform team has already built a pipeline (CDD is done; Mosaic is integrated), OneRayze consumes it rather than rebuilding it.\nCommon compound identity. An entity-resolution / cross-walk maps each compound to a single identity across CDD, Mosaic and CRO reports — the linchpin that makes cross-referencing possible.\nApplication layer. A compound tracker, cross-system search, an immutable assay-request audit trail with duplicate detection, an automated notification chain, and dashboards.\nAI & semantic layer. A natural-language research assistant grounded in the governed data — ask a question across all sources and get grounded, cited answers — plus report summarisation, semantic duplicate detection and knowledge capture.",
+          "page": null,
+          "section": "4.  Proposed Solution",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 435.88775634765625
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_1",
+          "text": "RayzeBio's research data and workflows are spread across many disconnected systems — CDD Vault, Titian Mosaic, SharePoint, OneDrive, Excel, Smartsheet and email. Because no system links to another and few actions leave an audit trail, teams duplicate assay requests, cannot cross-reference compound availability against assay activity, and steadily lose hard-won institutional knowledge — particularly from translational target research. Day-to-day work depends on individuals manually checking drives, folders and inboxes.\nOneRayze addresses this by consolidating RayzeBio's research data onto the existing Databricks lakehouse and layering a natural-language AI experience on top — an AI research assistant that lets any authorised user ask questions across every source and get grounded, cited answers. OneRayze builds on the enterprise data platform rather than duplicating pipelines already owned by RayzeBio's platform team.\nSince the initial review, a chemistry-team intake and two client process diagrams have sharpened the picture.",
+          "page": null,
+          "section": "1.  Executive Summary",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 436.65283203125
+        },
+        {
+          "chunk_id": "d42cc076-6c23-4bf2-b2fa-a5cb3b153873_11",
+          "text": "e research assistant grounded in the governed data — ask a question across all sources and get grounded, cited answers — plus report summarisation, semantic duplicate detection and knowledge capture.\nProject-based experience. Views are organised by project with customizable visibility and access open by default; the Compound Registrar and Chemtrack are directly accessible tools in the app; the compound profile surfaces structure, QC and amounts from CDD; and each compound carries a clear virtual (registered) vs. physical (on-site) state with a quantity check before assay requests.\nBuild on what exists. CDD Vault and Mosaic remain authoritative, and the current Streamlit “AI Compound Registrar” is retained; OneRayze consumes and extends them rather than rebuilding registration.\nDesign principle: build on the enterprise data platform, not around it. The delivery team coordinates with Stephen Lee's team and ZS (the EDP delivery partner) to distinguish data sources that are done from those in progress, and never duplicates pipelines the platform team is already building.",
+          "page": null,
+          "section": "4.  Proposed Solution",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 436.6710510253906
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "average_faithfulness": 0.4111111111111111,
+    "average_answer_relevancy": 0.32713404602253693
+  }
+}

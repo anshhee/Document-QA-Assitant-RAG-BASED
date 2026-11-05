@@ -1,0 +1,300 @@
+{
+  "document_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02",
+  "num_questions": 5,
+  "results": [
+    {
+      "question": "What phase of the AI layer does the document describe as the primary focus for Phase 1?",
+      "answer": "The document describes the document's Phase 1 as the primary focus for establishing the foundation, which includes consolidated data, compound identity, and a tracker, along with the introduction of the first AI experience.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.873497501060667,
+      "document_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+        "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+        "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build.",
+        "OneRayze\nUnified Research Data + AI Platform\nPhase 1 — Approach\nPrepared by the OneRayze Solution & Delivery Team\nfor RayzeBio Research & the Enterprise Data Platform team\nContents\n1.  Executive Summary\t3\n2.  Problem Statement\t3\n3.  Current-State Systems Landscape\t4\n4.  Proposed Solution\t5\n5.  Proposed Solution — the AI Layer\t6\n6.  Solution Shape & Platform\t7\n7.  User Journey & Process Flow\t8\n8.  Target Orchestration & Compound State Model\t10\n9.  Feature List Delivered (Phase 1)\t10\n10.  Approach to Achieve\t11\n11.  Phase 1 Scope — Deliverables & Relative Dates\t11\n12.  Draft Sprint Plan & Timeline\t12\n13.  Next Phases — Scaling the Product\t13\n14.  Assumptions\t14\n15.  Exclusions (Phase 1)\t14\n16.  Open Questions / Clarifications Needed\t15\nAppendix A — Confirmed Data-Source Inventory\t15",
+        "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_22",
+          "text": "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+          "page": null,
+          "section": "13.  Next Phases — Scaling the Product",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 398.337158203125
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_20",
+          "text": "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+          "page": null,
+          "section": "11.  Phase 1 Scope — Deliverables & Relative Dates",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 403.61639404296875
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_17",
+          "text": "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build.",
+          "page": null,
+          "section": "9.  Feature List Delivered (Phase 1)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 404.09332275390625
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_0",
+          "text": "OneRayze\nUnified Research Data + AI Platform\nPhase 1 — Approach\nPrepared by the OneRayze Solution & Delivery Team\nfor RayzeBio Research & the Enterprise Data Platform team\nContents\n1.  Executive Summary\t3\n2.  Problem Statement\t3\n3.  Current-State Systems Landscape\t4\n4.  Proposed Solution\t5\n5.  Proposed Solution — the AI Layer\t6\n6.  Solution Shape & Platform\t7\n7.  User Journey & Process Flow\t8\n8.  Target Orchestration & Compound State Model\t10\n9.  Feature List Delivered (Phase 1)\t10\n10.  Approach to Achieve\t11\n11.  Phase 1 Scope — Deliverables & Relative Dates\t11\n12.  Draft Sprint Plan & Timeline\t12\n13.  Next Phases — Scaling the Product\t13\n14.  Assumptions\t14\n15.  Exclusions (Phase 1)\t14\n16.  Open Questions / Clarifications Needed\t15\nAppendix A — Confirmed Data-Source Inventory\t15",
+          "page": null,
+          "section": null,
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 404.4363098144531
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_14",
+          "text": "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+          "page": null,
+          "section": "7.  User Journey & Process Flow",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 405.2052001953125
+        }
+      ]
+    },
+    {
+      "question": "What is the approximate duration for Phase 1 according to the document?",
+      "answer": "According to the retrieved evidence, the target duration for Phase 1 is approximately 14 weeks across seven two-week sprints.",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8459922559900593,
+      "document_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+        "anguage search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management. It begins with CDD (already ingested) and the CRO weekly reports flagged as the most tractable first win, then layers in Mosaic (already integrated on the EDP). The target duration is approximately 14 weeks across seven two-week sprints, with a searchable “first win” live within the first month.",
+        "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+        "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+        "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_20",
+          "text": "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+          "page": null,
+          "section": "11.  Phase 1 Scope — Deliverables & Relative Dates",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 420.97344970703125
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_4",
+          "text": "anguage search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management. It begins with CDD (already ingested) and the CRO weekly reports flagged as the most tractable first win, then layers in Mosaic (already integrated on the EDP). The target duration is approximately 14 weeks across seven two-week sprints, with a searchable “first win” live within the first month.",
+          "page": null,
+          "section": "1.  Executive Summary",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 422.33905029296875
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_22",
+          "text": "Phase 1 establishes the foundation (consolidated data, compound identity, tracker, first AI experience). Later phases extend coverage across the research organisation and deepen the AI.",
+          "page": null,
+          "section": "13.  Next Phases — Scaling the Product",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 422.77471923828125
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_14",
+          "text": "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+          "page": null,
+          "section": "7.  User Journey & Process Flow",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 422.9756164550781
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_17",
+          "text": "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build.",
+          "page": null,
+          "section": "9.  Feature List Delivered (Phase 1)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 423.10052490234375
+        }
+      ]
+    },
+    {
+      "question": "How does OneRayze address the lack of alerts for vials scanned on arrival in the document?",
+      "answer": "Based on the evidence provided, OneRayze addresses the lack of alerts for vials scanned on arrival by automatically firing an on-site \"ready for assay\" notification. This notification is fired regardless of whether the quantity is enforced at request time, which is consistent across the provided evidence. The specific point of RayzeID assignment is still under consideration, but it is assumed that the Registrar assigns it from the shipment SDF at registration, so reported compounds are tracked by a CRO-side key until then. The exact location of the AI models and data privacy/IP constraints have not been specified. The users' access levels and the use of Smartsheet imaging/in-vivo integration have not been defined.",
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 0.0,
+      "document_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time. Requests proceed without checking the available amount in Mosaic; OneRayze verifies physical presence and sufficient quantity before a request can be submitted.\nStructure, QC & amounts are hard to find. These live in CDD but are not surfaced where the work happens; OneRayze shows structure, QC and amounts directly in the compound profile.",
+        "ekly trackers arrive as PDF, Excel, PPT and Prism (Prism ingestion is TBD with the EDP team), while the CRO shipment SDF + QC template is consistent across vendors — favourable for automated parsing.\nData spans two tenancies. Several systems live in the BMS environment (e.g. ChemLabOps, the RayzeBio Discovery site, PK/ICP-MS request sheets), so cross-tenant access and governance must be considered.\nCompounds register before they physically arrive. The registrar creates a virtual record in CDD and Mosaic on shipment; because Mosaic shows the compound present ~1 week before delivery (customs), assays are requested prematurely. OneRayze separates a virtual record from physical, scanned-on-site material.\nNo arrival notification. When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time.",
+        "Before an assay request can be submitted, OneRayze runs three checks. Any failure blocks the request, which is exactly how the premature, duplicate and under-quantity problems are prevented:\nPhysically on site? Mosaic must show scanned vials — a virtual record alone is not enough (prevents premature requests before delivery).\nSufficient quantity? The available amount in Mosaic must cover the assay (prevents under-quantity requests).\nNot a duplicate? No completed run of the same assay already exists for the compound (prevents duplicate requests).\nPhase mapping. Reported→On site and the quantity-gated request sit inside Phase 1's tracker. Full assay execution, DMPK and Tier 1 / Tier 2 criteria and gating are Phase 3; the onsite + quantity gate here already resolves the DMPK “queued but not onsite” problem raised in the intake.",
+        "ual Mosaic record from physical, scanned-on-site material — and enforces a quantity check before any assay request, notifying the right person at each transition instead of relying on manual chasing.\nWhat changed since the last review. Following sessions with the chemistry and biology teams, OneRayze is organised by project rather than by role, with customizable visibility (chemists see the full chemistry→biology track; biologists opt in). Access is open by default — the priority is visibility, with permissions tightened later only where needed. The compound-registration tools (Compound Registrar and Chemtrack) sit in the application layer as directly usable tools; the compound profile shows structure, QC and amounts from CDD, and the AI scope is set to natural-language search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management.",
+        "Confirm the exact point of RayzeID assignment — our working assumption is the Registrar assigns it from the shipment SDF at registration, so reported compounds are tracked by a CRO-side key until then.\nShould the RayzeID be the primary compound identifier shown across the OneRayze UI (alongside or in place of CDD / internal IDs)?\nConfirm the arrival-scan mechanism (plate / 2D reader) and how it writes physical quantity back to Mosaic in real time.\nCross-tenant access & governance between RayzeBio and BMS environments (ChemLabOps, Discovery site, PK/ICP-MS sheets)?\nWhere should the AI models be hosted, and what are the data-privacy / IP constraints on using research data with them?\nPlease provide the full list of users (developers, scientists, consumers) and their required access levels.\nSmartsheet imaging / in-vivo: read-only or two-way integration (for later phases)?"
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_8",
+          "text": "When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time. Requests proceed without checking the available amount in Mosaic; OneRayze verifies physical presence and sufficient quantity before a request can be submitted.\nStructure, QC & amounts are hard to find. These live in CDD but are not surfaced where the work happens; OneRayze shows structure, QC and amounts directly in the compound profile.",
+          "page": null,
+          "section": "2.2  What the chemistry-team intake confirmed",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 359.65570068359375
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_7",
+          "text": "ekly trackers arrive as PDF, Excel, PPT and Prism (Prism ingestion is TBD with the EDP team), while the CRO shipment SDF + QC template is consistent across vendors — favourable for automated parsing.\nData spans two tenancies. Several systems live in the BMS environment (e.g. ChemLabOps, the RayzeBio Discovery site, PK/ICP-MS request sheets), so cross-tenant access and governance must be considered.\nCompounds register before they physically arrive. The registrar creates a virtual record in CDD and Mosaic on shipment; because Mosaic shows the compound present ~1 week before delivery (customs), assays are requested prematurely. OneRayze separates a virtual record from physical, scanned-on-site material.\nNo arrival notification. When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time.",
+          "page": null,
+          "section": "2.2  What the chemistry-team intake confirmed",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 362.55859375
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_16",
+          "text": "Before an assay request can be submitted, OneRayze runs three checks. Any failure blocks the request, which is exactly how the premature, duplicate and under-quantity problems are prevented:\nPhysically on site? Mosaic must show scanned vials — a virtual record alone is not enough (prevents premature requests before delivery).\nSufficient quantity? The available amount in Mosaic must cover the assay (prevents under-quantity requests).\nNot a duplicate? No completed run of the same assay already exists for the compound (prevents duplicate requests).\nPhase mapping. Reported→On site and the quantity-gated request sit inside Phase 1's tracker. Full assay execution, DMPK and Tier 1 / Tier 2 criteria and gating are Phase 3; the onsite + quantity gate here already resolves the DMPK “queued but not onsite” problem raised in the intake.",
+          "page": null,
+          "section": "8.1  The request gate (what prevents the pain points)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 362.70458984375
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_3",
+          "text": "ual Mosaic record from physical, scanned-on-site material — and enforces a quantity check before any assay request, notifying the right person at each transition instead of relying on manual chasing.\nWhat changed since the last review. Following sessions with the chemistry and biology teams, OneRayze is organised by project rather than by role, with customizable visibility (chemists see the full chemistry→biology track; biologists opt in). Access is open by default — the priority is visibility, with permissions tightened later only where needed. The compound-registration tools (Compound Registrar and Chemtrack) sit in the application layer as directly usable tools; the compound profile shows structure, QC and amounts from CDD, and the AI scope is set to natural-language search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management.",
+          "page": null,
+          "section": "1.  Executive Summary",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 364.5367736816406
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_28",
+          "text": "Confirm the exact point of RayzeID assignment — our working assumption is the Registrar assigns it from the shipment SDF at registration, so reported compounds are tracked by a CRO-side key until then.\nShould the RayzeID be the primary compound identifier shown across the OneRayze UI (alongside or in place of CDD / internal IDs)?\nConfirm the arrival-scan mechanism (plate / 2D reader) and how it writes physical quantity back to Mosaic in real time.\nCross-tenant access & governance between RayzeBio and BMS environments (ChemLabOps, Discovery site, PK/ICP-MS sheets)?\nWhere should the AI models be hosted, and what are the data-privacy / IP constraints on using research data with them?\nPlease provide the full list of users (developers, scientists, consumers) and their required access levels.\nSmartsheet imaging / in-vivo: read-only or two-way integration (for later phases)?",
+          "page": null,
+          "section": "AI, access & governance",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 366.2693786621094
+        }
+      ]
+    },
+    {
+      "question": "What limitation is mentioned regarding quantity checks before requests in Phase 1?",
+      "answer": "In Phase 1, quantity checks are performed before requests are submitted. Specifically, OneRayze verifies physical presence and sufficient quantity before a request can be submitted. Quantity is not enforced at request time; instead, physical presence is checked. This ensures that the compound is not prematurely requested before delivery and that the quantity in the system covers the assay requirements.",
+      "faithfulness": 0.25,
+      "answer_relevancy": 0.7443181746151933,
+      "document_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Before an assay request can be submitted, OneRayze runs three checks. Any failure blocks the request, which is exactly how the premature, duplicate and under-quantity problems are prevented:\nPhysically on site? Mosaic must show scanned vials — a virtual record alone is not enough (prevents premature requests before delivery).\nSufficient quantity? The available amount in Mosaic must cover the assay (prevents under-quantity requests).\nNot a duplicate? No completed run of the same assay already exists for the compound (prevents duplicate requests).\nPhase mapping. Reported→On site and the quantity-gated request sit inside Phase 1's tracker. Full assay execution, DMPK and Tier 1 / Tier 2 criteria and gating are Phase 3; the onsite + quantity gate here already resolves the DMPK “queued but not onsite” problem raised in the intake.",
+        "When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time. Requests proceed without checking the available amount in Mosaic; OneRayze verifies physical presence and sufficient quantity before a request can be submitted.\nStructure, QC & amounts are hard to find. These live in CDD but are not surfaced where the work happens; OneRayze shows structure, QC and amounts directly in the compound profile.",
+        "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+        "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+        "In-vitro biology workflows and assay Tier 1 / Tier 2 execution — deferred to later phases.\nCompound ordering / queue workflow — primary delivery is Phase 2.\nDownstream steps 7–9 (radchem labelling, in vivo, imaging) and their Smartsheet scheduling.\nCataloguing / integrating ancillary systems (ChemLabOps, Athena, Psilo, PK/ICP-MS request sheets).\nPrograms and teams beyond chemistry and compound management.\nBuilding or duplicating ingestion pipelines already owned by RayzeBio's platform team.\nNon-research data domains (e.g. HR, finance, clinical / regulatory).\nComparative / cross-compound analysis inside the tool — Phase 1 provides NL search to surface data and SDF export for deeper analysis elsewhere; comparison is a later phase.\nChemical-structure search beyond compound-ID / RayzeID search, unless confirmed as in-scope during discovery.\nMigration or decommissioning of existing source systems — OneRayze reads from them, it does not replace them in Phase 1."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_16",
+          "text": "Before an assay request can be submitted, OneRayze runs three checks. Any failure blocks the request, which is exactly how the premature, duplicate and under-quantity problems are prevented:\nPhysically on site? Mosaic must show scanned vials — a virtual record alone is not enough (prevents premature requests before delivery).\nSufficient quantity? The available amount in Mosaic must cover the assay (prevents under-quantity requests).\nNot a duplicate? No completed run of the same assay already exists for the compound (prevents duplicate requests).\nPhase mapping. Reported→On site and the quantity-gated request sit inside Phase 1's tracker. Full assay execution, DMPK and Tier 1 / Tier 2 criteria and gating are Phase 3; the onsite + quantity gate here already resolves the DMPK “queued but not onsite” problem raised in the intake.",
+          "page": null,
+          "section": "8.1  The request gate (what prevents the pain points)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 410.87542724609375
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_8",
+          "text": "When vials are scanned on arrival (plate / 2D reader), no alert reaches the chemist; OneRayze fires an on-site “ready for assay” notification automatically.\nQuantity is not enforced at request time. Requests proceed without checking the available amount in Mosaic; OneRayze verifies physical presence and sufficient quantity before a request can be submitted.\nStructure, QC & amounts are hard to find. These live in CDD but are not surfaced where the work happens; OneRayze shows structure, QC and amounts directly in the compound profile.",
+          "page": null,
+          "section": "2.2  What the chemistry-team intake confirmed",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 414.16815185546875
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_20",
+          "text": "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+          "page": null,
+          "section": "11.  Phase 1 Scope — Deliverables & Relative Dates",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 416.4839172363281
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_14",
+          "text": "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+          "page": null,
+          "section": "7.  User Journey & Process Flow",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 416.6877746582031
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_25",
+          "text": "In-vitro biology workflows and assay Tier 1 / Tier 2 execution — deferred to later phases.\nCompound ordering / queue workflow — primary delivery is Phase 2.\nDownstream steps 7–9 (radchem labelling, in vivo, imaging) and their Smartsheet scheduling.\nCataloguing / integrating ancillary systems (ChemLabOps, Athena, Psilo, PK/ICP-MS request sheets).\nPrograms and teams beyond chemistry and compound management.\nBuilding or duplicating ingestion pipelines already owned by RayzeBio's platform team.\nNon-research data domains (e.g. HR, finance, clinical / regulatory).\nComparative / cross-compound analysis inside the tool — Phase 1 provides NL search to surface data and SDF export for deeper analysis elsewhere; comparison is a later phase.\nChemical-structure search beyond compound-ID / RayzeID search, unless confirmed as in-scope during discovery.\nMigration or decommissioning of existing source systems — OneRayze reads from them, it does not replace them in Phase 1.",
+          "page": null,
+          "section": "15.  Exclusions (Phase 1)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 416.8171081542969
+        }
+      ]
+    },
+    {
+      "question": "Which two items are highlighted as being difficult to find in Phase 1 according to the document?",
+      "answer": "According to the document, the two items that are highlighted as being difficult to find in Phase 1 are:\n\n1. Compound ordering / queue workflow\n2. Downstream steps 7–9 (radchem labelling, in vivo, imaging) and their Smartsheet scheduling.",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9897032648332581,
+      "document_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02",
+      "model_used": "qwen2.5:3b",
+      "contexts": [
+        "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build.",
+        "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+        "anguage search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management. It begins with CDD (already ingested) and the CRO weekly reports flagged as the most tractable first win, then layers in Mosaic (already integrated on the EDP). The target duration is approximately 14 weeks across seven two-week sprints, with a searchable “first win” live within the first month.",
+        "In-vitro biology workflows and assay Tier 1 / Tier 2 execution — deferred to later phases.\nCompound ordering / queue workflow — primary delivery is Phase 2.\nDownstream steps 7–9 (radchem labelling, in vivo, imaging) and their Smartsheet scheduling.\nCataloguing / integrating ancillary systems (ChemLabOps, Athena, Psilo, PK/ICP-MS request sheets).\nPrograms and teams beyond chemistry and compound management.\nBuilding or duplicating ingestion pipelines already owned by RayzeBio's platform team.\nNon-research data domains (e.g. HR, finance, clinical / regulatory).\nComparative / cross-compound analysis inside the tool — Phase 1 provides NL search to surface data and SDF export for deeper analysis elsewhere; comparison is a later phase.\nChemical-structure search beyond compound-ID / RayzeID search, unless confirmed as in-scope during discovery.\nMigration or decommissioning of existing source systems — OneRayze reads from them, it does not replace them in Phase 1.",
+        "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests."
+      ],
+      "num_contexts": 5,
+      "retrieved_chunks": [
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_17",
+          "text": "Phase 1 delivers the following features, scoped to Chemistry and Compound Management. Each is a thin, usable vertical slice rather than a back-end-only build.",
+          "page": null,
+          "section": "9.  Feature List Delivered (Phase 1)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 407.37274169921875
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_20",
+          "text": "Phase 1 scope: a compound tracker focused on chemistry and compound management, starting with CDD, adding CRO weekly reports as the first win, and layering in Mosaic (already integrated). The chart below plots sprints, deliverables and milestones against weeks relative to project start (T0).\nFigure 3 — Phase 1 sprint plan, deliverables and milestones by relative week from start (T0).\nNote on dates. Timings are relative to a confirmed start date (T0). Calendar dates will be fixed in the OneRayze Jira plan once the kickoff date, resourcing, and the Mosaic pipeline availability from the platform team are locked.",
+          "page": null,
+          "section": "11.  Phase 1 Scope — Deliverables & Relative Dates",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 407.50592041015625
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_4",
+          "text": "anguage search to surface data plus SDF export for deeper work outside the tool; cross-compound comparison is a later phase.\nPhase 1 delivers a Compound Tracker for Chemistry and Compound Management. It begins with CDD (already ingested) and the CRO weekly reports flagged as the most tractable first win, then layers in Mosaic (already integrated on the EDP). The target duration is approximately 14 weeks across seven two-week sprints, with a searchable “first win” live within the first month.",
+          "page": null,
+          "section": "1.  Executive Summary",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 408.93585205078125
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_25",
+          "text": "In-vitro biology workflows and assay Tier 1 / Tier 2 execution — deferred to later phases.\nCompound ordering / queue workflow — primary delivery is Phase 2.\nDownstream steps 7–9 (radchem labelling, in vivo, imaging) and their Smartsheet scheduling.\nCataloguing / integrating ancillary systems (ChemLabOps, Athena, Psilo, PK/ICP-MS request sheets).\nPrograms and teams beyond chemistry and compound management.\nBuilding or duplicating ingestion pipelines already owned by RayzeBio's platform team.\nNon-research data domains (e.g. HR, finance, clinical / regulatory).\nComparative / cross-compound analysis inside the tool — Phase 1 provides NL search to surface data and SDF export for deeper analysis elsewhere; comparison is a later phase.\nChemical-structure search beyond compound-ID / RayzeID search, unless confirmed as in-scope during discovery.\nMigration or decommissioning of existing source systems — OneRayze reads from them, it does not replace them in Phase 1.",
+          "page": null,
+          "section": "15.  Exclusions (Phase 1)",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 409.48052978515625
+        },
+        {
+          "chunk_id": "8f9e8ec4-02db-436c-ba2a-d026fcf53c02_14",
+          "text": "Phase 1 centres on the chemistry-to-compound-management journey: from compound origin (in-house or CRO), through the systems each step touches, to the person responsible. The table below captures the current process and where OneRayze intervenes; Figure 2 (next page) shows the same journey visually.\nProcess steps and the assay menu (e.g., SPR) reflect the chemistry-team intake and are to be reconfirmed against the source sheet.\n7.1  Process flow — visual\nFigure 2 — Compound lifecycle: CRO report → RayzeID → registration (virtual) → physical arrival & vial scan → quantity-checked assay request → results, with the checks that prevent premature, duplicate and under-quantity requests.",
+          "page": null,
+          "section": "7.  User Journey & Process Flow",
+          "filename": "OneRayze_Phase1_Approach.docx",
+          "distance": 409.9163513183594
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "average_faithfulness": 0.5166666666666667,
+    "average_answer_relevancy": 0.6907022392998355
+  }
+}
