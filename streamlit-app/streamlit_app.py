@@ -1,3 +1,4 @@
+
 import os
 from uuid import uuid4
 
@@ -448,7 +449,7 @@ if st.session_state.document_id:
         unsafe_allow_html=True,
     )
 
-    for message in active_conversation["messages"]:
+    for message_index , message in enumerate(active_conversation["messages"]):
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
@@ -473,6 +474,28 @@ if st.session_state.document_id:
                         )
 
                         st.caption(source.get("text", ""))
+            if message["role"] == "assistant":
+                follow_up_questions = [
+                    "Can you explain that in more simpler terms?",
+                    "What evidence supports this answer?",
+                    "what are the key implications?",
+                ]
+
+                follow_up_columns = st.column(3)
+                for follow_up_index,follow_up_question in enumerate(follow_up_questions):
+                    with follow_up_columns[follow_up_index]:
+
+                        if st.button(
+                            follow_up_question,
+                            key = (
+                                f"follow_up_"
+                                f"{message_index}_"
+                                f"{follow_up_index}"
+                                ),
+                                use_container_width = True,
+                        ):
+                            st.session_state.selected_question = follow_up_question
+                            st.rerun()
 
     if not active_conversation["messages"]:
         st.markdown(
@@ -604,7 +627,6 @@ if st.session_state.document_id:
                                     or source.get("source")
                                     or f"Source {index}"
                                 )
-
                                 st.markdown(
                                     f'<div class="reference-row">'
                                     f"<strong>{index}.</strong> {title}"
@@ -615,22 +637,30 @@ if st.session_state.document_id:
                                 st.caption(
                                     source.get("text", "")
                                 )
-
                 except requests.RequestException as exc:
                     if active_conversation["messages"]:
                         last_message = (
                             active_conversation["messages"][-1]
                         )
-                    if(last_message["role"] == "user"
-                    and last_message["content"] == question):
-                        active_conversation["messages"].pop()
 
-                    st.session_state.retry_question =  question 
+                        if (
+                            last_message["role"] == "user"
+                            and last_message["content"] == question
+                        ):
+                            active_conversation["messages"].pop()
+
+                    st.session_state.retry_question = question
+
                     st.error(
                         "The question could not be processed."
-                        "Click below to retry."
                     )
 
+                    if st.button(
+                        "Retry last question",
+                        key="retry_failed_inline",
+                    ):
+                        st.session_state.retry_now = True
+                        st.rerun()
 else:
     st.markdown(
         '<div class="empty-state">'
