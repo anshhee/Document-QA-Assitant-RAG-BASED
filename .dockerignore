@@ -1,0 +1,9 @@
+.venv
+.venv312
+__pycache__
+*.pyc
+.git
+.gitignore
+frontend/node_modules
+streamlit-app/.streamlit
+evaluation_results
