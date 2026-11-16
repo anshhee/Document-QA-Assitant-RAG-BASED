@@ -6,4 +6,4 @@ __pycache__
 .gitignore
 frontend/node_modules
 streamlit-app/.streamlit
-evaluation_results
+evaluation_results 
